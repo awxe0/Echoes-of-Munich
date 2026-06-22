@@ -1,0 +1,15 @@
+version="0.0.1"
+tags={
+	"Alternative History"
+	"Events"
+	"Gameplay"
+	"Map"
+	"National Focuses"
+	"Technologies"
+	"Utilities"
+	"Balance"
+	"Graphics"
+	"Ideologies"
+}
+name="Echoes of Munich"
+supported_version="1.19.*"
