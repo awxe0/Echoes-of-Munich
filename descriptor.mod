@@ -1,4 +1,4 @@
-version="0.0.1"
+version="0.0.1 - Neuschwanstein Castle"
 tags={
 	"Alternative History"
 	"Events"
@@ -11,5 +11,6 @@ tags={
 	"Graphics"
 	"Ideologies"
 }
-name="Echoes of Munich"
+name="Echoes of Munich - ALPHA"
 supported_version="1.19.*"
+picture="thumbnail"
