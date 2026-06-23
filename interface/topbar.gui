@@ -517,7 +517,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "nukes"
-			position = { x= 915 y = 5}
+			position = { x= 1345 y = 5}
 			clipping = no
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
@@ -748,7 +748,7 @@ guiTypes = {
 				iconType = {
 					name ="decision_view_alert_glow"
 					spriteType = "GFX_decisions_glow"	
-					position = { x =-105 y = 0 }
+					position = { x =-118 y = 0 }
 					alwaystransparent = yes
 				}
 

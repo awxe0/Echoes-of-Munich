@@ -256,7 +256,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "power_balance_button"
-			position = { x = 405 y = 380 }
+			position = { x = 408 y = 135 }
 			clipping = no
 
 			buttonType = {
