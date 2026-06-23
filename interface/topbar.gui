@@ -361,7 +361,7 @@ guiTypes = {
         
 		instantTextBoxType = {
 			name ="industrial_capacity"
-			position = { x= 367 y = 11 }
+			position = { x= 370 y = 7 }
 			font = "hoi_18mbs"
 			text = "12/12/12"
 			format = center
@@ -369,7 +369,15 @@ guiTypes = {
 			maxHeight = 24
 			fixedsize = yes
 		}	
-
+        
+		iconType = {
+			name ="industrial_ratio_bar"
+			spriteType = "GFX_topbar_fuel_bar" 
+			position = { x= 373 y = 23 }
+			frame = 50
+			alwaystransparent = yes
+		}
+		
 		## convoy
 		
 		iconType ={
@@ -400,7 +408,7 @@ guiTypes = {
 		iconType = {
 			name ="convoys_ratio_bar"
 			spriteType = "GFX_topbar_fuel_bar"
-			position = { x= 864 y = 22 }
+			position = { x= 863 y = 23 }
 			frame = 50
 			alwaystransparent = yes
 		}
