@@ -220,8 +220,20 @@ guiTypes = {
 		{
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
-			position = { x= 20 y = 20 }
-		}		
+			position = { x= 30 y = 5 }
+		}
+
+        instantTextBoxType={
+				name = "Version Name"
+				font = "hoi_18b"
+				position = { x=70 y=820 }
+				text = "This mod is currently in Alpha. Everything you see may change during development. Features, visuals, balance, mechanics, and content are still being worked on and may be modified, replaced, or removed in future updates. Thank you for testing and supporting the development!"
+				maxWidth = 320
+				maxHeight = 220
+				alwaysTransparent = yes
+				format = center
+				Orientation = UPPER_LEFT
+			}		
 	}
 	
 	#containerWindowType = {
