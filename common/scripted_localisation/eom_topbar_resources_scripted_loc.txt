@@ -9,52 +9,52 @@
 # that'll be used if trigger passes
 
 defined_text = {
-	name = outer_limits_topbar_resource_toggle_button_text
+	name = eom_topbar_resource_toggle_button_text
 	text = {
 		trigger = {
 			ROOT = { has_country_flag = OL_tbr_enabled }
 		}
-		localization_key = outer_limits_topbar_resource_toggle_button_text_enabled
+		localization_key = eom_topbar_resource_toggle_button_text_enabled
 	}
 	text = {
 		trigger = {
 			ROOT = { has_country_flag = OL_tbr_deficit }
 		}
-		localization_key = outer_limits_topbar_resource_toggle_button_text_deficit
+		localization_key = eom_topbar_resource_toggle_button_text_deficit
 	}
 	text = {
 		trigger = {
 			ROOT = { has_country_flag = OL_tbr_disabled }
 		}
-		localization_key = outer_limits_topbar_resource_toggle_button_text_disabled
+		localization_key = eom_topbar_resource_toggle_button_text_disabled
 	}
 	text = {
-		localization_key = outer_limits_topbar_resource_toggle_button_text_enabled
+		localization_key = eom_topbar_resource_toggle_button_text_enabled
 	}
 }
 
 defined_text = {
-	name = outer_limits_topbar_resource_toggle_button_tt
+	name = eom_topbar_resource_toggle_button_tt
 	text = {
 		trigger = {
 			ROOT = { has_country_flag = OL_tbr_enabled }
 		}
-		localization_key = outer_limits_topbar_resource_toggle_button_tt_enabled
+		localization_key = eom_topbar_resource_toggle_button_tt_enabled
 	}
 	text = {
 		trigger = {
 			ROOT = { has_country_flag = OL_tbr_deficit }
 		}
-		localization_key = outer_limits_topbar_resource_toggle_button_tt_deficit
+		localization_key = eom_topbar_resource_toggle_button_tt_deficit
 	}
 	text = {
 		trigger = {
 			ROOT = { has_country_flag = OL_tbr_disabled }
 		}
-		localization_key = outer_limits_topbar_resource_toggle_button_tt_disabled
+		localization_key = eom_topbar_resource_toggle_button_tt_disabled
 	}
 	text = {
-		localization_key = outer_limits_topbar_resource_toggle_button_tt_enabled
+		localization_key = eom_topbar_resource_toggle_button_tt_enabled
 	}
 }
 

@@ -4,8 +4,8 @@ on_actions = {
 		effect = {
 
 			#log mod active
-			set_global_flag = Outer_Limits_TBR_active
-			log = "Outer Limits Topbar Resources active, updated for 1.17.1"
+			set_global_flag = eom_TBR_active
+			log = "EOM Topbar Resources active, updated for 1.19.*"
 
 			every_country = {
 				limit = {

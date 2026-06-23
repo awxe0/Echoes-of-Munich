@@ -1,7 +1,7 @@
 scripted_gui = {
 
-	outer_limits_topbar_resource_toggle_container = {
-		window_name = "outer_limits_topbar_resource_toggle_container"
+	eom_topbar_resource_toggle_container = {
+		window_name = "eom_topbar_resource_toggle_container"
 		context_type = player_context
 		parent_window_token = trade_tab
 
@@ -10,7 +10,7 @@ scripted_gui = {
 		}
 
 		effects = {
-			outer_limits_topbar_resource_toggle_button_click = {
+			eom_topbar_resource_toggle_button_click = {
 				# if enabled set to deficit
 				if = {
 					limit = {
@@ -43,8 +43,8 @@ scripted_gui = {
 		}
 	}
 
-	outer_limits_topbar_resources_aluminium_container = {
-		window_name = "outer_limits_topbar_resources_aluminium_container"
+	eom_topbar_resources_aluminium_container = {
+		window_name = "eom_topbar_resources_aluminium_container"
 		context_type = player_context
 		parent_window_token = top_bar
 
@@ -80,8 +80,8 @@ scripted_gui = {
 		}
 	}
 
-	outer_limits_topbar_resources_rubber_container = {
-		window_name = "outer_limits_topbar_resources_rubber_container"
+	eom_topbar_resources_rubber_container = {
+		window_name = "eom_topbar_resources_rubber_container"
 		context_type = player_context
 		parent_window_token = top_bar
 
@@ -117,8 +117,8 @@ scripted_gui = {
 		}
 	}
 
-	outer_limits_topbar_resources_tungsten_container = {
-		window_name = "outer_limits_topbar_resources_tungsten_container"
+	eom_topbar_resources_tungsten_container = {
+		window_name = "eom_topbar_resources_tungsten_container"
 		context_type = player_context
 		parent_window_token = top_bar
 
@@ -154,8 +154,8 @@ scripted_gui = {
 		}
 	}
 
-	outer_limits_topbar_resources_steel_container = {
-		window_name = "outer_limits_topbar_resources_steel_container"
+	eom_topbar_resources_steel_container = {
+		window_name = "eom_topbar_resources_steel_container"
 		context_type = player_context
 		parent_window_token = top_bar
 
@@ -191,8 +191,8 @@ scripted_gui = {
 		}
 	}
 
-	outer_limits_topbar_resources_chromium_container = {
-		window_name = "outer_limits_topbar_resources_chromium_container"
+	eom_topbar_resources_chromium_container = {
+		window_name = "eom_topbar_resources_chromium_container"
 		context_type = player_context
 		parent_window_token = top_bar
 
@@ -228,8 +228,8 @@ scripted_gui = {
 		}
 	}
 	
-	outer_limits_topbar_resources_coal_container = {
-		window_name = "outer_limits_topbar_resources_coal_container"
+	eom_topbar_resources_coal_container = {
+		window_name = "eom_topbar_resources_coal_container"
 		context_type = player_context
 		parent_window_token = top_bar
 

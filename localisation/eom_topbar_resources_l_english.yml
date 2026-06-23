@@ -1,14 +1,14 @@
 ﻿l_english:
 
- outer_limits_topbar_resource_toggle_button_text: "[outer_limits_topbar_resource_toggle_button_text]"
- outer_limits_topbar_resource_toggle_button_text_enabled: "Enabled"
- outer_limits_topbar_resource_toggle_button_text_deficit: "Deficit / Import"
- outer_limits_topbar_resource_toggle_button_text_disabled: "Disabled"
+ eom_topbar_resource_toggle_button_text: "[eom_topbar_resource_toggle_button_text]"
+ eom_topbar_resource_toggle_button_text_enabled: "Enabled"
+ eom_topbar_resource_toggle_button_text_deficit: "Deficit / Import"
+ eom_topbar_resource_toggle_button_text_disabled: "Disabled"
 
- outer_limits_topbar_resource_toggle_button_tt: "[outer_limits_topbar_resource_toggle_button_tt]"
- outer_limits_topbar_resource_toggle_button_tt_enabled: "Topbar Resources always visible"
- outer_limits_topbar_resource_toggle_button_tt_deficit: "Topbar Resources only visible if Resource Deficit or Resource Import"
- outer_limits_topbar_resource_toggle_button_tt_disabled: "Topbar Resources always hidden"
+ eom_topbar_resource_toggle_button_tt: "[eom_topbar_resource_toggle_button_tt]"
+ eom_topbar_resource_toggle_button_tt_enabled: "Topbar Resources always visible"
+ eom_topbar_resource_toggle_button_tt_deficit: "Topbar Resources only visible if Resource Deficit or Resource Import"
+ eom_topbar_resource_toggle_button_tt_disabled: "Topbar Resources always hidden"
 
  OL_tbr_text_oil_red: "[?resource@oil|0R]"
  OL_tbr_text_oil_yellow: "[?resource@oil|0Y]"

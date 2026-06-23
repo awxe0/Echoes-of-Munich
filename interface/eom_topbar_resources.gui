@@ -1,21 +1,21 @@
 guiTypes = {
 
 	containerWindowType = {
-		name = "outer_limits_topbar_resource_toggle_container"
+		name = "eom_topbar_resource_toggle_container"
 			
 		buttonType ={
-			name ="outer_limits_topbar_resource_toggle_button"
+			name ="eom_topbar_resource_toggle_button"
 			position = { x =325 y=10 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_division_designer_button"
-			buttonText = outer_limits_topbar_resource_toggle_button_text
-			pdx_tooltip = outer_limits_topbar_resource_toggle_button_tt
+			buttonText = eom_topbar_resource_toggle_button_text
+			pdx_tooltip = eom_topbar_resource_toggle_button_tt
 			buttonFont = "hoi_18mbs"
 		}
 	}
 
 	containerWindowType = {
-		name = "outer_limits_topbar_resources_aluminium_container"
+		name = "eom_topbar_resources_aluminium_container"
 		size = { width = 100% height = 100% }
 		position = { x = 1020 y = 4 }
 		moveable = yes
@@ -55,7 +55,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "outer_limits_topbar_resources_rubber_container"
+		name = "eom_topbar_resources_rubber_container"
 		size = { width = 100% height = 100% }
 		position = { x = 1092 y = 4 }
 		moveable = yes
@@ -95,7 +95,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "outer_limits_topbar_resources_tungsten_container"
+		name = "eom_topbar_resources_tungsten_container"
 		size = { width = 100% height = 100% }
 		position = { x = 1164 y = 4 }
 		moveable = yes
@@ -135,7 +135,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "outer_limits_topbar_resources_steel_container"
+		name = "eom_topbar_resources_steel_container"
 		size = { width = 100% height = 100% }
 		position = { x = 1236 y = 4 }
 		moveable = yes
@@ -175,7 +175,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "outer_limits_topbar_resources_chromium_container"
+		name = "eom_topbar_resources_chromium_container"
 		size = { width = 100% height = 100% }
 		position = { x = 1308 y = 4 }
 		moveable = yes
@@ -215,7 +215,7 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "outer_limits_topbar_resources_coal_container"
+		name = "eom_topbar_resources_coal_container"
 		size = { width = 100% height = 100% }
 		position = { x = 1380 y = 4 }
 		moveable = yes
