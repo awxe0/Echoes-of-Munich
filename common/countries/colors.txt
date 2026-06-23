@@ -17,8 +17,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 31 52 127 }
-	color_ui = rgb { 31 52 127 }
+	color = rgb { 57 92 217 }
+	color_ui = rgb { 57 92 217 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -254,8 +254,8 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 207 }
-	color_ui = rgb { 20 133 207 }
+	color = rgb { 15 148 237 }
+	color_ui = rgb { 15 148 237 }
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
