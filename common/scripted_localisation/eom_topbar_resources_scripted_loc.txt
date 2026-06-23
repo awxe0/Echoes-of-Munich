@@ -12,19 +12,19 @@ defined_text = {
 	name = eom_topbar_resource_toggle_button_text
 	text = {
 		trigger = {
-			ROOT = { has_country_flag = OL_tbr_enabled }
+			ROOT = { has_country_flag = EOM_tbr_enabled }
 		}
 		localization_key = eom_topbar_resource_toggle_button_text_enabled
 	}
 	text = {
 		trigger = {
-			ROOT = { has_country_flag = OL_tbr_deficit }
+			ROOT = { has_country_flag = EOM_tbr_deficit }
 		}
 		localization_key = eom_topbar_resource_toggle_button_text_deficit
 	}
 	text = {
 		trigger = {
-			ROOT = { has_country_flag = OL_tbr_disabled }
+			ROOT = { has_country_flag = EOM_tbr_disabled }
 		}
 		localization_key = eom_topbar_resource_toggle_button_text_disabled
 	}
@@ -37,19 +37,19 @@ defined_text = {
 	name = eom_topbar_resource_toggle_button_tt
 	text = {
 		trigger = {
-			ROOT = { has_country_flag = OL_tbr_enabled }
+			ROOT = { has_country_flag = EOM_tbr_enabled }
 		}
 		localization_key = eom_topbar_resource_toggle_button_tt_enabled
 	}
 	text = {
 		trigger = {
-			ROOT = { has_country_flag = OL_tbr_deficit }
+			ROOT = { has_country_flag = EOM_tbr_deficit }
 		}
 		localization_key = eom_topbar_resource_toggle_button_tt_deficit
 	}
 	text = {
 		trigger = {
-			ROOT = { has_country_flag = OL_tbr_disabled }
+			ROOT = { has_country_flag = EOM_tbr_disabled }
 		}
 		localization_key = eom_topbar_resource_toggle_button_tt_disabled
 	}
@@ -60,14 +60,14 @@ defined_text = {
 
 
 defined_text = {
-	name = OL_tbr_text_aluminium
+	name = EOM_tbr_text_aluminium
 	text = {
 		trigger = {
 			ROOT = {
 				check_variable = { resource@aluminium < 0 }
 			}
 		}
-		localization_key = OL_tbr_text_aluminium_red
+		localization_key = EOM_tbr_text_aluminium_red
 	}
 	text = {
 		trigger = {
@@ -75,7 +75,7 @@ defined_text = {
 				check_variable = { resource_imported@aluminium > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_aluminium_yellow
+		localization_key = EOM_tbr_text_aluminium_yellow
 	}
 	text = {
 	    trigger = {
@@ -83,22 +83,22 @@ defined_text = {
 				check_variable = { resource@aluminium > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_aluminium_green
+		localization_key = EOM_tbr_text_aluminium_green
 	}
 	text = {
-		localization_key = OL_tbr_text_aluminium_black
+		localization_key = EOM_tbr_text_aluminium_black
 	}
 }
 
 defined_text = {
-	name = OL_tbr_text_rubber
+	name = EOM_tbr_text_rubber
 	text = {
 		trigger = {
 			ROOT = {
 				check_variable = { resource@rubber < 0 }
 			}
 		}
-		localization_key = OL_tbr_text_rubber_red
+		localization_key = EOM_tbr_text_rubber_red
 	}
 	text = {
 		trigger = {
@@ -106,7 +106,7 @@ defined_text = {
 				check_variable = { resource_imported@rubber > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_rubber_yellow
+		localization_key = EOM_tbr_text_rubber_yellow
 	}
 	text = {
 	    trigger = {
@@ -114,22 +114,22 @@ defined_text = {
 				check_variable = { resource@rubber > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_rubber_green
+		localization_key = EOM_tbr_text_rubber_green
 	}
 	text = {
-		localization_key = OL_tbr_text_rubber_black
+		localization_key = EOM_tbr_text_rubber_black
 	}
 }
 
 defined_text = {
-	name = OL_tbr_text_tungsten
+	name = EOM_tbr_text_tungsten
 	text = {
 		trigger = {
 			ROOT = {
 				check_variable = { resource@tungsten < 0 }
 			}
 		}
-		localization_key = OL_tbr_text_tungsten_red
+		localization_key = EOM_tbr_text_tungsten_red
 	}
 	text = {
 		trigger = {
@@ -137,7 +137,7 @@ defined_text = {
 				check_variable = { resource_imported@tungsten > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_tungsten_yellow
+		localization_key = EOM_tbr_text_tungsten_yellow
 	}
 	text = {
 		trigger = {
@@ -145,22 +145,22 @@ defined_text = {
 				check_variable = { resource@tungsten > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_tungsten_green
+		localization_key = EOM_tbr_text_tungsten_green
 	}
 	text = {
-		localization_key = OL_tbr_text_tungsten_black
+		localization_key = EOM_tbr_text_tungsten_black
 	}
 }
 
 defined_text = {
-	name = OL_tbr_text_steel
+	name = EOM_tbr_text_steel
 	text = {
 		trigger = {
 			ROOT = {
 				check_variable = { resource@steel < 0 }
 			}
 		}
-		localization_key = OL_tbr_text_steel_red
+		localization_key = EOM_tbr_text_steel_red
 	}
 	text = {
 		trigger = {
@@ -168,7 +168,7 @@ defined_text = {
 				check_variable = { resource_imported@steel > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_steel_yellow
+		localization_key = EOM_tbr_text_steel_yellow
 	}
 	text = {
 		trigger = {
@@ -176,22 +176,22 @@ defined_text = {
 				check_variable = { resource@steel > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_steel_green
+		localization_key = EOM_tbr_text_steel_green
 	}
 	text = {
-		localization_key = OL_tbr_text_steel_black
+		localization_key = EOM_tbr_text_steel_black
 	}
 }
 
 defined_text = {
-	name = OL_tbr_text_chromium
+	name = EOM_tbr_text_chromium
 	text = {
 		trigger = {
 			ROOT = {
 				check_variable = { resource@chromium < 0 }
 			}
 		}
-		localization_key = OL_tbr_text_chromium_red
+		localization_key = EOM_tbr_text_chromium_red
 	}
 	text = {
 		trigger = {
@@ -199,7 +199,7 @@ defined_text = {
 				check_variable = { resource_imported@chromium > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_chromium_yellow
+		localization_key = EOM_tbr_text_chromium_yellow
 	}
 	text = {
 		trigger = {
@@ -207,22 +207,22 @@ defined_text = {
 				check_variable = { resource@chromium > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_chromium_green
+		localization_key = EOM_tbr_text_chromium_green
 	}
 	text = {
-		localization_key = OL_tbr_text_chromium_black
+		localization_key = EOM_tbr_text_chromium_black
 	}
 }
 
 defined_text = {
-	name = OL_tbr_text_coal
+	name = EOM_tbr_text_coal
 	text = {
 		trigger = {
 			ROOT = {
 				check_variable = { resource@coal < 0 }
 			}
 		}
-		localization_key = OL_tbr_text_coal_red
+		localization_key = EOM_tbr_text_coal_red
 	}
 	text = {
 		trigger = {
@@ -230,7 +230,7 @@ defined_text = {
 				check_variable = { resource_imported@coal > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_coal_yellow
+		localization_key = EOM_tbr_text_coal_yellow
 	}
 	text = {
 		trigger = {
@@ -238,10 +238,10 @@ defined_text = {
 				check_variable = { resource@coal > 0 }
 			}
 		}
-		localization_key = OL_tbr_text_coal_green
+		localization_key = EOM_tbr_text_coal_green
 	}
 	text = {
-		localization_key = OL_tbr_text_coal_black
+		localization_key = EOM_tbr_text_coal_black
 	}
 }
 

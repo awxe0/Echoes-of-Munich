@@ -14,30 +14,30 @@ scripted_gui = {
 				# if enabled set to deficit
 				if = {
 					limit = {
-						has_country_flag = OL_tbr_enabled
+						has_country_flag = EOM_tbr_enabled
 					}
-					clr_country_flag = OL_tbr_enabled
-					set_country_flag = OL_tbr_deficit
+					clr_country_flag = EOM_tbr_enabled
+					set_country_flag = EOM_tbr_deficit
 				}
 				# if deficit set to disabled
 				else_if = {
 					limit = {
-						has_country_flag = OL_tbr_deficit
+						has_country_flag = EOM_tbr_deficit
 					}
-					clr_country_flag = OL_tbr_deficit
-					set_country_flag = OL_tbr_disabled
+					clr_country_flag = EOM_tbr_deficit
+					set_country_flag = EOM_tbr_disabled
 				}
 				# if disabled set to enabled
 				else_if = {
 					limit = {
-						has_country_flag = OL_tbr_disabled
+						has_country_flag = EOM_tbr_disabled
 					}
-					clr_country_flag = OL_tbr_disabled
-					set_country_flag = OL_tbr_enabled
+					clr_country_flag = EOM_tbr_disabled
+					set_country_flag = EOM_tbr_enabled
 				}
 				# fallback / gamestart
 				else = {
-					set_country_flag = OL_tbr_deficit
+					set_country_flag = EOM_tbr_deficit
 				}
 			}
 		}
@@ -52,14 +52,14 @@ scripted_gui = {
 			# enabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_enabled
+					has_country_flag = EOM_tbr_enabled
 				}
 				always = yes
 			}
 			# deficit / import
 			else_if = {
 				limit = {
-					has_country_flag = OL_tbr_deficit
+					has_country_flag = EOM_tbr_deficit
 				}
 				OR = {
 					check_variable = { resource@aluminium < 0 }
@@ -69,7 +69,7 @@ scripted_gui = {
 			# disabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_disabled
+					has_country_flag = EOM_tbr_disabled
 				}
 				always = no
 			}
@@ -89,14 +89,14 @@ scripted_gui = {
 			# enabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_enabled
+					has_country_flag = EOM_tbr_enabled
 				}
 				always = yes
 			}
 			# deficit / import
 			else_if = {
 				limit = {
-					has_country_flag = OL_tbr_deficit
+					has_country_flag = EOM_tbr_deficit
 				}
 				OR = {
 					check_variable = { resource@rubber < 0 }
@@ -106,7 +106,7 @@ scripted_gui = {
 			# disabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_disabled
+					has_country_flag = EOM_tbr_disabled
 				}
 				always = no
 			}
@@ -126,14 +126,14 @@ scripted_gui = {
 			# enabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_enabled
+					has_country_flag = EOM_tbr_enabled
 				}
 				always = yes
 			}
 			# deficit / import
 			else_if = {
 				limit = {
-					has_country_flag = OL_tbr_deficit
+					has_country_flag = EOM_tbr_deficit
 				}
 				OR = {
 					check_variable = { resource@tungsten < 0 }
@@ -143,7 +143,7 @@ scripted_gui = {
 			# disabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_disabled
+					has_country_flag = EOM_tbr_disabled
 				}
 				always = no
 			}
@@ -163,14 +163,14 @@ scripted_gui = {
 			# enabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_enabled
+					has_country_flag = EOM_tbr_enabled
 				}
 				always = yes
 			}
 			# deficit / import
 			else_if = {
 				limit = {
-					has_country_flag = OL_tbr_deficit
+					has_country_flag = EOM_tbr_deficit
 				}
 				OR = {
 					check_variable = { resource@steel < 0 }
@@ -180,7 +180,7 @@ scripted_gui = {
 			# disabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_disabled
+					has_country_flag = EOM_tbr_disabled
 				}
 				always = no
 			}
@@ -200,14 +200,14 @@ scripted_gui = {
 			# enabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_enabled
+					has_country_flag = EOM_tbr_enabled
 				}
 				always = yes
 			}
 			# deficit / import
 			else_if = {
 				limit = {
-					has_country_flag = OL_tbr_deficit
+					has_country_flag = EOM_tbr_deficit
 				}
 				OR = {
 					check_variable = { resource@chromium < 0 }
@@ -217,7 +217,7 @@ scripted_gui = {
 			# disabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_disabled
+					has_country_flag = EOM_tbr_disabled
 				}
 				always = no
 			}
@@ -237,14 +237,14 @@ scripted_gui = {
 			# enabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_enabled
+					has_country_flag = EOM_tbr_enabled
 				}
 				always = yes
 			}
 			# deficit / import
 			else_if = {
 				limit = {
-					has_country_flag = OL_tbr_deficit
+					has_country_flag = EOM_tbr_deficit
 				}
 				OR = {
 					check_variable = { resource@coal < 0 }
@@ -254,7 +254,7 @@ scripted_gui = {
 			# disabled
 			if = {
 				limit = {
-					has_country_flag = OL_tbr_disabled
+					has_country_flag = EOM_tbr_disabled
 				}
 				always = no
 			}

@@ -11,8 +11,8 @@ on_actions = {
 				limit = {
 					is_ai = no
 				}
-				set_country_flag = OL_tbr_enabled
-				OL_TBR_update_gui = yes
+				set_country_flag = EOM_tbr_enabled
+				EOM_TBR_update_gui = yes
 			}
 		}
 	}
@@ -23,7 +23,7 @@ on_actions = {
 				limit = {
 					is_ai = no
 				}
-				OL_TBR_update_gui = yes
+				EOM_TBR_update_gui = yes
 			}
 		}
 	}

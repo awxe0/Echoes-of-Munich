@@ -17,7 +17,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "eom_topbar_resources_aluminium_container"
 		size = { width = 100% height = 100% }
-		position = { x = 1020 y = 4 }
+		position = { x = 912 y = 5 }
 		moveable = yes
 
 		containerWindowType = {
@@ -43,7 +43,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "aluminium_value"
 				position = { x = 30 y = 5 }
-				text = "[OL_tbr_text_aluminium]"
+				text = "[EOM_tbr_text_aluminium]"
 				font = "hoi_18mbs"
 				maxWidth = 50
 				maxHeight = 24
@@ -57,7 +57,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "eom_topbar_resources_rubber_container"
 		size = { width = 100% height = 100% }
-		position = { x = 1092 y = 4 }
+		position = { x = 984 y = 5 }
 		moveable = yes
 
 		containerWindowType = {
@@ -83,7 +83,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "rubber_value"
 				position = { x = 30 y = 5 }
-				text = "[OL_tbr_text_rubber]"
+				text = "[EOM_tbr_text_rubber]"
 				font = "hoi_18mbs"
 				maxWidth = 50
 				maxHeight = 24
@@ -97,7 +97,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "eom_topbar_resources_tungsten_container"
 		size = { width = 100% height = 100% }
-		position = { x = 1164 y = 4 }
+		position = { x = 1056 y = 5 }
 		moveable = yes
 
 		containerWindowType = {
@@ -123,7 +123,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "tungsten_value"
 				position = { x = 30 y = 5 }
-				text = "[OL_tbr_text_tungsten]"
+				text = "[EOM_tbr_text_tungsten]"
 				font = "hoi_18mbs"
 				maxWidth = 50
 				maxHeight = 24
@@ -137,7 +137,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "eom_topbar_resources_steel_container"
 		size = { width = 100% height = 100% }
-		position = { x = 1236 y = 4 }
+		position = { x = 1128 y = 5 }
 		moveable = yes
 
 		containerWindowType = {
@@ -163,7 +163,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "steel_value"
 				position = { x = 30 y = 5 }
-				text = "[OL_tbr_text_steel]"
+				text = "[EOM_tbr_text_steel]"
 				font = "hoi_18mbs"
 				maxWidth = 50
 				maxHeight = 24
@@ -177,7 +177,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "eom_topbar_resources_chromium_container"
 		size = { width = 100% height = 100% }
-		position = { x = 1308 y = 4 }
+		position = { x = 1200 y = 5 }
 		moveable = yes
 
 		containerWindowType = {
@@ -203,7 +203,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "chromium_value"
 				position = { x = 30 y = 5 }
-				text = "[OL_tbr_text_chromium]"
+				text = "[EOM_tbr_text_chromium]"
 				font = "hoi_18mbs"
 				maxWidth = 50
 				maxHeight = 24
@@ -217,7 +217,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "eom_topbar_resources_coal_container"
 		size = { width = 100% height = 100% }
-		position = { x = 1380 y = 4 }
+		position = { x = 1272 y = 5 }
 		moveable = yes
 
 		containerWindowType = {
@@ -243,7 +243,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "coal_value"
 				position = { x = 30 y = 5 }
-				text = "[OL_tbr_text_coal]"
+				text = "[EOM_tbr_text_coal]"
 				font = "hoi_18mbs"
 				maxWidth = 50
 				maxHeight = 24
