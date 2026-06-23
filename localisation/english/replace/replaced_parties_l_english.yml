@@ -1,0 +1,14 @@
+﻿l_english:
+ communism:0 "§RCommunist§!"
+ communism_noun:0 "§RCommunism§!"
+ democratic:0 "§BDemocratic§!"
+ democratic_noun:0 "§BDemocracy§!"
+ fascism:0 "§LFascist§!"
+ fascism_noun:0 "§LFascism§!"
+ fascism_desc:0 "Totalitarian Regime"
+ communism_desc:0 "Totalitarian Regime"
+ democratic_desc:0 "Democratic Regime"
+ 
+ neutrality:0 "§gAuthoritarian§!"
+ neutrality_noun:0 "§gAuthoritarian§!"
+ neutrality_desc:0 "Authoritarian Regime"

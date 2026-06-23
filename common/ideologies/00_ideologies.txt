@@ -9,15 +9,44 @@ ideologies = {
 			}
 
 			liberalism = {
-				color = { 118 118 222 }
+				color = { 35 206 255 }
 			}
 
 			socialism = {
-				color = { 194 114 114 }
+				color = { 81 143 220 }
 			}
 
 			populism = {
-				color = { 138 19 207 }
+				color = { 203 0 203 }
+			}
+			
+			oligarchic_democracy = {
+				color = { 63 161 194 }
+				can_be_randomly_selected = no
+			}
+
+			centrism_democratic = {
+			    color = { 0 0 255 }
+			}
+
+			anarcho_capitalism = {
+			    color = { 255 189 0 }
+				can_be_randomly_selected = no
+			}
+
+			islamic_democracy = {
+			    color = { 0 128 0 }
+				can_be_randomly_selected = no
+			}
+
+			labour_zionism = {
+			    color = { 153 209 153 }
+				can_be_randomly_selected = no
+			}
+
+			general_zionism = {
+			    color = { 153 209 153 }
+				can_be_randomly_selected = no
 			}
 
 		}
@@ -90,6 +119,10 @@ ideologies = {
 			    color = { 127 43 43 }
 			}
 
+			agrarian_socialism = {
+				color = { 255 0 0 }
+			}
+			
 			anti_revisionism = {
 			    color = { 117 55 55 }
 			}
@@ -99,7 +132,43 @@ ideologies = {
 			}
 
 			buddhist_socialism = {
+				color = { 186 47 47 }
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
+			
+			islamic_socialism = {
+				color = { 255 189 0 }
+				can_be_randomly_selected = no
+			}
+
+			juche = {
+				color = { 143, 21, 21 }
+				can_be_randomly_selected = no
+			}
+
+			soviet_labour_zionism = {
+				color = { 153 209 153 }
+				can_be_randomly_selected = no
+			}
+
+			democratic_socialism = {
+				color = { 63 161 194 }
+				can_be_randomly_selected = no
+			}
+
+			arab_communism = {
+				color = { 163, 51, 51 }
+				can_be_randomly_selected = no #basically arab socialism but revolution everywhere and extremely radical
+			}
+
+			syndicalism = {
+				color = { 163, 51, 51 }
+				can_be_randomly_selected = no
+			}
+
+			national_bolshevism = {
+				color = { 240, 124, 103 }
+				can_be_randomly_selected = no
 			}
 
 		}
@@ -151,11 +220,11 @@ ideologies = {
 		types = {
 
 			nazism = {
-				color = { 82 77 72 }
+				color = { 33 32 29 }
 			}
 
 			gen_nazism = {
-				color = { 71 65 59 }
+				color = { 33 32 29 }
 			}
 
 			fascism_ideology = {
@@ -163,14 +232,39 @@ ideologies = {
 			}
 
 			falangism = {
-				color = { 140 88 36 }
+				color = { 125 112 90 }
+			}
+			
+			ultranationalism = {
+			    color = { 125 112 90 }
+			}
+			
+			strasserism = {
+				color = { 125 112 90 }
+				can_be_randomly_selected = no
+			}
+			
+			clerical_fascism = {
+				color = { 150 75 0 }
+				can_be_randomly_selected = no
 			}
 
 			rexism = {
-				color = { 127 65 3 }
+				color = { 203 0 203 }
+			}
+			
+			islamism = {
+				color = { 0 128 0 }
+				can_be_randomly_selected = no
+			}
+
+			imperialist_corporatism = {
+				color = { 255 112 25 }
+				can_be_randomly_selected = no
 			}
 
 			emperor_fascism = {
+				color = { 82 77 72 }
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 
@@ -219,27 +313,104 @@ ideologies = {
 		types = {
 
 			despotism  = {
-				color = { 124 124 124 }
+				color = { 204 163 51 }
+			}
+			
+			conservatism_n = {
+			    color = { 128 120 211 }
+			}
+
+			military_junta = {
+				color = { 204 163 51 }
+			}
+
+			controlled_democracy = {
+			    color = { 0 0 255 }
+			}
+
+			social_nationalism = {
+			    color = { 63 161 194 }
+			}
+			
+			moderatism = {
+			    color = { 203 0 203 }
+			}
+
+			absolute_monarchism = {
+			    color = { 176 176 176 }
+				can_be_randomly_selected = no
 			}
 
 			oligarchism  = {
-				color = { 176 172 167 }
+			    color = { 252 169 125 }
 			}
 
 			anarchism = {
-				color = { 209 209 207 }
+				color = { 54 11 11 }
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 
-			moderatism = {
-				color = { 106 115 84 }
-			}
-
 			centrism = {
-				color = { 163 191 84 }
+				color = { 203 0 203 }
 			}
 
+			corporatism = {
+			    color = { 0 0 255 }
+				can_be_randomly_selected = no
+			}
+
+			the_peoples_tutelage = {
+			    color = { 203 0 203 }
+				can_be_randomly_selected = no
+			}
+
+			anarcho_capitalism_n = {
+			    color = { 255 189 0 }
+				can_be_randomly_selected = no
+			}
+
+			monarchical_theocracy = {
+			    color = { 176 176 176 }
+				can_be_randomly_selected = no
+			}
+
+			moderate_islamism = {
+			    color = { 0 128 0 }
+				can_be_randomly_selected = no
+			}
+
+			islamic_nationalism = { #the only ideology that can semi-fit with this man
+				color = { 0 128 0 }
+				can_be_randomly_selected = no
+			}
+
+			marhaenism = {
+				color = { 255 112 25 }
+				can_be_randomly_selected = no
+			}
+
+			arab_socialism = {
+				color = { 0 128 0 }
+				can_be_randomly_selected = no
+			}
+
+			revisionist_zionism = {
+				color = { 153 209 153 }
+				can_be_randomly_selected = no
+			}
+			
+			colonial_government = {
+				color = { 119 204 186 }
+				can_be_randomly_selected = no
+			}
+
+			pashtun_nationalism = { #Only ideology for Daoud Khan
+				color = { 0 128 0 }
+				can_be_randomly_selected = no
+			}
+			
 			japan_militarism_ideology = {
+				color = { 124 124 124 }
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 
@@ -253,7 +424,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 180 180 180 }
+		color = { 124 124 124 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger

@@ -1,0 +1,372 @@
+## Democracy
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_classical_liberal_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_classical_liberal.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_oligarchic_democracy_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_auth_populism_banner.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_classical_conservatism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_classical_conservatism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_centrism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_centrism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_populism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_patriotic_democracy_banner_generic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_socialism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_social_democracy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_islamic_democracy_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_islamic_democracy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_ancap_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_ancap.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_Labour_Zionism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_Labour_Zionism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_Zionism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_Zionism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_Democratic_Party_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_Democratic_Party.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_democracy_Ideology_Republican_Party_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Democracy/Ideology_Republican_Party.png"
+		legacy_lazy_load = no
+	}
+
+
+## Communism
+
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_marxism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_marxism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_leninism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_leninism.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_stalinism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_stalinism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_anti_revisionist_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_anti_revisionist.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_arab_socialism" #islamic Socialism 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_arab_socialism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_arab_communism" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_arab_communism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_agrarian_socialism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_agrarian_socialism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_Ancom_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_anarcho_communism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_Anarchism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_anarchism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_syndycalism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_syndicalism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_buddhist_bar" #buddhist socialism
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_buddhist.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_Jucheism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_Jucheism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_soviet_labour_zionism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_soviet_labour_zionism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_reformist_socialism_bar" #Democratic Socialism
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_reformist_socialism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_National_communism_banner_bar" #NazBol
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_national_bolshevism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_arab_communism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_arab_communism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Communism_Ideology_arab_socialism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Ideology_arab_socialism.png"
+		legacy_lazy_load = no
+	}
+
+## Fascism
+
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Nat_Soc_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Nat_Soc.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Fascist_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Fascist.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Gen_Naz_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Gen_Naz.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Falangism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Falangism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_ultranationalism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_ultranationalism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_clerical_fascism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_clerical_fascism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Rexism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Rexism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Islamism_bar" #radical islam 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Islamism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Imperialist_corporatism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Imperialist_corporatism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Emperor_fascism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Emperor_fascism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Austrofascism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Austrofascism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Fascism_Mosley_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Fascism_Mosley.png"
+		legacy_lazy_load = no
+	}
+		spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Ultranationalism_Syria_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Syria_Ultranationalism.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Strasserism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Strasserism.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Romania_Iron_Guard_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Romania_Iron_Guard.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Latvia_Perkonkrusts_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Latvia_Perkonkrusts.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_Fascism_Ideology_Hungary_Arrow_Cross_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Ideology_Hungary_Arrow_Cross.png"
+		legacy_lazy_load = no
+	}
+
+## Neutrality
+
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_Depotism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_Depotism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_conservatism_n_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_ultra_conservatism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_military_junta_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_military_junta.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_controlled_democracy_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_controlled_democracy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_social_nationalism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_left_nationalist.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_moderatism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_moderatism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_the_peoples_tutelagem_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_the_peoples_tutelage.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_monarchy_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_monarchy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_con_monarchy_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_con_monarchy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_oligarchy_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_oligarchy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_centrism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_centrism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_corp_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_corp.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_monarchical_theocracy_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_theocracy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_moderate_islamism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_sharia_democracy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_marhaenism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_marhaenism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_arab_nationalism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_arab_nationalism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_revisionist_zionism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_revisionist_zionism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_Colonialism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_Colonialism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_pashtun_nationalism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_pashtun_nationalism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_militarism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_militarism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_Greece_metaxism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_Greece_metaxism.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_neutrality_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_neutrality.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_Turkiye_Ataturk_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_Turkiye_Ataturk.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_Neutrality_Ideology_Portugal_Salazarism_bar" 
+		textureFile = "gfx/interface/ideologies/ideology_bars/Neutrality/Ideology_Portugal_Salazarism.png"
+		legacy_lazy_load = no
+	}
+}
