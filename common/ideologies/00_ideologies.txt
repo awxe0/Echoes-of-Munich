@@ -142,7 +142,7 @@ ideologies = {
 			}
 
 			juche = {
-				color = { 143, 21, 21 }
+				color = { 143 21 21 }
 				can_be_randomly_selected = no
 			}
 
@@ -157,17 +157,17 @@ ideologies = {
 			}
 
 			arab_communism = {
-				color = { 163, 51, 51 }
+				color = { 163 51 51 }
 				can_be_randomly_selected = no #basically arab socialism but revolution everywhere and extremely radical
 			}
 
 			syndicalism = {
-				color = { 163, 51, 51 }
+				color = { 163 51 51 }
 				can_be_randomly_selected = no
 			}
 
 			national_bolshevism = {
-				color = { 240, 124, 103 }
+				color = { 240 124 103 }
 				can_be_randomly_selected = no
 			}
 
