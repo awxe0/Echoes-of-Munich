@@ -5,18 +5,19 @@ ideologies = {
 		types = {
 
 			conservatism = {
+			    color = { 53 53 229 }
 			}
 
 			liberalism = {
-				color = { 255 165 30 }
+				color = { 118 118 222 }
 			}
 
 			socialism = {
-				color = { 212 80 72 }
+				color = { 194 114 114 }
 			}
 
 			populism = {
-				color = { 0 38 140 }
+				color = { 138 19 207 }
 			}
 
 		}
@@ -78,18 +79,23 @@ ideologies = {
 		types = {
 
 			marxism = {
+			    color = { 186 47 47 }
 			}
 
 			leninism = {
+				color = { 176 81 81 }
 			}
 
 			stalinism = {
+			    color = { 127 43 43 }
 			}
 
 			anti_revisionism = {
+			    color = { 117 55 55 }
 			}
 
 			anarchist_communism = {
+				color = { 54 11 11 }
 			}
 
 			buddhist_socialism = {
@@ -145,18 +151,23 @@ ideologies = {
 		types = {
 
 			nazism = {
+				color = { 82 77 72 }
 			}
 
 			gen_nazism = {
+				color = { 71 65 59 }
 			}
 
 			fascism_ideology = {
+				color = { 150 75 0 }
 			}
 
 			falangism = {
+				color = { 140 88 36 }
 			}
 
 			rexism = {
+				color = { 127 65 3 }
 			}
 
 			emperor_fascism = {
@@ -173,7 +184,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 
-		color = { 50 50 50 }
+		color = { 150 75 0 }
 
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -208,19 +219,24 @@ ideologies = {
 		types = {
 
 			despotism  = {
+				color = { 124 124 124 }
 			}
 
 			oligarchism  = {
+				color = { 176 172 167 }
 			}
 
 			anarchism = {
+				color = { 209 209 207 }
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 
 			moderatism = {
+				color = { 106 115 84 }
 			}
 
 			centrism = {
+				color = { 163 191 84 }
 			}
 
 			japan_militarism_ideology = {
