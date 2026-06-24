@@ -1,0 +1,183 @@
+BRA = {
+
+	light_tank_flame_chassis = {
+		pool = {
+			weight = 3
+			icons = {
+				"GFX_BRA_gwtank_medium"
+				"gfx/interface/brazil_plus/tanks/BRA_32_Lanca_Chamas.png"
+			}
+			models = {
+				BRA_light_armor_entity
+			}
+		}
+	}
+	
+	light_tank_chassis_0 = {
+		pool = {
+			weight = 3
+			icons = {
+				"gfx/interface/brazil_plus/tanks/BRA_32_Lanca_Chamas.png"
+				"GFX_BRA_gwtank_medium"
+			}
+			models = {
+				BRA_light_armor_entity
+			}
+		}
+	}
+
+	light_tank_chassis_1 = {
+		pool = {
+			weight = 3
+			icons = {
+				"GFX_BRA_basic_light_tank_medium"
+				"gfx/interface/brazil_plus/tanks/BRA_small_34.png"
+				"gfx/interface/brazil_plus/tanks/BRA_M1_M8turret.png"
+			}
+			models = {
+				BRA_light_armor_entity
+			}
+		}
+	}
+
+	light_tank_chassis_2 = {
+		pool = {
+			weight = 3
+			icons = {
+				"GFX_BRA_improved_light_tank_medium"
+				"gfx/interface/brazil_plus/tanks/BRA_small_36.png"
+				"gfx/interface/brazil_plus/tanks/BRA_x1_cascavel_m_turret.png"
+			}
+			models = {
+				BRA_light_armor_2_entity
+			}
+		}
+	}
+
+	light_tank_chassis_3 = {
+		pool = {
+			weight = 3
+			icons = {
+				"GFX_BRA_advanced_light_tank_medium"
+				"gfx/interface/brazil_plus/tanks/BRA_small_41.png"
+				"gfx/interface/brazil_plus/tanks/BRA_x1_pioneiro.png"
+			}
+			models = {
+				BRA_light_armor_2_entity
+			}
+		}
+	}
+
+	medium_tank_chassis_0 = {
+		pool = {
+			weight = 3
+			icons = {
+			
+				"gfx/interface/brazil_plus/tanks/BRA_f17.png"
+			}
+			models = {
+				BRA_medium_armor_0_entity
+			}
+		}
+	}
+
+	medium_tank_chassis_1 = {
+		pool = {
+			weight = 3
+			icons = {				
+				"gfx/interface/brazil_plus/tanks/BRA_medium_38.png"
+				"gfx/interface/brazil_plus/tanks/BRA_34_Cascavel_turret.png"
+			}
+			models = {
+				BRA_medium_armor_0_entity
+			}
+		}
+	}
+
+	medium_tank_chassis_2 = {
+		pool = {
+			weight = 1.5
+			icons = {				
+				"gfx/interface/brazil_plus/tanks/BRA_medium_40.png"
+				"gfx/interface/brazil_plus/tanks/BRA_X1a1_CRR_turret.png"
+				"gfx/interface/brazil_plus/tanks/BRA_x1a1.png"
+				"gfx/interface/brazil_plus/tanks/BRA_X1A1_CRM_Turret.png"
+			}
+			models = {
+				BRA_medium_armor_1_entity
+			}
+		}
+	}
+
+	medium_tank_chassis_3 = {
+		pool = {
+			weight = 3
+			icons = {				
+				"gfx/interface/brazil_plus/tanks/BRA_medium_38.png"
+				"gfx/interface/brazil_plus/tanks/BRA_X15_CascM_turret.png"
+				"gfx/interface/brazil_plus/tanks/BRA_X15_CRM_Turretb.png"
+				"gfx/interface/brazil_plus/tanks/BRA_X15_CRR_Turretb.png"
+				"gfx/interface/brazil_plus/tanks/BRA_X15_90mm.png"
+			}
+			models = {
+				BRA_medium_armor_2_entity
+			}
+		}
+	}
+	
+	modern_tank_chassis_1 = {
+		pool = {
+			weight = 3
+			icons = {				
+				"gfx/interface/brazil_plus/tanks/BRA_X30_Promo.png"
+				"gfx/interface/brazil_plus/tanks/BRA_X30_M41style.png"
+				"gfx/interface/brazil_plus/tanks/BRA_osorio_s.png"
+				"gfx/interface/brazil_plus/tanks/BRA_tamoyo_s.png"
+			}
+			models = {
+				ARG_modern_armor_entity
+			}
+		}
+	}
+	
+	
+	heavy_tank_chassis_1 = {
+		pool = {
+			weight = 3
+			icons = {
+			
+				"gfx/interface/brazil_plus/tanks/BRA_heavy_34.png"
+			}
+			models = {
+				BRA_heavy_armor_0_entity
+			}
+		}
+	}
+
+	heavy_tank_chassis_2 = {
+		pool = {
+			weight = 3
+			icons = {
+			
+				"gfx/interface/brazil_plus/tanks/BRA_heavy_40.png"
+			}
+			models = {
+				BRA_heavy_armor_0_entity
+			}
+		}
+	}
+
+	heavy_tank_chassis_3 = {
+		pool = {
+			weight = 3
+			icons = {
+				"gfx/interface/brazil_plus/tanks/BRA_heavy_43b.png"
+				"gfx/interface/brazil_plus/tanks/BRA_heavy_43.png"
+			}
+			models = {
+				BRA_heavy_armor_0_entity
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,308 @@
+spriteTypes = {
+		
+	SpriteType = {
+		name = "GFX_portrait_Adlai_Stevenson"
+		texturefile = "gfx/leaders/USA/USA_adlai_stevenson.png"
+	}	
+		
+	SpriteType = {
+		name = "GFX_portrait_Earl_Warren"
+		texturefile = "gfx/leaders/USA/USA_earl_warren.png"
+	}	
+		
+	SpriteType = {
+		name = "GFX_portrait_Estes_Kefauver"
+		texturefile = "gfx/leaders/USA/USA_estes_kefauver.png"
+	}	
+		
+	SpriteType = {
+		name = "GFX_portrait_Harold_Stassen"
+		texturefile = "gfx/leaders/USA/USA_harold_stassen.png"
+	}
+		
+	SpriteType = {
+		name = "GFX_portrait_Henry_A_Wallace"
+		texturefile = "gfx/leaders/USA/USA_henry_a_wallace.png"
+	}
+		
+	SpriteType = {
+		name = "GFX_portrait_Hubert_Humphrey"
+		texturefile = "gfx/leaders/USA/USA_hubert_humphrey.png"
+	}
+		
+	SpriteType = {
+		name = "GFX_portrait_John_F_Kennedy"
+		texturefile = "gfx/leaders/USA/USA_john_f_kennedy.png"
+	}
+		
+	SpriteType = {
+		name = "GFX_portrait_John_Nance_Garner"
+		texturefile = "gfx/leaders/USA/USA_john_nance_garner.png"
+	}
+		
+	SpriteType = {
+		name = "GFX_portrait_John_W_Bricker"
+		texturefile = "gfx/leaders/USA/USA_john_w_bricker.png"
+	}
+		
+	SpriteType = {
+		name = "GFX_portrait_Lyndon_B_Johnson"
+		texturefile = "gfx/leaders/USA/USA_lyndon_b_johnson.png"
+	}
+		
+	SpriteType = {
+		name = "GFX_portrait_Richard_Nixon"
+		texturefile = "gfx/leaders/USA/USA_richard_nixon.png"
+	}
+		
+	SpriteType = {
+		name = "GFX_portrait_Robert_Taft"
+		texturefile = "gfx/leaders/USA/USA_robert_taft.png"
+	}
+		
+	SpriteType = {
+		name = "GFX_portrait_Eisenhower"
+		texturefile = "gfx/leaders/USA/USA_eisenhower.png"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_anastas_mikoyan"
+		texturefile = "gfx/interface/ideas/anastas_mikoyan.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_sergo_ordzhonikidze"
+		texturefile = "gfx/interface/ideas/ordzhonikidze.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_grigory_petrovsky"
+		texturefile = "gfx/interface/ideas/petrovsky.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_SOV_pavel_postyshev"
+		texturefile = "gfx/interface/ideas/postyshev.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_janis_rudzutaks"
+		texturefile = "gfx/interface/ideas/rudzutaks.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_andrei_zhdanov"
+		texturefile = "gfx/interface/ideas/zhdanov.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_andrei_andreyev"
+		texturefile = "gfx/interface/ideas/andreyev.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_nikolai_bulganin"
+		texturefile = "gfx/interface/ideas/bulganin.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_alexei_kosygin"
+		texturefile = "gfx/interface/ideas/kosygin.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_georgy_malenkov"
+		texturefile = "gfx/interface/ideas/malenkov.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_aleksandr_shcherbakov"
+		texturefile = "gfx/interface/ideas/shcherbakov.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_nikolai_shvernik"
+		texturefile = "gfx/interface/ideas/shvernik.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_sergei_kruglov"
+		texturefile = "gfx/interface/ideas/kruglov.dds"
+	} 
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_viktor_abakumov"
+		texturefile = "gfx/interface/ideas/abakumov.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_viktor_abakumov_imprisoned"
+		texturefile = "gfx/interface/ideas/abakumov_imprisoned.dds"
+	} 
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_georgy_malenkov_large"
+		texturefile = "gfx/leaders/SOV/SOV_malenkov.png"
+	} 
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_nikita_khrushchev_large"
+		texturefile = "gfx/leaders/SOV/SOV_khrushchev.png"
+	} 
+		
+	SpriteType = {
+		name = "GFX_portrait_SOV_georgy_zhukov_large_civ"
+		texturefile = "gfx/leaders/SOV/SOV_zhukov.png"
+	} 
+		
+	SpriteType = { 
+		name = "GFX_portrait_SOV_genrikh_yagoda_large"
+		texturefile = "gfx/leaders/SOV/SOV_yagoda.png"
+	} 
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_nikolay_yezhov_large"
+		texturefile = "gfx/leaders/SOV/SOV_aged_yezhov.png"
+	} 
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_dmitri_ustinov"
+		texturefile = "gfx/interface/ideas/ustinov.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_dmitri_ustinov_imprisoned"
+		texturefile = "gfx/interface/ideas/ustinov_imprisoned.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_naftaly_frenkel"
+		texturefile = "gfx/interface/ideas/frenkel.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_naftaly_frenkel_imprisoned"
+		texturefile = "gfx/interface/ideas/frenkel_imprisoned.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_vasily_blokhin"
+		texturefile = "gfx/interface/ideas/blokhin.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_vasily_blokhin_imprisoned"
+		texturefile = "gfx/interface/ideas/blokhin_imprisoned.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_bogdan_kobulov"
+		texturefile = "gfx/interface/ideas/kobulov.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_SOV_bogdan_kobulov_imprisoned"
+		texturefile = "gfx/interface/ideas/kobulov_imprisoned.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_lev_mekhlis"
+		texturefile = "gfx/interface/ideas/mekhlis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_SOV_lev_mekhlis_imprisoned"
+		texturefile = "gfx/interface/ideas/mekhlis_imprisoned.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_ivan_ilyichev"
+		texturefile = "gfx/interface/ideas/ilyichev.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_SOV_ivan_ilyichev_imprisoned"
+		texturefile = "gfx/interface/ideas/ilyichev_imprisoned.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_pavel_sudoplatov"
+		texturefile = "gfx/interface/ideas/sudoplatov.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_SOV_pavel_sudoplatov_imprisoned"
+		texturefile = "gfx/interface/ideas/sudoplatov_imprisoned.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_SOV_vasily_sokolovsky"
+		texturefile = "gfx/interface/ideas/sokolovsky.dds"
+	}
+ 
+	SpriteType = {
+		name = "GFX_idea_SOV_vasily_sokolovsky_imprisoned"
+		texturefile = "gfx/interface/ideas/sokolovsky_imprisoned.dds"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_SOV_grabin"
+		texturefile = "gfx/leaders/SOV/SOV_grabin.png"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_SOV_koshkin"
+		texturefile = "gfx/leaders/SOV/SOV_koshkin.png"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_SOV_bratukhin"
+		texturefile = "gfx/leaders/SOV/SOV_bratukhin.png"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_SOV_malinin"
+		texturefile = "gfx/leaders/SOV/SOV_malinin.png"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_SOV_maslov"
+		texturefile = "gfx/leaders/SOV/SOV_maslov.png"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_USA_dryden"
+		texturefile = "gfx/leaders/USA/USA_dryden.png"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_USA_kelly_johnson"
+		texturefile = "gfx/leaders/USA/USA_kelly_johnson.png"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_USA_sikorski"
+		texturefile = "gfx/leaders/USA/USA_sikorski.png"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_USA_barnes"
+		texturefile = "gfx/leaders/USA/USA_barnes.png"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_BRA_antonio_muniz"
+		texturefile = "gfx/leaders/BRA/BRA_muniz.png"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_FRA_marcel_dassault"
+		texturefile = "gfx/leaders/FRA/FRA_dassault.png"
+	}
+ 
+	SpriteType = {
+		name = "GFX_portrait_SOV_mikhail_kalashnikov"
+		texturefile = "gfx/leaders/SOV/SOV_kalashnikov.png"
+	}
+ 
+}    

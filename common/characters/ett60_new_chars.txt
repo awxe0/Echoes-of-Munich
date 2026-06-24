@@ -1,0 +1,43 @@
+characters={
+		
+	SOV_mikhail_kalashnikov = {
+		name = SOV_mikhail_kalashnikov
+		
+		portraits = {
+			army = {
+				large = GFX_portrait_SOV_mikhail_kalashnikov
+			}
+		}
+
+		scientist = {
+			traits = { scientist_trait_assault_rifle_genius }
+			skills = {
+				specialization_land = 1
+			}
+			visible = {
+				owner = {
+					has_tech = advanced_infantry_weapons2
+				}
+			}
+		}
+		
+	}
+		
+	FRA_marcel_dassault = {
+		name = FRA_marcel_bloch
+		
+		portraits = {
+			army = {
+				large = GFX_portrait_FRA_marcel_dassault
+			}
+		}
+
+		scientist = {
+			traits = { scientist_trait_jet_expert scientist_trait_gifted_engineer }
+			skills = {
+				specialization_air = 2
+			}
+		}
+	}
+	
+}

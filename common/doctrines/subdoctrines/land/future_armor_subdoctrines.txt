@@ -1,0 +1,645 @@
+deep_breakthrough = {
+    track = future_armor
+    name = SUBDOCTRINE_DEEP_BREAKTHROUGH
+    description = SUBDOCTRINE_DEEP_BREAKTHROUGH_DESC
+    icon = GFX_armored_army_medium
+
+    xp_cost = 100
+    xp_type = army
+    available = {
+		has_completed_track = armor
+		is_special_project_completed = sp:sp_main_battle_tank
+    }
+
+    ai_will_do = {
+
+        base = 1
+        modifier = {
+            factor = 95
+            ROOT = { tag = SOV } 
+        }
+        modifier = {
+            factor = 0.5
+            ROOT = { is_major = no }
+        }
+    }
+
+    # EFFECTS
+	
+	enable_tactic = tactic_modern_blitz
+	
+	assault_engineer = {
+		battalion_mult = {
+			category = category_all_armor
+			breakthrough = 0.05
+		}
+	}
+	
+    rewards = {
+        operational_manouver_group = {
+        #1
+			heavy_armor = {
+				combat_width = -0.2				
+				initiative  = 0.01
+			}
+			modern_armor = {		
+				combat_width = -0.2	
+				initiative  = 0.01			
+			}
+			motorized = {
+				combat_width = -0.1
+			}
+			mechanized = {
+				combat_width = -0.1
+			}
+        }
+        deep_breakthrough_reward = {
+        #2
+            heavy_armor = {
+				breakthrough= 0.075
+				defense = -0.1
+			}
+			modern_armor = {		
+				breakthrough= 0.075
+				defense = -0.1		
+			}
+			category_amphibious_tanks = {
+				breakthrough= 0.075
+				defense = -0.1
+			}
+        }
+        centralized_planning = {
+        #3
+			max_planning = 0.1
+        }
+        echeloned_offense = {
+        #4
+            armored_signal = {               
+				battalion_mult = {
+					category = category_mod_and_heavy_tanks
+					hard_attack = 0.05
+					soft_attack = 0.05
+				}
+			}
+        }
+        high_tempo_offensive = {
+        #5
+            heavy_armor = {
+				maximum_speed = 0.05
+			}
+			modern_armor = {		
+				maximum_speed = 0.05		
+			}
+			category_amphibious_tanks = {
+				maximum_speed = 0.05
+			}
+			enable_tactic = tactic_unexpected_thrust
+        }
+    }
+}
+
+high_intensity_first_echelon_battle = {
+    track = future_armor
+    name = SUBDOCTRINE_FIRST_ECHELON_BATTLE
+    description = SUBDOCTRINE_FIRST_ECHELON_BATTLE_DESC
+    icon = GFX_modern_combined_arms_medium
+
+    xp_cost = 100
+    xp_type = army
+    available = {
+		has_completed_track = armor
+		is_special_project_completed = sp:sp_main_battle_tank
+    }
+
+    ai_will_do = {
+
+        base = 1
+        modifier = {
+            factor = 95
+            ROOT = { tag = USA } 
+        }
+        modifier = {
+            factor = 0.5
+            ROOT = { is_major = no }
+        }
+    }
+
+    # EFFECTS
+    enable_tactic = tactic_backhand_blow
+    #TODO jack look if you can make a script effect for production bonuses
+
+    rewards = {
+        armor_survivability = {
+        #1
+            modern_armor = {
+			    max_strength = 0.2
+				max_organisation = 1
+            }
+            mechanized = {
+			    max_strength = 0.2
+				max_organisation = 1
+            }
+            armored_cavalry = {
+			    max_strength = 0.2
+				max_organisation = 1
+            }
+        }
+        flexible_response = {
+        #2
+            category_tank_destroyers = {
+                maximum_speed = 0.05
+		    	defense = 0.1
+				hard_attack = 0.1
+            }
+        }
+        advanced_sensors = {
+            land_night_attack = 0.15
+			enable_tactic = tactic_breakthrough
+        }
+        active_defense = {
+        #4
+            armored_car_at = {
+                defense =  0.05
+				hard_attack = 0.1
+				default_morale = 0.1
+            }
+            armored_cavalry = {
+                defense =  0.05
+				hard_attack = 0.1
+				default_morale = 0.1
+            }
+        }
+        airland_battle = {
+        #5
+            category_infantry_helicopters = {
+				initiative = 0.01
+				max_organisation= 2
+			}
+			air_superiority_bonus_in_combat = 0.15
+        }
+    }
+}
+
+firepower_first = {
+    
+    track = future_armor
+    name = SUBDOCTRINE_FIREPOWER_FIRST
+    description = SUBDOCTRINE_FIREPOWER_FIRST_DESC
+    icon = GFX_modern_panzerwaffe_medium
+
+    xp_cost = 100
+    xp_type = army
+
+    available = {
+		has_completed_track = armor
+		is_special_project_completed = sp:sp_main_battle_tank
+    }
+
+    ai_will_do = {
+
+        base = 1
+        modifier = {
+            factor = 95
+            ROOT = { tag = ENG } 
+        }
+        modifier = {
+            factor = 0.5
+            ROOT = { is_major = no }
+        }
+
+    }
+            
+    # EFFECTS
+	
+	enable_tactic = tactic_overwhelming_fire
+	
+    rewards = {
+        firepower_first_reward = {
+            heavy_armor = {
+				max_organisation = 5				
+				hard_attack = 0.05
+				soft_attack = 0.05 
+			}
+			super_heavy_armor = {
+				max_organisation = 5			
+				hard_attack = 0.05
+				soft_attack = 0.05 
+			}
+			modern_armor = {
+				max_organisation = 5			
+				hard_attack = 0.05
+				soft_attack = 0.05 
+			}
+			category_tank_destroyers = {
+				max_organisation = 5			
+				hard_attack = 0.05
+				soft_attack = 0.05 
+			}			
+			category_self_propelled_artillery = {
+				max_organisation = 5
+			}
+			
+        }
+        deliberate_defense = {           
+            heavy_armor = {
+				defense = 0.1
+			}
+			super_heavy_armor = {
+				defense = 0.1
+			}
+			modern_armor = {
+				defense = 0.1
+			}
+        }
+        controlled_counterstrokes = {
+            assault_engineer = {
+				battalion_mult = {
+					category = category_tanks
+					breakthrough = 0.2
+					hard_attack = 0.1
+					soft_attack = 0.1
+				}
+			}
+			org_loss_when_moving =  -0.1
+        }
+        careful_reserve_planning = {
+			max_planning_factor = 0.1	
+            heavy_armor = {
+				default_morale = 0.1
+			}
+			super_heavy_armor = {
+				default_morale = 0.1
+			}
+			modern_armor = {
+				default_morale = 0.1
+			}
+        }
+        holding_and_attriting = {
+			
+            armored_engineer = {
+				battalion_mult = {
+					category = category_tank_destroyers
+					entrenchment = 2
+					add = yes
+				}
+				battalion_mult = {
+					category = category_tank_destroyers
+					hard_attack = 0.1
+				}
+				battalion_mult = {
+					category = category_anti_tank
+					entrenchment = 2
+					add = yes
+				}
+				battalion_mult = {
+					category = category_anti_tank
+					hard_attack = 0.1
+				}
+			}
+			
+        }
+    }
+}
+
+flexible_manouver = {
+    track = future_armor
+    name = SUBDOCTRINE_FLEXIBLE_MANOUVER
+    description = SUBDOCTRINE_FLEXIBLE_MANOUVER_DESC
+    icon = GFX_backhand_blow_medium
+
+    xp_cost = 100
+    xp_type = army
+    available = {
+		has_completed_track = armor
+		is_special_project_completed = sp:sp_main_battle_tank
+    }
+
+    ai_will_do = {
+
+        base = 1
+        modifier = {
+            factor = 95
+            ROOT = { tag = GER } 
+        }
+        modifier = {
+            factor = 0.5
+            ROOT = { is_major = no }
+        }
+    }
+
+    # EFFECTS
+    
+	enable_tactic = tactic_mechanized_counterattack
+    #TODO jack look if you can make a script effect for production bonuses
+
+    rewards = {
+        defense_in_depth = {
+        #1
+            modern_armor = {
+			    entrenchment = 0.05				
+            }
+            light_armor = {
+			    entrenchment = 0.05
+            }
+            armored_cavalry = {
+			    entrenchment = 0.05
+            }
+            mechanized = {
+			    entrenchment = 0.05
+            }
+        }
+        mech_tank_team = {
+        #2
+            modern_armor = {
+			    soft_attack = 0.1
+				max_organisation = 10
+            }
+            light_armor = {
+			    soft_attack = 0.1
+				max_organisation = 10
+            }
+            armored_cavalry = {
+			    soft_attack = 0.1
+				max_organisation = 10
+            }
+            mechanized = {
+			    soft_attack = 0.1
+				max_organisation = 10
+            }
+        }
+        mobile_delay = {
+        #3
+        #TODO add armored car category
+            engineer = {
+                battalion_mult =  {
+					category = category_tanks
+					defense = 0.15
+				}
+            }
+			pioneer_support = {
+                battalion_mult =  {
+					category = category_tanks
+					defense = 0.15
+				}
+            }
+			
+			jungle_pioneers_support = {
+                battalion_mult =  {
+					category = category_tanks
+					defense = 0.15
+				}
+            }
+			
+			assault_engineer = {
+                battalion_mult =  {
+					category = category_tanks
+					defense = 0.15
+				}
+            }
+			
+			armored_engineer = {
+                battalion_mult =  {
+					category = category_tanks
+					defense = 0.15
+				}
+            }
+        }
+        flexible_local_manouver = {
+        #4
+			org_loss_when_moving = -0.15
+			light_tank_recon = {
+				battalion_mult = {
+					category = category_front_line
+					maximum_speed = 0.05
+				}
+			}				
+			
+			helicopter_recon = {
+				battalion_mult = {
+					category = category_front_line
+					maximum_speed = 0.05
+				}
+			}				
+			
+			armored_car_recon = {
+				battalion_mult = {
+					category = category_front_line
+					maximum_speed = 0.05
+				}
+			}
+			
+			armored_car_at_recon = {
+				battalion_mult = {
+					category = category_front_line
+					maximum_speed = 0.05
+				}
+			}
+        }
+        rapid_counterattacks = {
+        #5
+            modern_armor = {
+                defense = 0.5
+                breakthrough = 0.15
+            }
+            light_armor = {
+                defense = 0.5
+                breakthrough = 0.15
+            }
+        }
+    }
+}
+
+fast_operational_decision = {
+    track = future_armor
+    name = SUBDOCTRINE_FAST_OPERATIONAL_DECISION
+    description = SUBDOCTRINE_FAST_OPERATIONAL_DECISION_DESC
+    icon = GFX_tactical_control_medium
+
+    xp_cost = 100
+    xp_type = army
+    available = {
+		has_completed_track = armor
+    }
+
+    ai_will_do = {
+
+        base = 1
+    }
+
+    # EFFECTS
+	
+	army_morale_factor = 0.1
+
+    rewards = {
+        extensive_reserves = {
+        #1            
+			training_time_army_factor = -0.2
+        }
+        atriction_reduction = {
+        #2
+            category_all_armor = {
+		    	reliability = 0.1
+				experience_loss_factor = -0.1
+				casualty_trickleback = -0.02
+            }
+        }
+        combined_arms_task_forces = {
+        #3
+            category_tanks = {
+                max_organisation = 5
+				max_strength = 0.1
+            }
+            category_motmech = {
+                max_organisation = 5
+				max_strength = 0.1
+            }
+        }
+        air_ground_integration = {
+        #4
+            cas_damage_reduction = 0.05
+			category_self_propelled_anti_air = {
+				air_attack = 0.1
+			}		
+        }
+        rapid_operational_manouver = {
+        #5
+            category_all_armor= {
+                default_morale = 15
+                initiative = 0.01
+            }
+        }
+    }
+}
+
+rapid_deployment_armor = {
+    track = future_armor
+    name = SUBDOCTRINE_RAPID_DEPLOYMENT_ARMOR
+    description = SUBDOCTRINE_RAPID_DEPLOYMENT_ARMOR_DESC
+    icon = GFX_deep_operations_medium
+
+    xp_cost = 100
+    xp_type = army
+    available = {
+		has_completed_track = armor
+    }
+
+    ai_will_do = {
+
+        base = 1
+    }
+
+    # EFFECTS
+    org_loss_when_moving = -0.2
+	
+    rewards = {
+        quick_deployment_assets = {
+        #1
+            category_motmech = {
+			    breakthrough = 0.05
+				default_morale = 0.05
+				maximum_speed = 0.1
+            }
+        }
+        armored_recon_and_fire_support = {
+        #2
+            light_tank_recon = {
+				battalion_mult = {
+					category = category_army
+					soft_attack = 0.075
+					hard_attack = 0.075
+				}
+			}
+			armored_car_at_recon = {
+				battalion_mult = {
+					category = category_army
+					soft_attack = 0.075
+					hard_attack = 0.075
+				}			
+			}
+        }
+        anti_tank_subsidiary_role = {
+        #3
+        #TODO add armored car category
+            category_tank_destroyers = {
+                hard_attack = 0.1
+				ap_attack = 0.1
+				defense=  0.1
+            }
+            category_anti_tank = {
+                hard_attack = 0.1
+				ap_attack = 0.1
+				defense=  0.1
+            }
+			armored_car_at = {
+                hard_attack = 0.1
+				ap_attack = 0.1
+				defense=  0.1
+			}			
+        }
+        mixed_task_forces = {
+        #4
+            mechanized = {
+				initiative = 0.01
+				max_organisation = 6
+			}
+            armored_cavalry = {
+				initiative = 0.01
+				max_organisation = 6
+			}
+            category_support_armor = {
+				initiative = 0.01
+				max_organisation = 6
+			}
+        }
+        expeditionary_armed_forces = {
+        #5
+            armored_car = {
+				supply_consumption = -0.02
+				initiative = 0.01
+				max_organisation = 2
+				default_morale = 0.2
+				defense = 0.05				
+			}
+			
+			armored_car_at = {
+				supply_consumption = -0.02
+				initiative = 0.01
+				max_organisation = 2
+				default_morale = 0.2
+				defense = 0.05
+			}
+			
+			light_armor = {
+				supply_consumption = -0.02
+				initiative = 0.01
+				max_organisation = 2
+				default_morale = 0.2
+				defense = 0.05
+			}
+			
+			light_para_armor = {
+				supply_consumption = -0.02
+				initiative = 0.01
+				max_organisation = 2
+				default_morale = 0.2
+				defense = 0.05
+			}
+			
+			armored_cavalry = {
+				supply_consumption = -0.02
+				initiative = 0.01
+				max_organisation = 2
+				default_morale = 0.2
+				defense = 0.05
+			}
+			
+			category_amphibious_tanks = {
+				supply_consumption = -0.02
+				initiative = 0.01
+				max_organisation = 2
+				default_morale = 0.2
+				defense = 0.05
+			}
+        }
+    }
+}

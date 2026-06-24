@@ -1,0 +1,878 @@
+ideas = {
+	
+	aircraft_manufacturer = { 
+		
+		designer = yes
+		
+		northrop = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		martin = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_medium_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		republic = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_CAS_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		
+		convair = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_heavy_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		mcdonnell = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_naval_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+	
+		gloster = {
+			
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}	
+	
+		dassault = {
+			
+			
+			allowed = {
+				original_tag = FRA
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}	
+	
+		fiat_aviazione = {
+			
+			
+			allowed = {
+				original_tag = ITA
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}	
+			
+		# ilyushin_design_bureau = {
+			
+			
+			# allowed = {
+				# original_tag = SOV
+			# }
+			
+			# research_bonus = {
+				# air_equipment = 0.15
+			# }
+			
+			# traits = { CAS_manufacturer }
+			
+			# modifier = {
+			# }
+		# }
+	
+		sukhoi = {
+			
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		OKB21 = {
+			
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_medium_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		lavochkin = {
+			
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_CAS_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		
+		myasishchev = {
+			
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_heavy_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		beriev = {
+			
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_naval_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}	
+
+		petlyakov = {
+			
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { CAS_manufacturer }
+			
+			modifier = {
+			}
+		}		
+		
+		kurt_tank = {
+			
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_light_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		arado = {
+			
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_medium_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		henschel_aviation = {
+			
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}	
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_CAS_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		horten = {
+			
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_heavy_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		ewr = {
+			
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			available = {			
+				has_tech = jet_engines
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { jet_naval_aircraft_manufacturer }
+			
+			modifier = {
+			}
+		}		
+	}
+	
+	industrial_concern = {
+
+		GER_deutschebank_idea = { 
+			name = GER_deutschebank_idea
+			picture = deutschebank
+			allowed = {
+				original_tag = GER
+			}
+			visible = {
+				
+			}
+			cost = 150
+			removal_cost = 10
+			research_bonus = {
+			}
+			traits = { central_bank } 
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+
+		SOV_gosbank = { 
+			name = SOV_gosbank
+			picture = gosbank
+			allowed = {
+				original_tag = SOV
+			}
+			visible = {
+				
+			}
+			cost = 150
+			removal_cost = 10
+			research_bonus = {
+			}
+			traits = { central_bank } 
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+
+		FRA_banque_de_france = { 
+			name = FRA_banque_de_france
+			picture = banque_de_france
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				
+			}
+			cost = 150
+			removal_cost = 10
+			research_bonus = {
+			}
+			traits = { central_bank } 
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+		
+		FRA_sncf = { 
+			name = FRA_sncf
+			picture = sncf
+			allowed = {
+				original_tag = FRA
+			}
+			available = {
+				
+			}
+			visible = {
+				
+			}
+			cost = 150
+			
+			removal_cost = 10
+			
+			research_bonus = {
+				train_tech = 0.15
+			}
+			traits = { railway_company } 
+		}
+		
+		FRA_cfp = {
+			
+			name = FRA_cfp_name
+			picture = cfp
+			allowed = {
+				original_tag = FRA
+			}
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+			
+			modifier = {
+			}
+		}
+		
+		SOV_minnefteprom = {
+			
+			name = SOV_minnefteprom
+			picture = minnefteprom
+			allowed = {
+				original_tag = SOV
+			}
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			available = {
+				has_completed_focus = SOV_national_specialists
+			
+			}
+			
+			traits = { refinery_concern }
+			
+			modifier = {
+			}
+		}
+
+		SOV_minenergo = {
+
+			name = SOV_minenergo
+			picture = minenergo
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {
+				has_completed_focus = SOV_national_specialists
+			
+			}
+			
+			cost = 150
+
+			modifier = {
+				factory_energy_consumption = -0.1
+			}
+			
+			traits = { energy_supply_company }
+		}
+		
+		SOV_mingeo = {
+
+			name = SOV_mingeo
+			picture = mingeo
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {
+				has_completed_focus = SOV_national_specialists
+			
+			}
+			
+			cost = 150
+
+			research_bonus = {
+				excavation_tech = 0.15
+			}
+
+			# modifier = {
+				# factory_energy_consumption = -0.1
+			# }
+			
+			traits = { mining_company }
+		}
+
+		SOV_aeroflot = { 
+
+			picture = aeroflot
+			name = SOV_aeroflot
+
+			allowed = {
+				original_tag = SOV	
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+			
+			}
+
+			research_bonus = {
+				air_equipment = 0.05
+			}
+
+			ai_will_do = {
+				base = 1
+			}
+		
+			traits = { civilian_airway_company } 
+
+			modifier = {
+			}
+		}
+
+		SOV_pravda = {
+			
+			picture = pravda
+			name = SOV_pravda
+
+			allowed = {
+				original_tag = SOV
+			}
+
+			available = {
+				has_completed_focus = SOV_addressing_internal_affairs
+			}
+			
+			research_bonus = {
+			}
+
+			ai_will_do = {
+				base = 1
+			}
+			
+			traits = { national_news_agency }
+		}
+		
+		FRA_cma = {
+
+			picture = cma
+			
+			allowed = {
+				original_tag = FRA
+			}
+			
+			cost = 150
+
+			research_bonus = {
+				excavation_tech = 0.15
+			}
+			
+			traits = { mining_company }
+		}
+
+		FRA_scb = {
+
+			picture = scb
+			name = FRA_scb
+			allowed = {
+				original_tag = FRA
+			}
+			
+			cost = 150
+
+			traits = { construction_company }
+		}
+		
+		raytheon = {
+						
+			allowed = {
+				original_tag = USA
+			}
+			
+			research_bonus = {
+				#electronics = 0.1
+				radar_tech = 0.2
+			}
+			
+			traits = { radar_concern }
+			
+			modifier = {
+			}
+		}
+	
+		csf = {
+						
+			allowed = {
+				original_tag = FRA
+			}
+			
+			research_bonus = {
+				#electronics = 0.1
+				radar_tech = 0.2
+			}
+			
+			traits = { radar_concern }
+			
+			modifier = {
+			}
+		}
+		
+		telefunken = {
+			
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			research_bonus = {
+				#electronics = 0.1
+				radar_tech = 0.2
+			}
+			
+			traits = { radar_concern }
+			
+			modifier = {
+			}
+		}
+	
+	
+		niip = {
+			
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			research_bonus = {
+				#electronics = 0.1
+				radar_tech = 0.2
+			}
+			
+			traits = { radar_concern }
+			
+			modifier = {
+			}
+		}
+	
+	}
+	
+	materiel_manufacturer = {
+	
+		designer = yes
+	
+		marietta = {
+						
+			allowed = {
+				original_tag = USA
+			}
+			
+			research_bonus = {
+				rocketry = 0.1
+			}
+			
+			traits = { missile_concern }
+			
+			modifier = {
+			}
+		}
+	
+		ruhrstahl = {
+						
+			allowed = {
+				original_tag = GER
+			}
+			
+			research_bonus = {
+				rocketry = 0.1
+			}
+			
+			traits = { missile_concern }
+			
+			modifier = {
+			}
+		}
+	
+		vympel = {
+			
+			
+			allowed = {
+				original_tag = SOV
+			}
+			
+			research_bonus = {
+				rocketry = 0.1
+			}
+			
+			traits = { missile_concern }
+			
+			modifier = {
+			}
+		}
+
+	}
+	
+	tank_manufacturer = {
+		
+		designer = yes
+
+		uralvagonzavod = {
+						
+			allowed = {
+				original_tag = SOV
+			}
+			
+			available = {			
+				has_tech = main_battle_tank_chassis 
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { mbt_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		gdls = {
+						
+			allowed = {
+				original_tag = USA
+			}
+			
+			available = {			
+				has_tech = main_battle_tank_chassis 
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { mbt_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		krauss_maffei = {
+						
+			allowed = {
+				original_tag = GER
+			}
+			
+			available = {			
+				has_tech = main_battle_tank_chassis 
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { mbt_manufacturer }
+			
+			modifier = {
+			}
+			
+		}	
+	
+	}
+	
+}

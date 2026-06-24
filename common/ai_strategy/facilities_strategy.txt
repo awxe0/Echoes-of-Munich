@@ -1,0 +1,92 @@
+major_wants_special_projects = {
+	allowed = {
+		is_major = yes
+		industrial_complex > 50
+		industrial_complex < 99
+	}
+
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = building_target
+		id = air_facility
+		value = 1
+	}
+	ai_strategy = {
+		type = building_target
+		id = land_facility
+		value = 1
+	}
+	ai_strategy = {
+		type = building_target
+		id = naval_facility
+		value = 1
+	}
+}
+
+major_wants_more_special_projects = {
+	allowed = {
+		is_major = yes
+		industrial_complex > 100
+		industrial_complex < 199
+	}
+	
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = building_target
+		id = air_facility
+		value = 2
+	}
+	ai_strategy = {
+		type = building_target
+		id = land_facility
+		value = 2
+	}
+	ai_strategy = {
+		type = building_target
+		id = naval_facility
+		value = 2
+	}
+	ai_strategy = {
+		type = building_target
+		id = nuclear_facility
+		value = 1
+	}
+}
+
+major_wants_even_more_special_projects = {
+	allowed = {
+		is_major = yes
+		industrial_complex > 200
+	}
+
+	enable = {
+		always = yes
+	}
+	
+	ai_strategy = {
+		type = building_target
+		id = air_facility
+		value = 3
+	}
+	ai_strategy = {
+		type = building_target
+		id = land_facility
+		value = 3
+	}
+	ai_strategy = {
+		type = building_target
+		id = naval_facility
+		value = 3
+	}
+	ai_strategy = {
+		type = building_target
+		id = nuclear_facility
+		value = 2
+	}
+}

@@ -1,0 +1,223 @@
+spriteTypes = {
+
+	spriteType = {	
+		name = "GFX_SM_twin_heavy_hull_fixed_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/heavy_hull_fixed_heavy_battery.dds"
+	} 
+	
+	spriteType = {
+		name = "GFX_SM_twin_heavy_hull_fixed_heavy_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/heavy_hull_fixed_heavy_battery@highlight.dds"
+	}
+ 
+	spriteType = {
+		name = "GFX_SM_triple_heavy_hull_fixed_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/triple_heavy_hull_fixed_heavy_battery.dds"
+	}
+	 
+	spriteType = {
+		name = "GFX_SM_triple_heavy_hull_fixed_heavy_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/triple_heavy_hull_fixed_heavy_battery@highlight.dds"
+	}	 
+ 
+	spriteType = {
+		name = "GFX_SM_triple_heavy_hull_fixed_heavy_battery_rear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/triple_heavy_hull_fixed_heavy_battery_rear.dds"
+	}
+	 
+	spriteType = {
+		name = "GFX_SM_triple_heavy_hull_fixed_heavy_battery_rear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/triple_heavy_hull_fixed_heavy_battery_rear@highlight.dds"
+	}			
+ 
+	spriteType = {
+		name = "GFX_SM_quad_heavy_hull_fixed_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/quad_heavy_hull_fixed_heavy_battery.dds"
+	}
+	 
+	spriteType = {
+		name = "GFX_SM_quad_heavy_hull_fixed_heavy_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/quad_heavy_hull_fixed_heavy_battery@highlight.dds"
+	}
+   
+	spriteType = {
+		name = "GFX_SM_quad_heavy_hull_fixed_heavy_battery_rear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/quad_heavy_hull_fixed_heavy_battery_rear.dds"
+	}
+	 
+	spriteType = {
+		name = "GFX_SM_quad_heavy_hull_fixed_heavy_battery_rear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/quad_heavy_hull_fixed_heavy_battery_rear@highlight.dds"
+	}	
+  
+	spriteType = {
+		name = "GFX_SM_heavy_missile_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/heavy_missile_battery.dds"
+	}
+	 
+	spriteType = {
+		name = "GFX_SM_heavy_missile_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/heavy_missile_battery@highlight.dds"
+	}	
+  
+	spriteType = { 
+		name = "GFX_SM_heavy_missile_battery_rear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/heavy_missile_battery_rear.dds"
+	}
+	 
+	spriteType = {
+		name = "GFX_SM_heavy_missile_battery_rear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/heavy_missile_battery_rear@highlight.dds"
+	}			
+  
+	spriteType = { 
+		name = "GFX_SM_light_missile_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/light_missile_battery.dds"
+	}
+	 
+	spriteType = {
+		name = "GFX_SM_light_missile_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/light_missile_battery@highlight.dds"
+	}
+  
+	spriteType = { 
+		name = "GFX_SM_light_missile_battery_rear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/light_missile_battery_rear.dds"
+	}
+	 
+	spriteType = {
+		name = "GFX_SM_light_missile_battery_rear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/light_missile_battery_rear@highlight.dds"
+	}			
+  
+	spriteType = { 
+		name = "GFX_SM_dp_missile_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/dp_missile_battery.dds"
+	}
+	 
+	spriteType = {
+		name = "GFX_SM_dp_missile_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/dp_missile_battery@highlight.dds"
+	}
+  
+	spriteType = { 
+		name = "GFX_SM_dp_missile_battery_rear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/dp_missile_battery_rear.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_dp_missile_battery_rear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/dp_missile_battery_rear@highlight.dds"
+	}		
+  
+	spriteType = { 
+		name = "GFX_SM_sam_missile_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/sam_missile_battery.dds"
+	} 
+	 
+	spriteType = {
+		name = "GFX_SM_sam_missile_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/sam_missile_battery@highlight.dds"
+	}
+  
+	spriteType = { 
+		name = "GFX_SM_sam_missile_battery_rear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/sam_missile_battery_rear.dds"
+	} 
+	
+	spriteType = {
+		name = "GFX_SM_sam_missile_battery_rear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/sam_missile_battery_rear@highlight.dds"
+	}
+  
+	spriteType = { 
+		name = "GFX_SM_lateral_missile_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/lateral_missile_battery.dds"
+	} 
+  
+	spriteType = { 
+		name = "GFX_SM_lateral_missile_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/lateral_missile_battery@highlight.dds"
+	} 	
+  
+	spriteType = { 
+		name = "GFX_SM_twin_super_heavy"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/twin_heavy_hull_fixed_super_heavy_battery.dds"
+	} 
+	 
+	spriteType = {
+		name = "GFX_SM_twin_super_heavy@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/twin_heavy_hull_fixed_super_heavy_battery@highlight.dds"
+	}
+  
+	spriteType = { 
+		name = "GFX_SM_twin_super_heavy_rear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/twin_heavy_hull_fixed_super_heavy_battery_rear.dds"
+	} 
+	
+	spriteType = { 
+		name = "GFX_SM_twin_super_heavy_rear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/twin_heavy_hull_fixed_super_heavy_battery_rear@highlight.dds"
+	}	
+   
+	spriteType = { 
+		name = "GFX_SM_triple_super_heavy" 
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/triple_heavy_hull_fixed_super_heavy_battery.dds"
+	} 
+	 
+	spriteType = {
+		name = "GFX_SM_triple_super_heavy@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/triple_heavy_hull_fixed_super_heavy_battery@highlight.dds"
+	}
+  
+	spriteType = { 
+		name = "GFX_SM_triple_super_heavy_rear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/triple_heavy_hull_fixed_super_heavy_battery_rear.dds"
+	} 
+	
+	spriteType = {
+		name = "GFX_SM_triple_super_heavy_rear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/triple_heavy_hull_fixed_super_heavy_battery_rear@highlight.dds"
+	}
+   
+	spriteType = { 
+		name = "GFX_SM_quad_super_heavy"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/quad_heavy_hull_fixed_super_heavy_battery.dds"
+	} 
+	 
+	spriteType = {
+		name = "GFX_SM_quad_super_heavy@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/quad_heavy_hull_fixed_super_heavy_battery@highlight.dds"
+	}
+  
+	spriteType = { 
+		name = "GFX_SM_quad_super_heavy_rear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/quad_heavy_hull_fixed_super_heavy_battery_rear.dds"
+	} 
+	
+	spriteType = {
+		name = "GFX_SM_quad_super_heavy_rear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/quad_heavy_hull_fixed_super_heavy_battery_rear@highlight.dds"
+	}
+  
+	spriteType = { 
+		name = "GFX_SM_helipad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/helipad.dds"
+	} 
+	
+	spriteType = {
+		name = "GFX_SM_helipad@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull/helipad@highlight.dds"
+	}
+  
+	spriteType = { 
+		name = "GFX_SM_ciws"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/ciws.dds"
+	} 
+	
+	spriteType = { 
+		name = "GFX_SM_ciws@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/super_heavy_hull/ciws@highlight.dds"
+	}
+	
+} 

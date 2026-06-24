@@ -1,0 +1,3861 @@
+#SHIPS 
+
+
+USA = {
+	ship_hull_carrier_submarine_1 = {
+		pool = {
+			weight = 5501
+			icons = {
+				"GFX_USA_SSV_1_Fictional"
+			}
+		}
+	}
+	ship_hull_carrier_submarine_2 = {
+		pool = {
+			weight = 5501
+			icons = {
+				"GFX_USA_SSV_1_AN_1"
+			}
+		}
+	}
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"GFX_USA_CVH_1_Iwo_Jima"
+			}
+		}
+	}
+	fleet_oiler_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_FO_1_Kaweah"
+			}
+		}
+	}	
+	fleet_oiler_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_FO_2_Cimarron"
+			}
+		}
+	}		
+	fleet_oiler_3 = {
+		pool = {
+			icons = {
+				GFX_USA_FO_3_Neosho
+			}
+		}
+	}
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_1_Caldwell"
+				"GFX_USA_DD_1_Clemson"
+				"GFX_USA_DD_1_Wickes"
+				"GFX_USA_DD_1_Farragut"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_2_Bagley"
+				"GFX_USA_DD_2_Benham"
+				"GFX_USA_DD_2_Mahan"
+				"GFX_USA_DD_2_Porter"
+				"GFX_USA_DD_2_Sims"
+				"GFX_USA_DD_2_Somers"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_3_Allen_M_Sumner"
+				"GFX_USA_DD_3_Benson"
+				"GFX_USA_DD_3_Fletcher"
+				"GFX_USA_DD_3_Gleaves"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_4_Gearing"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_5_Norfolk"
+				"GFX_USA_DD_5_Mitscher"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_6_Forrest_Sherman"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_6_Forrest_Sherman"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_7_Farragut"
+				"GFX_USA_DD_7_Charles_F_Adams"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_1_Omaha"
+				"GFX_USA_CA_1_Northampton"
+				"GFX_USA_CA_1_Pensacola"
+				"GFX_USA_CA_1_Portland"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_2_Brooklyn"
+				"GFX_USA_CL_2_St_Louis"
+				"GFX_USA_CA_2_New_Orleans"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_3_Cleveland"	
+				"GFX_USA_CL_3_Oakland"
+				"GFX_USA_CA_3_Wichita"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_4_Fargo"
+				"GFX_USA_CL_4_Juneau"
+				"GFX_USA_CA_4_Oregon_City"
+				"GFX_USA_CA_4_Baltimore"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_5_CL_154"
+				"GFX_USA_CL_5_Worcester"
+				"GFX_USA_CA_5_S_511_64"
+				"GFX_USA_CA_5_Des_Moines"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_6_Galveston"
+				"GFX_USA_CL_6_Providence"
+				"GFX_USA_CA_6_Boston"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_7_Bainbridge"
+				"GFX_USA_CL_7_Belknap"
+				"GFX_USA_CL_7_Leahy"
+				"GFX_USA_CA_7_Albany"
+				"GFX_USA_CA_7_Long_Beach"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_BC_1_Lexington"
+				"GFX_USA_BB_1_Wyoming_class"
+				"GFX_USA_BB_1_Tennessee_class"
+				"GFX_USA_BB_1_Pennsylvania_class"
+				"GFX_USA_BB_1_New_York_class"
+				"GFX_USA_BB_1_New_Mexico_class"
+				"GFX_USA_BB_1_Nevada_class"
+				"GFX_USA_BB_1_Colorado_class"
+				"GFX_USA_BB_1_South_Dakota_class"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_BC_2_Design_8_Cruiser_Killer"
+				"GFX_USA_BC_2_1938_proposal"
+				"GFX_USA_BB_2_BB_55_Scheme_B"
+				"GFX_USA_BB_2_BB_55_Scheme_C"
+				"GFX_USA_BB_2_BB_55_Scheme_D"
+				"GFX_USA_BB_2_South_Dakota"
+				"GFX_USA_BB_2_North_Carolina"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"GFX_USA_BC_3_CA_2D"
+				"GFX_USA_BC_3_S_511_6"
+				"GFX_USA_BB_3_Iowa"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"GFX_USA_BC_4_Alaska"
+				"GFX_USA_BB_4_Kentucky_AA_BB"
+				"GFX_USA_BB_4_Missouri"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"GFX_USA_BC_5_Hawaii_BCG_Conversion"
+				"GFX_USA_BB_5_Kentucky_BBG"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_SHBB_1_Montana"
+				"GFX_USA_SHBB_1_BB_57_Study_II"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_SHBB_2_Montana_2"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_SS_1_S"
+				"GFX_USA_SS_1_Porpoise"
+				"GFX_USA_SS_1_Barracuda"
+				"GFX_USA_SS_1_Cachalot"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_SS_2_Tambor"
+				"GFX_USA_SS_2_Salmon"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"GFX_USA_SS_3_Mackarel"
+				"GFX_USA_SS_3_Balao"
+				"GFX_USA_SS_3_Gato"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"GFX_USA_SS_4_Tench"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"GFX_USA_SS_5_Barracuda"
+				"GFX_USA_SS_5_Tang"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"GFX_USA_SSG_1_Grayback"
+				"GFX_USA_SSG_1_Halibut"
+				"GFX_USA_SSG_1_George_Washington"
+				"GFX_USA_SS_6_Seawolf"
+				"GFX_USA_SS_6_Nautilus"
+				"GFX_USA_SS_6_Barbel"
+				"GFX_USA_SS_6_Darter"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_escort_carrier = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_1_CVE_Saipan"
+				"GFX_USA_CV_1_CVE_Bogue"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_1_BB_Lexington"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_1_CVE_Saipan"
+				"GFX_USA_CV_1_CA_Independence"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_2_Yorktown"
+				"GFX_USA_CV_2_Ranger"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_3_Wasp"
+				"GFX_USA_CV_3_Wasp"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_4_Midway"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_5_United_States"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_6_Forrestal"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_7_Enterprise"
+				"GFX_USA_CV_7_Kitty_Hawk"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"GFX_USA_CT_1_Torpedo_Atlanta"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"GFX_USA_PsSc_1_S_511_14"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"GFX_USA_SSC_1_Narwhal"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"GFX_USA_MSS_1_O_class"
+			}
+		}
+	}
+	ship_hull_tanker_submarine_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_SST_1_Guavina"
+			}
+		}
+	}
+}
+
+JAP = {
+
+	ship_hull_carrier_submarine_1 = {
+		pool = {
+			weight = 5501
+			icons = {
+				"GFX_JAP_SSC_1_I_400"
+			}
+		}
+	}
+	ship_hull_carrier_submarine_2 = {
+		pool = {
+			weight = 5501
+			icons = {
+				"GFX_JAP_SSC_2_Fictional"
+			}
+		}
+	}
+	fleet_oiler_1 = {
+		pool = {
+			icons = {
+				"GFX_JAP_FO_1_Kazahaya"
+			}
+		}
+	}	
+	# fleet_oiler_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/JAP/FO/JAP_FO_2_Cimarron.dds"
+			# }
+		# }
+	# }		
+	fleet_oiler_3 = {
+		pool = {
+			icons = {
+				"GFX_JAP_FO_3_Aikoku_Maru"
+			}
+		}
+	}
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"GFX_JAP_DD_1_Mutsuki"
+				"GFX_JAP_DD_1_Minekaze"
+				"GFX_JAP_DD_1_Kamikaze"
+				"GFX_JAP_DD_1_Hatsuharu"
+				"GFX_JAP_DD_1_Fubuki"
+				"GFX_JAP_DD_1_Akatsuki"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"GFX_JAP_DD_2_Shiratsuyu"
+				"GFX_JAP_DD_2_Asashio"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"GFX_JAP_DD_3_Yugumo"
+				"GFX_JAP_DD_3_Shimakaze"
+				"GFX_JAP_DD_3_Kagero"
+				"GFX_JAP_DD_3_Akizuki"
+			}
+		}
+	}	
+	ship_hull_escort_carrier = {
+		pool = {
+			icons = {
+				"GFX_JAP_CVE_Taiyō"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"GFX_JAP_DD_4_Shimakaze_Kai"
+				"GFX_JAP_DD_4_Matsu"
+				"GFX_JAP_DD_4_Akizuki_Kai"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"GFX_JAP_DD_5_Harukaze"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"GFX_JAP_DD_6_Ayanami"
+				"GFX_JAP_DD_6_Akizuki"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"GFX_JAP_DDG_1_Amatsukaze"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"GFX_JAP_DD_7_Takatsuki"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CL_1_Yubari"
+				"GFX_JAP_CL_1_Tenryu"
+				"GFX_JAP_CL_1_Sendai"
+				"GFX_JAP_CL_1_Nagara"
+				"GFX_JAP_CL_1_Kuma"
+				"GFX_JAP_CA_1_Furutaka"
+				"GFX_JAP_CA_1_Aoba"
+				"GFX_JAP_CA_1_Myoko"
+				"GFX_JAP_CA_1_Takao"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CL_2_Kumano_AA_Cruiser"
+				"GFX_JAP_CL_2_C_39"
+				"GFX_JAP_CA_2_Suzuya_AA_Cruiser"
+				"GFX_JAP_CA_2_Tone"
+				"GFX_JAP_CA_2_Mogami"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CL_3_Oyodo"
+				"GFX_JAP_CL_3_Fictional_AA"
+				"GFX_JAP_CL_3_Agano"
+				"GFX_JAP_CA_3_Zao"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CL_4_Fictional"
+				"GFX_JAP_CL_4_Agano_Kai"
+				"GFX_JAP_CA_4_Fictional"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CL_5_Fictional_2"
+				"GFX_JAP_CL_5_Fictional_1"
+				"GFX_JAP_CA_5_Fictional"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CL_6_Fictional"
+				"GFX_JAP_CA_6_Fictional"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CL_7_Fictional_2"
+				"GFX_JAP_CL_7_Fictional"
+				"GFX_JAP_CA_7_Fictional_2"
+				"GFX_JAP_CA_7_Fictional"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_JAP_BC_1_Amagi"
+				"GFX_JAP_BC_1_Kongo"
+				"GFX_JAP_BB_1_Kongo"
+				"GFX_JAP_BB_1_Kawachi"
+				"GFX_JAP_BB_1_Fusō"
+				"GFX_JAP_BB_1_Fusō_pre37"
+				"GFX_JAP_BB_1_Ise"
+				"GFX_JAP_BB_1_Nagato"
+				"GFX_JAP_BB_1_Nagato_late"
+				"GFX_JAP_BB_1_Tosa"
+				"GFX_JAP_BB_1_Kii"
+				"GFX_JAP_BB_1_No13_Design_M"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_JAP_BC_2_1929_30000T"
+				"GFX_JAP_BB_2_Design_X"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"GFX_JAP_BC_3_B_65_late"
+				"GFX_JAP_BC_3_B_65_early"
+				"GFX_JAP_BB_3_A_140D"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"GFX_JAP_BC_4_fictional_B_65_refit"
+				"GFX_JAP_BB_4_A_140J3"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"GFX_JAP_BC_5_B_65_BCG_Conversion"
+				"GFX_JAP_BB_5_fictional_BBG"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_JAP_SHBB_1_Yamato"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_JAP_SHBB_2_A_150"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"GFX_JAP_SS_1_I_51_Kaidai"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"GFX_JAP_SS_2_Type_B"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"GFX_JAP_SS_3_Type_C"
+				"GFX_JAP_SS_3_Ro_100"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"GFX_JAP_SS_4_I_201"
+				"GFX_JAP_SS_4_Ha_201"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"GFX_JAP_SS_5_Oyashio"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"GFX_JAP_SSG_1_Fictional_B"
+				"GFX_JAP_SSG_1_Fictional"
+				"GFX_JAP_SS_6_Hayashio"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"GFX_JAP_CV_1_BB_Shinano"
+				"GFX_JAP_CV_1_BB_Akagi"
+				"GFX_JAP_CV_1_BB_Kaga"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"GFX_JAP_CV_1_CA_Chitose"
+				"GFX_JAP_CV_1_CA_Ibuki"
+				"GFX_JAP_CV_1_CA_Ryuho"
+				"GFX_JAP_CV_1_Hosho"
+				"GFX_JAP_CV_1_Ryūjō"
+				"GFX_JAP_CV_1_CA_Zuiho"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CV_2_Sōryū"
+				"GFX_JAP_CV_2_Hiryū"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CV_3_Taiho"
+				"GFX_JAP_CV_3_Shokaku"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CV_4_Kai_Taiho"
+				"GFX_JAP_CV_4_Unryu"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CV_5_Hayataka"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CV_6_Fictional"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"GFX_JAP_CV_7_Fictional"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"GFX_JAP_CT_1_Kitakami"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"GFX_JAP_PzSc_1_Yuzuru_20KT_Var_B"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"GFX_JAP_SSC_1_Type_A"
+				"GFX_JAP_SSC_1_Junsen"
+				"GFX_JAP_SS_2_Type_B"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"GFX_JAP_SSM_1_Type_A"
+				"GFX_JAP_SSM_1_Kairyū"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"GFX_JAP_SST_1_I_351"
+				"GFX_JAP_SST_1_I_361"
+			}
+		}
+	}
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"GFX_JAP_CVH_1_Hyuga"
+				"GFX_JAP_CVH_1_Shirane"
+				"GFX_JAP_CVH_1_Haruna"
+			}
+		}
+	}	
+}
+
+SOV = {
+	ship_hull_carrier_submarine_1 = {
+		pool = {
+			weight = 5501
+			icons = {
+				"GFX_SOV_SSV_1_Fictional" 
+			}
+		}
+	}
+	ship_hull_carrier_submarine_2 = {
+		pool = {
+			weight = 5501
+			icons = {
+				"GFX_SOV_SSV_2_Fictional"
+			}
+		}
+	}
+
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"GFX_SOV_CVH_1_Kiev"
+				"GFX_SOV_CVH_1_Moskva"
+			}
+		}
+	}	
+	ship_hull_escort_carrier = {
+		pool = {
+			icons = {
+				"GFX_SOV_CV_1_CVE_Fictional"
+			}
+		}
+	}
+	fleet_oiler_1 = {
+		pool = {
+			icons = {
+				"GFX_SOV_FO_1_Polyarnik"
+			}
+		}
+	}	
+	fleet_oiler_2 = {
+		pool = {
+			icons = {
+				"GFX_SOV_FO_1_Polyarnik"
+			}
+		}
+	}		
+	# fleet_oiler_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/SOV/FO/SOV_FO_3_Aikoku_Maru.dds"
+			# }
+		# }
+	# }
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"GFX_SOV_FO_1_Polyarnik"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"GFX_SOV_DD_2_Gnenvy"
+				"GFX_SOV_DD_2_Leningrad"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"GFX_SOV_DD_3_Ognevoy"
+				"GFX_SOV_DD_3_Storozhevoy"
+				"GFX_SOV_DD_3_Storozhevoy"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"GFX_SOV_DD_4_Kiev"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"GFX_SOV_DD_5_Skoryi"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				GFX_SOV_DD_6_Neustrashimy
+				"GFX_SOV_DD_6_Kotlin"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"GFX_SOV_DDG_1_Kildin"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"GFX_SOV_DD_7_Kashin"
+				"GFX_SOV_DD_7_Kanin"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CA_1_Krasnyi_Kavkaz"
+				"GFX_SOV_CL_1_Admiral_Nakhimov"
+				"GFX_SOV_CL_1_Svetlana"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CA_2_Project_26bis"
+				"GFX_SOV_CA_2_Project_26bis"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CA_3_Project_Kh"
+				"GFX_SOV_CL_3_Project_68I"
+				"GFX_SOV_CL_3_Chapayev"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CL_3_Chapayev"
+				"GFX_SOV_CL_3_Chapayev"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CA_5_Project_82"
+				"GFX_SOV_CL_5_Sverdlov"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CA_6_Project_66"
+				"GFX_SOV_CL_6_Project_65"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CA_7_Project_1126"
+				"GFX_SOV_CL_7_Project_68U2"
+				"GFX_SOV_CL_7_Kynda"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_SOV_BC_1_Izmail"
+				"GFX_SOV_BB_1_Marat"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_SOV_BC_2_Kronshtadt"
+				"GFX_SOV_BB_2_Project_21"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"GFX_SOV_BC_3_Project_22"
+				"GFX_SOV_BB_3_UP_41"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"GFX_SOV_BC_4_Stalingrad"
+				"GFX_SOV_BB_4_Type_A_KB_4_Project_23"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"GFX_SOV_BC_5_Stalingrad_BCG"
+				"GFX_SOV_BB_5_Sovetsky_Soyuz_BBG"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_SOV_SHBB_1_Project_23_final_design"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_SOV_SHBB_2_Project_24"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"GFX_SOV_SS_1_Schuka"
+				"GFX_SOV_SS_1_Leninets"
+				"GFX_SOV_SS_1_Dekabrist"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"GFX_SOV_SS_2_S_class"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"GFX_SOV_SS_3_S_class_XI_Series"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"GFX_SOV_SS_4_Whiskey"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"GFX_SOV_SS_5_Zulu"
+				"GFX_SOV_SS_5_Quebec"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"GFX_SOV_SSG_1_Juliett"
+				"GFX_SOV_SS_6_November"
+				"GFX_SOV_SS_6_Romeo"
+				"GFX_SOV_SS_6_Foxtrot"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"GFX_SOV_CV_1_BB_Izmail"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"GFX_SOV_CV_1_CA_Frunze"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CV_2_Project_71"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CV_3_Kostromitinov"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CV_4_Project_72"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CV_5_Project_69AV"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CV_5_Project_69AV"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"GFX_SOV_CV_7_Oryol"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"GFX_SOV_CT_1_Kirov_Torpedo_Cruiser"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"GFX_SOV_PzSc_1_Project_X"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {	
+			weight = 5502
+			icons = {
+				"GFX_SOV_SSC_1_K_class"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			weight = 5502
+			icons = {
+				"GFX_SOV_SSM_1_Malyutka"
+				"GFX_SOV_SSM_1_M_400_Blokha"
+			}
+		}
+	}
+	ship_hull_tanker_submarine_1 = {
+		pool = {
+			weight = 5502
+			icons = {
+				"GFX_SOV_SST_1_Pravda"
+			}
+		}
+	}
+}
+
+GER = {
+
+	ship_hull_carrier_submarine_1 = {
+	
+		pool = {
+			weight = 5501
+			icons = {
+				"GFX_GER_SSV_1_Type_IXC2" 
+			}
+		}
+	}
+	ship_hull_carrier_submarine_2 = {
+		pool = {
+			weight = 5501
+			icons = {
+				"GFX_GER_SSV_2_Fictional"
+			}
+		}
+	}
+	ship_hull_mega_carrier = {
+		pool = {
+			weight = 5501
+			icons = {
+				"GFX_GER_CVH_1_HC800"
+			}
+		}
+	}
+	# fleet_oiler_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/GER/FO/GER_FO_1_Polyarnik.dds"
+			# }
+		# }
+	# }	
+	# fleet_oiler_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/GER/FO/GER_FO_2_Khobi.dds"
+			# }
+		# }
+	# }		
+	fleet_oiler_3 = {
+		pool = {
+			icons = {
+				"GFX_GER_FO_3_Fictional"
+			}
+		}
+	}
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"GFX_GER_DD_1_Zerstorer_1934"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"GFX_GER_DD_2_Zerstorer_1938"
+				"GFX_GER_DD_2_Zerstorer_1936"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"GFX_GER_DD_3_Zerstorer_1942"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"GFX_GER_DD_4_Zerstorer_1945"
+				"GFX_GER_DD_4_Zerstorer_1944"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"GFX_GER_DD_5_Koln"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"GFX_GER_DD_6_Hamburg"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"GFX_GER_DDG_1_Hamburg"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"GFX_GER_DD_7_Lutjens"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"GFX_GER_CA_1_D_class"
+				"GFX_GER_CL_1_Emdem"
+				"GFX_GER_CL_1_Konigsberg"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"GFX_GER_CA_2_Admiral_Hipper"
+				"GFX_GER_CL_2_Spähkreuzer_1938"
+				"GFX_GER_CL_2_Leipzig"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"GFX_GER_CA_3_P_class"
+				"GFX_GER_CL_3_Eendracht"
+				"GFX_GER_CL_3_M_class"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"GFX_GER_CA_4_Handelszerstörer_Entwurf_III"
+				"GFX_GER_CL_4_Motorkreuzer_1938"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"GFX_GER_CA_5_Handelszerstörer_KIG"
+				"GFX_GER_CL_5_Q_class"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"GFX_GER_CA_6_fictional"
+				"GFX_GER_CL_6_Fictional"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"GFX_GER_GER_CA_7_fictional_CAG"
+				"GFX_GER_CL_7_Fictional_CLG"
+			}
+		}
+	}
+	ship_hull_pre_dreadnought = {
+		pool = {
+			icons = {
+				"GFX_GER_BB_0_Deutschland"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_GER_BC_1_Schlachtkreuzer_1928"
+				"GFX_GER_BB_1_L28"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_GER_BC_2_Scharnhorst_28cm_B"
+				"GFX_GER_BC_2_Scharnhorst_28cm"
+				"GFX_GER_BB_2_Scharnhorst"
+				"GFX_GER_BB_2_Scharnhorst_38cm"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"GFX_GER_BC_3_Schlachtschiff_F"
+				"GFX_GER_BB_3_Bismarck"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"GFX_GER_BC_4_Schlachtkreuzer_O"
+				"GFX_GER_BB_4_H_39"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"GFX_GER_BC_5_Schlachtkreuzer_P_BCG"
+				"GFX_GER_BB_5_H_39_BBG"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_GER_SHBB_1_H_40"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_GER_SHBB_2_H_41" 
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"GFX_GER_SS_1_Type_II"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"GFX_GER_SS_2_Type_VII"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"GFX_GER_SS_3_Type_IX"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"GFX_GER_SS_4_Type_XXI"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"GFX_GER_SS_5_Type_XXIII"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"GFX_GER_SSG_1_Fictional"
+				"GFX_GER_SS_6_Type_CCIX"
+				"GFX_GER_SS_6_Type_CCVI"
+				"GFX_GER_SS_6_Type_CCV"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				GFX_GER_CV_1_BB_Grossflugzeugkreuzer_A
+				"GFX_GER_CV_1_BB_Bismarck_conversion"
+				"GFX_GER_CV_1_BB_Jade"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"GFX_GER_CV_1_CA_Ausonia"
+				"GFX_GER_CV_1_CA_Seydlitz"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"GFX_GER_CV_2_Flugzeugtrager_15k"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"GFX_GER_CV_3_Graf_Zeppelin"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"GFX_GER_CV_4_Europa"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"GFX_GER_CV_5_fictional"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"GFX_GER_CV_6_fictional"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"GFX_GER_CV_7_fictional"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"GFX_GER_CT_1_Torpedo_Spähkreuzer_1938"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"GFX_GER_PzSc_Deutschland"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"GFX_GER_SSC_1_Type_XI"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"GFX_GER_SSM_1_Biber"
+			}
+		}
+	}
+	ship_hull_tanker_submarine_1 = {
+		pool = {
+			weight = 5502
+			icons = {
+				"GFX_GER_SST_1_Type_XIV"
+			}
+		}
+	}
+}
+
+ENG = {
+	# fleet_oiler_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ENG/FO/ENG_FO_1_Polyarnik.dds"
+			# }
+		# }
+	# }	
+	# fleet_oiler_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ENG/FO/ENG_FO_2_Khobi.dds"
+			# }
+		# }
+	# }		
+	# fleet_oiler_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ENG/FO/ENG_FO_3_Fictional.dds"
+			# }
+		# }
+	# }	
+	ship_hull_mega_carrier = {
+		pool = {
+			weight = 5502
+			icons = {
+				"GFX_ENG_CVH_1_Bulwark"
+			}
+		}
+	}	
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"GFX_ENG_DD_1_V_and_W"
+				"GFX_ENG_DD_1_S"
+				"GFX_ENG_DD_1_Town"
+				"GFX_ENG_DD_1_A_and_B"
+				"GFX_ENG_DD_1_E_and_F"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"GFX_ENG_DD_2_Tribal"
+				"GFX_ENG_DD_2_J_K_and_N"
+				"GFX_ENG_DD_2_I_class"
+				"GFX_ENG_DD_2_G_and_H"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"GFX_ENG_DD_3_O_and_P"
+				"GFX_ENG_DD_3_L_and_M"
+				"GFX_ENG_DD_3_C_class"
+				"GFX_ENG_DD_3_Hunt"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"GFX_ENG_DD_4_Weapon"
+				"GFX_ENG_DD_4_Battle"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"GFX_ENG_DD_5_Daring"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"GFX_ENG_DD_6_Super_Daring"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"GFX_ENG_DDG_1_Daring_Conversion"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"GFX_ENG_DD_7_GW24"
+				"GFX_ENG_DD_7_County"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CA_1_York"
+				"GFX_ENG_CA_1_Hawkins"
+				"GFX_ENG_CA_1_County"
+				"GFX_ENG_CL_1_Arethusa"
+				"GFX_ENG_CL_1_C_class"
+				"GFX_ENG_CL_1_Danae"
+				"GFX_ENG_CL_1_Emerald"
+				"GFX_ENG_CL_1_Leander"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CA_2_Design_II_Armoured_Cruiser"
+				"GFX_ENG_CA_2_Design_I_Armoured_Cruiser"
+				"GFX_ENG_CL_2_Town"
+				"GFX_ENG_CL_2_Dido"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CA_3_Design_A_Heavy_Cruiser"
+				"GFX_ENG_CL_3_Fiji"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CA_4_Churchill_Design_E"
+				"GFX_ENG_CL_4_Minotaur_1943"
+				"GFX_ENG_CL_4_Neptune"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CA_5_Admiral"
+				"GFX_ENG_CL_5_Minotaur"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CA_6_GW1"
+				"GFX_ENG_CL_6_Tiger"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CA_7_GW95"
+				"GFX_ENG_CL_7_Tiger_CLG"
+				"GFX_ENG_CL_7_GW96"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_ENG_BC_1_Admiral"
+				"GFX_ENG_BC_1_Renown"
+				"GFX_ENG_BC_1_Hood"
+				"GFX_ENG_BC_1_G3"
+				"GFX_ENG_BB_1_King_George_V"
+				"GFX_ENG_BB_1_Iron_Duke"
+				"GFX_ENG_BB_1_Queen_Elizabeth"
+				"GFX_ENG_BB_1_Revenge"
+				"GFX_ENG_BB_1_Nelson"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_ENG_BC_2_10in_Large_Cruiser"
+				"GFX_ENG_BB_2_King_George_V"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"GFX_ENG_BC_3_12in_Large_Cruiser"
+				"GFX_ENG_BB_3_Lion"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"GFX_ENG_BC_4_Design_14A_38"
+				"GFX_ENG_BB_4_Vanguard"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"GFX_ENG_BB_5_Lion_BBG_Conversion"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_ENG_SHBB_1_Design_O3"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_ENG_SHBB_2_Fictional"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"GFX_ENG_SS_1_Grampus"
+				"GFX_ENG_SS_1_S_class"
+				"GFX_ENG_SS_1_River"
+				"GFX_ENG_SS_1_O_class"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"GFX_ENG_SS_2_U_class"
+				"GFX_ENG_SS_2_T_class"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"GFX_ENG_SS_3_V_class"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"GFX_ENG_SS_4_Amphion"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"GFX_ENG_SS_5_Explorer"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"GFX_ENG_SSG_1_Resolution"
+				"GFX_ENG_SS_6_Dreadnought"
+				"GFX_ENG_SS_6_Oberon"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"GFX_ENG_CV_1_BB_Eagle"
+				"GFX_ENG_CV_1_BB_Courageous"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"GFX_ENG_CV_1_CA_Hermes"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CV_2_Ark_Royal"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CV_3_Illustrious"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CV_4_Malta"
+				"GFX_ENG_CV_4_Implacable"
+				"GFX_ENG_CV_4_Colossus"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CV_5_Majestic"
+				"GFX_ENG_CV_5_Audacious"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CV_6_Centaur"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"GFX_ENG_CV_7_Queen_Elizabeth"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"GFX_ENG_CT_1_Danae_Torpedo"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"GFX_ENG_PzSc_1_Lilicrap_20K"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"GFX_ENG_SSC_1_X1_class"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"GFX_ENG_SSM_1_X_class"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"GFX_ENG_SST_1_Fictional"
+			}
+		}
+	}
+}
+
+ITA = {
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"GFX_ITA_CVH_1_Vittorio_Veneto"
+				"GFX_ITA_CVH_1_Andrea_Doria"
+			}
+		}
+	}
+	# fleet_oiler_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ITA/FO/ITA_FO_1_Polyarnik.dds"
+			# }
+		# }
+	# }	
+	# fleet_oiler_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ITA/FO/ITA_FO_2_Khobi.dds"
+			# }
+		# }
+	# }		
+	# fleet_oiler_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ITA/FO/ITA_FO_3_Fictional.dds"
+			# }
+		# }
+	# }
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"GFX_ITA_DD_1_Navigatori"
+				"GFX_ITA_DD_1_Folgore"
+				"GFX_ITA_DD_1_Freccia"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"GFX_ITA_DD_2_Soldati"
+				"GFX_ITA_DD_2_Alfredo_Oriani"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"GFX_ITA_DD_3_Ansaldo_1939_design"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"GFX_ITA_DD_4_Comandanti_Medaglia_d'Oro"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"GFX_ITA_DD_5_San_Giorgio"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"GFX_ITA_DD_6_Impetuoso"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"GFX_ITA_DDG_1_Impetuoso"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"GFX_ITA_DD_7_Impavido"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CA_1_Trento"
+				"GFX_ITA_CA_1_Bolzano"
+				"GFX_ITA_CL_1_Condottieri"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CA_2_Ansaldo_Project_770"
+				"GFX_ITA_CA_2_Zara"
+				"GFX_ITA_CL_2_Capitani_Romani"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CA_3_Ansaldo_UP102"
+				"GFX_ITA_CL_3_OTO_Scout_Cruiser"
+				"GFX_ITA_CL_3_Etna"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CA_4_Ansaldo_9x203"
+				"GFX_ITA_CL_4_Ansaldo_12x152"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CA_5_Fictional"
+				"GFX_ITA_CL_5_Fictional"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CA_6_Fictional"
+				"GFX_ITA_CL_6_Fictional"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CA_7_Fictional"
+				"GFX_ITA_CL_7_Fictional"
+				"GFX_ITA_CL_7_Duca_degli_Abruzzi_CLG"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_ITA_BC_1_OTO_Livorno_23K"
+				"GFX_ITA_BB_1_Caio_Duilio"
+				"GFX_ITA_BB_1_Conti_di_Cavour"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_ITA_BC_2_OTO_Livorno_26K"
+				"GFX_ITA_BB_2_Littorio"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"GFX_ITA_BC_3_Ansaldo_Big_Gun_Cruiser"
+				"GFX_ITA_BB_3_Ansaldo_UP41"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"GFX_ITA_BC_4_Pansarskepp_Ansaldo"
+				"GFX_ITA_BB_4_Fictional"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"GFX_ITA_BC_5_Fictional"
+				"GFX_ITA_BB_5_Fictional"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_ITA_SHBB_1_Cassone_design"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_ITA_SHBB_2_fictional"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"GFX_ITA_SS_1_Argonauta"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"GFX_ITA_SS_2_Perla"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"GFX_ITA_SS_3_Marconi"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"GFX_ITA_SS_4_Flutto"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"GFX_ITA_SS_5_Toti"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"GFX_ITA_SSG_1_Fictional"
+				"GFX_ITA_SS_6_Sauro"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"GFX_ITA_CV_1_BB_Francesco_Caracciolo"
+				"GFX_ITA_CV_1_BB_Bonfiglietti_design"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"GFX_ITA_CV_1_CA_Sparviero"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CV_2_Aquila"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CV_3_Fictional"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CV_4_Fictional"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CV_5_Fictional"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CV_6_Fictional"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"GFX_ITA_CV_7_Fictional"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"GFX_ITA_CT_1_Capitani_Romani_Torpedo"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"GFX_ITA_1_PsSC_Ansaldo_UP_707"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"GFX_ITA_SSC_1_Ettore_Fieramosca"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"GFX_ITA_SSM_1_CB"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"GFX_ITA_SST_1_1934_Tanker_design"
+			}
+		}
+	}
+}
+
+FRA = {
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"GFX_FRA_CVH_1_Jeanne_DArc"
+			}
+		}
+	}
+	# fleet_oiler_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/FRA/FO/FRA_FO_1_Polyarnik.dds"
+			# }
+		# }
+	# }	
+	# fleet_oiler_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/FRA/FO/FRA_FO_2_Khobi.dds"
+			# }
+		# }
+	# }		
+	fleet_oiler_3 = {
+		pool = {
+			icons = {
+				"GFX_FRA_FO_3_Durance"
+			}
+		}
+	}
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"GFX_FRA_DD_1_Bourrasque"
+				"GFX_FRA_DD_1_Guepard"
+				"GFX_FRA_DD_1_Vauquelin"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"GFX_FRA_DD_2_Le_Fantasque"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"GFX_FRA_DD_3_Mogador"
+				"GFX_FRA_DD_3_Le_Hardi"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"GFX_FRA_DD_4_Project_148A"
+				"GFX_FRA_DD_4_Improved_Mogador"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"GFX_FRA_DD_5_T_47"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"GFX_FRA_DD_6_T_53"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"GFX_FRA_DDG_1_T_56"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"GFX_FRA_DD_7_Suffren"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CA_1_Suffren"
+				"GFX_FRA_CA_1_Duquesne"
+				"GFX_FRA_CL_1_Jeanne_DArc"
+				"GFX_FRA_CL_1_Duguay_Trouin"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CA_2_Algerie"
+				"GFX_FRA_CL_2_La_Galissoriere"
+				"GFX_FRA_CL_2_Emile_Bertin"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CA_3_C5SA1"
+				"GFX_FRA_CL_3_De_Grasse"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CA_4_Saint_Louis"
+				"GFX_FRA_CL_4_De_Grasse_Late"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CA_5_Fictional"
+				"GFX_FRA_CL_5_De_Grasse_Rebuild"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CA_6_Fictional"
+				"GFX_FRA_CL_6_Colbert"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CA_7_Fictional"
+				"GFX_FRA_CL_7_Colbert_CLG"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_FRA_BC_1_37000-tonnes_B1"
+				"GFX_FRA_BB_1_Courbet"
+				"GFX_FRA_BB_1_Bretagne"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_FRA_BC_2_Dunkerque"
+				"GFX_FRA_BB_2_Richelieu"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"GFX_FRA_BC_3_Fictional"
+				"GFX_FRA_BB_3_Alsace_design_3"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"GFX_FRA_BC_4_Fictional"
+				"GFX_FRA_BB_4_Alsace_final_design"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"GFX_FRA_BC_5_Fictional"
+				"GFX_FRA_BB_5_Fictional"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_FRA_SHBB_1_Fictional"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_FRA_SHBB_2_fictional"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"GFX_FRA_SS_1_Saphir"
+				"GFX_FRA_SS_1_Requin"
+				"GFX_FRA_SS_1_Redoutable"
+				"GFX_FRA_SS_1_Orion"
+				"GFX_FRA_SS_1_Diane"
+				"GFX_FRA_SS_1_Argonaute"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"GFX_FRA_SS_2_Minerve"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"GFX_FRA_SS_3_Aurore"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"GFX_FRA_SS_4_Narval"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"GFX_FRA_SS_5_Aréthuse"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"GFX_FRA_SSG_1_Redoutable"
+				"GFX_FRA_SS_6_Daphné"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"GFX_FRA_CV_1_BB_Béarn"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"GFX_FRA_CV_1_CA_Duquesne"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CV_2_Joffre"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CV_3_Painlévé"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CV_4_Jean_Bart"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CV_5_PA28"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CV_6_Clemenceau"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"GFX_FRA_CV_7_Fictional"
+				"GFX_FRA_CV_7_PA58"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"GFX_FRA_CT_1_Emile_Bertin_Torpedo"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"GFX_FRA_PzSc_1_Croiseur_Protégé_de_23690"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"GFX_FRA_SSC_1_Surcouf"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"GFX_FRA_SSM_1_S_622_Seehund"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"GFX_FRA_SST_1_Surcouf_tanker"
+			}
+		}
+	}
+}
+default = {	
+	ship_hull_carrier = {
+		pool = {
+			icons = {
+				"GFX_GER_CVH_1_HC800"
+				"GFX_JAP_CVH_1_Hyuga"
+				"GFX_JAP_CVH_1_Shirane"
+				"GFX_JAP_CVH_1_Haruna"
+				"GFX_SOV_CVH_1_Kiev"
+				"GFX_SOV_CVH_1_Moskva"
+				"GFX_ENG_CVH_1_Bulwark"
+				"GFX_FRA_CVH_1_Jeanne_DArc"
+				"GFX_ITA_CVH_1_Vittorio_Veneto"
+				"GFX_ITA_CVH_1_Andrea_Doria"
+				"GFX_USA_CVH_1_Iwo_Jima"
+				"GFX_USA_CV_1_CA_Independence"
+				"GFX_USA_CV_1_BB_Lexington"
+				"GFX_JAP_CV_1_BB_Shinano"
+				"GFX_JAP_CV_1_BB_Akagi"
+				"GFX_JAP_CV_1_BB_Kaga"
+				"GFX_SOV_CV_1_BB_Izmail"
+				"GFX_GER_CV_1_BB_Grossflugzeugkreuzer_A"
+				"GFX_GER_CV_1_BB_Bismarck_conversion"
+				"GFX_GER_CV_1_BB_Jade"
+				"GFX_ENG_CV_1_BB_Eagle"
+				"GFX_ENG_CV_1_BB_Courageous"
+				"GFX_ITA_CV_1_BB_Francesco_Caracciolo"
+				"GFX_ITA_CV_1_BB_Bonfiglietti_design"
+				"GFX_FRA_CV_1_BB_Béarn"
+				"GFX_USA_CV_1_CVE_Saipan"
+				"GFX_JAP_CV_1_CA_Chitose"
+				"GFX_JAP_CV_1_CA_Ibuki"
+				"GFX_JAP_CV_1_CA_Ryuho"
+				"GFX_JAP_CV_1_Hosho"
+				"GFX_JAP_CV_1_Ryūjō"
+				"GFX_JAP_CV_1_CA_Zuiho"
+				"GFX_SOV_CV_1_CA_Frunze"
+				"GFX_GER_CV_1_CA_Ausonia"
+				"GFX_GER_CV_1_CA_Seydlitz"
+				"GFX_ENG_CV_1_CA_Hermes"
+				"GFX_ITA_CV_1_CA_Sparviero"
+				"GFX_FRA_CV_1_CA_Duquesne"
+				"GFX_USA_CV_2_Yorktown"
+				"GFX_USA_CV_2_Ranger"
+				"GFX_JAP_CV_2_Sōryū"
+				"GFX_JAP_CV_2_Hiryū"
+				"GFX_SOV_CV_2_Project_71"
+				"GFX_GER_CV_2_Flugzeugtrager_15k"
+				"GFX_ENG_CV_2_Ark_Royal"
+				"GFX_ITA_CV_2_Aquila"
+				"GFX_FRA_CV_2_Joffre"
+				"GFX_USA_CV_3_Wasp"
+				"GFX_USA_CV_3_Wasp"
+				"GFX_JAP_CV_3_Taiho"
+				"GFX_JAP_CV_3_Shokaku"
+				"GFX_SOV_CV_3_Kostromitinov"
+				"GFX_GER_CV_3_Graf_Zeppelin"
+				"GFX_ENG_CV_3_Illustrious"
+				"GFX_ITA_CV_3_Fictional"
+				"GFX_FRA_CV_3_Painlévé"
+				"GFX_USA_CV_4_Midway"
+				"GFX_JAP_CV_4_Kai_Taiho"
+				"GFX_JAP_CV_4_Unryu"
+				"GFX_SOV_CV_4_Project_72"
+				"GFX_GER_CV_4_Europa"
+				"GFX_ENG_CV_4_Malta"
+				"GFX_ENG_CV_4_Implacable"
+				"GFX_ENG_CV_4_Colossus"
+				"GFX_ITA_CV_4_Fictional"
+				"GFX_FRA_CV_4_Jean_Bart"
+				"GFX_USA_CV_5_United_States"
+				"GFX_JAP_CV_5_Hayataka"
+				"GFX_SOV_CV_5_Project_69AV"
+				"GFX_GER_CV_5_fictional"
+				"GFX_ENG_CV_5_Majestic"
+				"GFX_ENG_CV_5_Audacious"
+				"GFX_ITA_CV_5_Fictional"
+				"GFX_FRA_CV_5_PA28"
+				"GFX_USA_CV_6_Forrestal"
+				"GFX_JAP_CV_6_Fictional"
+				"GFX_SOV_CV_5_Project_69AV"
+				"GFX_GER_CV_6_fictional"
+				"GFX_ENG_CV_6_Centaur"
+				"GFX_ITA_CV_6_Fictional"
+				"GFX_FRA_CV_6_Clemenceau"
+				"GFX_USA_CV_7_Enterprise"
+				"GFX_USA_CV_7_Kitty_Hawk"
+				"GFX_JAP_CV_7_Fictional"
+				"GFX_SOV_CV_7_Oryol"
+				"GFX_GER_CV_7_fictional"
+				"GFX_ENG_CV_7_Queen_Elizabeth"
+				"GFX_ITA_CV_7_Fictional"
+				"GFX_FRA_CV_7_Fictional"
+				"GFX_FRA_CV_7_PA58"
+			}
+		}
+		pool = {
+			models = { 
+				carrier_entity
+				ship_hull_super_carrier_entity
+			 }
+		}
+	}
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"GFX_GER_CVH_1_HC800"
+				"GFX_JAP_CVH_1_Hyuga"
+				"GFX_JAP_CVH_1_Shirane"
+				"GFX_JAP_CVH_1_Haruna"
+				"GFX_SOV_CVH_1_Kiev"
+				"GFX_SOV_CVH_1_Moskva"
+				"GFX_ENG_CVH_1_Bulwark"
+				"GFX_FRA_CVH_1_Jeanne_DArc"
+				"GFX_ITA_CVH_1_Vittorio_Veneto"
+				"GFX_ITA_CVH_1_Andrea_Doria"
+				"GFX_USA_CVH_1_Iwo_Jima"
+			}
+		}
+		pool = {
+			models = { 
+				carrier_entity
+			 }
+		}
+	}
+	ship_hull_escort_carrier = {
+		pool = {
+			icons = {
+				"GFX_JAP_CVE_Taiyō"
+				"GFX_SOV_CV_1_CVE_Fictional"
+				"GFX_USA_CV_1_CVE_Bogue"
+				"GFX_USA_CV_1_CVE_Saipan"
+			}
+		}
+		pool = {
+			models = { 
+				carrier_entity
+			 }
+		}
+	}
+	fleet_oiler_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_FO_1_Kaweah"
+				"GFX_JAP_FO_1_Kazahaya"
+				"GFX_SOV_FO_1_Polyarnik"
+			}
+		}
+	}	
+	fleet_oiler_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_FO_2_Cimarron"
+				"GFX_SOV_FO_1_Polyarnik"
+			}
+		}
+	}		
+	fleet_oiler_3 = {
+		pool = {
+			icons = {
+				"GFX_USA_FO_3_Neosho"
+				"GFX_JAP_FO_3_Aikoku_Maru"
+				"GFX_GER_FO_3_Fictional"
+				"GFX_FRA_FO_3_Durance"
+			}
+		}
+	}
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_1_Caldwell"
+				"GFX_USA_DD_1_Clemson"
+				"GFX_USA_DD_1_Wickes"
+				"GFX_USA_DD_1_Farragut"
+				"GFX_JAP_DD_1_Mutsuki"
+				"GFX_JAP_DD_1_Minekaze"
+				"GFX_JAP_DD_1_Kamikaze"
+				"GFX_JAP_DD_1_Hatsuharu"
+				"GFX_JAP_DD_1_Fubuki"
+				"GFX_JAP_DD_1_Akatsuki"
+				"GFX_SOV_FO_1_Polyarnik"
+				"GFX_GER_FO_3_Fictional"
+				"GFX_ENG_DD_1_V_and_W"
+				"GFX_ENG_DD_1_S"
+				"GFX_ENG_DD_1_Town"
+				"GFX_ENG_DD_1_A_and_B"
+				"GFX_ENG_DD_1_E_and_F"
+				"GFX_ITA_DD_1_Navigatori"
+				"GFX_ITA_DD_1_Folgore"
+				"GFX_ITA_DD_1_Freccia"
+				"GFX_FRA_DD_1_Bourrasque"
+				"GFX_FRA_DD_1_Guepard"
+				"GFX_FRA_DD_1_Vauquelin"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_2_Bagley"
+				"GFX_USA_DD_2_Benham"
+				"GFX_USA_DD_2_Mahan"
+				"GFX_USA_DD_2_Porter"
+				"GFX_USA_DD_2_Sims"
+				"GFX_USA_DD_2_Somers"
+				"GFX_JAP_DD_2_Shiratsuyu"
+				"GFX_JAP_DD_2_Asashio"
+				"GFX_SOV_DD_2_Gnenvy"
+				"GFX_SOV_DD_2_Leningrad"
+				"GFX_GER_DD_2_Zerstorer_1938"
+				"GFX_GER_DD_2_Zerstorer_1936"
+				"GFX_ENG_DD_2_Tribal"
+				"GFX_ENG_DD_2_J_K_and_N"
+				"GFX_ENG_DD_2_I_class"
+				"GFX_ENG_DD_2_G_and_H"
+				"GFX_ITA_DD_2_Soldati"
+				"GFX_ITA_DD_2_Alfredo_Oriani"
+				"GFX_FRA_DD_2_Le_Fantasque"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_3_Allen_M_Sumner"
+				"GFX_USA_DD_3_Benson"
+				"GFX_USA_DD_3_Fletcher"
+				"GFX_USA_DD_3_Gleaves"
+				"GFX_JAP_DD_3_Yugumo"
+				"GFX_JAP_DD_3_Shimakaze"
+				"GFX_JAP_DD_3_Kagero"
+				"GFX_JAP_DD_3_Akizuki"
+				"GFX_SOV_DD_3_Ognevoy"
+				"GFX_SOV_DD_3_Storozhevoy"
+				"GFX_SOV_DD_3_Storozhevoy"
+				"GFX_GER_DD_3_Zerstorer_1942"
+				"GFX_ENG_DD_3_O_and_P"
+				"GFX_ENG_DD_3_L_and_M"
+				"GFX_ENG_DD_3_C_class"
+				"GFX_ENG_DD_3_Hunt"
+				"GFX_ITA_DD_3_Ansaldo_1939_design"
+				"GFX_FRA_DD_3_Mogador"
+				"GFX_FRA_DD_3_Le_Hardi"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_4_Gearing"
+				"GFX_JAP_DD_4_Shimakaze_Kai"
+				"GFX_JAP_DD_4_Matsu"
+				"GFX_JAP_DD_4_Akizuki_Kai"
+				"GFX_SOV_DD_4_Kiev"
+				"GFX_GER_DD_4_Zerstorer_1945"
+				"GFX_GER_DD_4_Zerstorer_1944"
+				"GFX_ENG_DD_4_Weapon"
+				"GFX_ENG_DD_4_Battle"
+				"GFX_ITA_DD_4_Comandanti_Medaglia_d'Oro"
+				"GFX_FRA_DD_4_Project_148A"
+				"GFX_FRA_DD_4_Improved_Mogador"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_5_Norfolk"
+				"GFX_USA_DD_5_Mitscher"
+				"GFX_JAP_DD_5_Harukaze"
+				"GFX_SOV_DD_5_Skoryi"
+				"GFX_GER_DD_5_Koln"
+				"GFX_ENG_DD_5_Daring"
+				"GFX_ITA_DD_5_San_Giorgio"
+				"GFX_FRA_DD_5_T_47"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_6_Forrest_Sherman"
+				"GFX_JAP_DD_6_Ayanami"
+				"GFX_JAP_DD_6_Akizuki"
+				GFX_SOV_DD_6_Neustrashimy
+				"GFX_SOV_DD_6_Kotlin"
+				"GFX_GER_DD_6_Hamburg"
+				"GFX_ENG_DD_6_Super_Daring"
+				"GFX_ITA_DD_6_Impetuoso"
+				"GFX_FRA_DD_6_T_53"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_6_Forrest_Sherman"
+				"GFX_JAP_DDG_1_Amatsukaze"
+				"GFX_SOV_DDG_1_Kildin"
+				"GFX_GER_DDG_1_Hamburg"
+				"GFX_ENG_DDG_1_Daring_Conversion"
+				"GFX_ITA_DDG_1_Impetuoso"
+				"GFX_FRA_DDG_1_T_56"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"GFX_USA_DD_7_Farragut"
+				"GFX_USA_DD_7_Charles_F_Adams"
+				"GFX_JAP_DD_7_Takatsuki"
+				"GFX_SOV_DD_7_Kashin"
+				"GFX_SOV_DD_7_Kanin"
+				"GFX_GER_DD_7_Lutjens"
+				"GFX_ENG_DD_7_GW24"
+				"GFX_ENG_DD_7_County"
+				"GFX_ITA_DD_7_Impavido"
+				"GFX_FRA_DD_7_Suffren"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_1_Omaha"
+				"GFX_USA_CA_1_Northampton"
+				"GFX_USA_CA_1_Pensacola"
+				"GFX_USA_CA_1_Portland"
+				"GFX_JAP_CL_1_Yubari"
+				"GFX_JAP_CL_1_Tenryu"
+				"GFX_JAP_CL_1_Sendai"
+				"GFX_JAP_CL_1_Nagara"
+				"GFX_JAP_CL_1_Kuma"
+				"GFX_JAP_CA_1_Furutaka"
+				"GFX_JAP_CA_1_Aoba"
+				"GFX_JAP_CA_1_Myoko"
+				"GFX_JAP_CA_1_Takao"
+				"GFX_SOV_CA_1_Krasnyi_Kavkaz"
+				"GFX_SOV_CL_1_Admiral_Nakhimov"
+				"GFX_SOV_CL_1_Svetlana"
+				"GFX_GER_CA_1_D_class"
+				"GFX_GER_CL_1_Emdem"
+				"GFX_GER_CL_1_Konigsberg"
+				"GFX_ENG_CA_1_York"
+				"GFX_ENG_CA_1_Hawkins"
+				"GFX_ENG_CA_1_County"
+				"GFX_ENG_CL_1_Arethusa"
+				"GFX_ENG_CL_1_C_class"
+				"GFX_ENG_CL_1_Danae"
+				"GFX_ENG_CL_1_Emerald"
+				"GFX_ENG_CL_1_Leander"
+				"GFX_ITA_CA_1_Trento"
+				"GFX_ITA_CA_1_Bolzano"
+				"GFX_ITA_CL_1_Condottieri"
+				"GFX_FRA_CA_1_Suffren"
+				"GFX_FRA_CA_1_Duquesne"
+				"GFX_FRA_CL_1_Jeanne_DArc"
+				"GFX_FRA_CL_1_Duguay_Trouin"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_2_Brooklyn"
+				"GFX_USA_CL_2_St_Louis"
+				"GFX_USA_CA_2_New_Orleans"
+				"GFX_JAP_CL_2_Kumano_AA_Cruiser"
+				"GFX_JAP_CL_2_C_39"
+				"GFX_JAP_CA_2_Suzuya_AA_Cruiser"
+				"GFX_JAP_CA_2_Tone"
+				"GFX_JAP_CA_2_Mogami"
+				"GFX_SOV_CA_2_Project_26bis"
+				"GFX_SOV_CA_2_Project_26bis"
+				"GFX_GER_CA_2_Admiral_Hipper"
+				"GFX_GER_CL_2_Spähkreuzer_1938"
+				"GFX_GER_CL_2_Leipzig"
+				"GFX_ENG_CA_2_Design_II_Armoured_Cruiser"
+				"GFX_ENG_CA_2_Design_I_Armoured_Cruiser"
+				"GFX_ENG_CL_2_Town"
+				"GFX_ENG_CL_2_Dido"
+				"GFX_ITA_CA_2_Ansaldo_Project_770"
+				"GFX_ITA_CA_2_Zara"
+				"GFX_ITA_CL_2_Capitani_Romani"
+				"GFX_FRA_CA_2_Algerie"
+				"GFX_FRA_CL_2_La_Galissoriere"
+				"GFX_FRA_CL_2_Emile_Bertin"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_3_Cleveland"	
+				"GFX_USA_CL_3_Oakland"
+				"GFX_USA_CA_3_Wichita"
+				"GFX_JAP_CL_3_Oyodo"
+				"GFX_JAP_CL_3_Fictional_AA"
+				"GFX_JAP_CL_3_Agano"
+				"GFX_JAP_CA_3_Zao"
+				"GFX_SOV_CA_3_Project_Kh"
+				"GFX_SOV_CL_3_Project_68I"
+				"GFX_SOV_CL_3_Chapayev"
+				"GFX_GER_CA_3_P_class"
+				"GFX_GER_CL_3_Eendracht"
+				"GFX_GER_CL_3_M_class"
+				"GFX_ENG_CA_3_Design_A_Heavy_Cruiser"
+				"GFX_ENG_CL_3_Fiji"
+				"GFX_ITA_CA_3_Ansaldo_UP102"
+				"GFX_ITA_CL_3_OTO_Scout_Cruiser"
+				"GFX_ITA_CL_3_Etna"
+				"GFX_FRA_CA_3_C5SA1"
+				"GFX_FRA_CL_3_De_Grasse"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_4_Fargo"
+				"GFX_USA_CL_4_Juneau"
+				"GFX_USA_CA_4_Oregon_City"
+				"GFX_USA_CA_4_Baltimore"
+				"GFX_JAP_CL_4_Fictional"
+				"GFX_JAP_CL_4_Agano_Kai"
+				"GFX_JAP_CA_4_Fictional"
+				"GFX_SOV_CL_3_Chapayev"
+				"GFX_SOV_CL_3_Chapayev"
+				"GFX_GER_CA_4_Handelszerstörer_Entwurf_III"
+				"GFX_GER_CL_4_Motorkreuzer_1938"
+				"GFX_ENG_CA_4_Churchill_Design_E"
+				"GFX_ENG_CL_4_Minotaur_1943"
+				"GFX_ENG_CL_4_Neptune"
+				"GFX_ITA_CA_4_Ansaldo_9x203"
+				"GFX_ITA_CL_4_Ansaldo_12x152"
+				"GFX_FRA_CA_4_Saint_Louis"
+				"GFX_FRA_CL_4_De_Grasse_Late"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_5_CL_154"
+				"GFX_USA_CL_5_Worcester"
+				"GFX_USA_CA_5_S_511_64"
+				"GFX_USA_CA_5_Des_Moines"
+				"GFX_JAP_CL_5_Fictional_2"
+				"GFX_JAP_CL_5_Fictional_1"
+				"GFX_JAP_CA_5_Fictional"
+				"GFX_SOV_CA_5_Project_82"
+				"GFX_SOV_CL_5_Sverdlov"
+				"GFX_GER_CA_5_Handelszerstörer_KIG"
+				"GFX_GER_CL_5_Q_class"
+				"GFX_ENG_CA_5_Admiral"
+				"GFX_ENG_CL_5_Minotaur"
+				"GFX_ITA_CA_5_Fictional"
+				"GFX_ITA_CL_5_Fictional"
+				"GFX_FRA_CA_5_Fictional"
+				"GFX_FRA_CL_5_De_Grasse_Rebuild"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_6_Galveston"
+				"GFX_USA_CL_6_Providence"
+				"GFX_USA_CA_6_Boston"
+				"GFX_JAP_CL_6_Fictional"
+				"GFX_JAP_CA_6_Fictional"
+				"GFX_SOV_CA_6_Project_66"
+				"GFX_SOV_CL_6_Project_65"
+				"GFX_GER_CA_6_fictional"
+				"GFX_GER_CL_6_Fictional"
+				"GFX_ENG_CA_6_GW1"
+				"GFX_ENG_CL_6_Tiger"
+				"GFX_ITA_CA_6_Fictional"
+				"GFX_ITA_CL_6_Fictional"
+				"GFX_FRA_CA_6_Fictional"
+				"GFX_FRA_CL_6_Colbert"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"GFX_USA_CL_7_Bainbridge"
+				"GFX_USA_CL_7_Belknap"
+				"GFX_USA_CL_7_Leahy"
+				"GFX_USA_CA_7_Albany"
+				"GFX_USA_CA_7_Long_Beach"
+				"GFX_JAP_CL_7_Fictional_2"
+				"GFX_JAP_CL_7_Fictional"
+				"GFX_JAP_CA_7_Fictional_2"
+				"GFX_JAP_CA_7_Fictional"
+				"GFX_SOV_CA_7_Project_1126"
+				"GFX_SOV_CL_7_Project_68U2"
+				"GFX_SOV_CL_7_Kynda"
+				"GFX_GER_GER_CA_7_fictional_CAG"
+				"GFX_GER_CL_7_Fictional_CLG"
+				"GFX_ENG_CA_7_GW95"
+				"GFX_ENG_CL_7_Tiger_CLG"
+				"GFX_ENG_CL_7_GW96"
+				"GFX_ITA_CA_7_Fictional"
+				"GFX_ITA_CL_7_Fictional"
+				"GFX_ITA_CL_7_Duca_degli_Abruzzi_CLG"
+				"GFX_FRA_CA_7_Fictional"
+				"GFX_FRA_CL_7_Colbert_CLG"
+			}
+		}
+	}
+	ship_hull_pre_dreadnought = {
+		pool = {
+			icons = {
+				"GFX_GER_BB_0_Deutschland"
+			}
+		}
+	}
+	ship_hull_heavy = {
+		pool = {
+			icons = {
+				"GFX_USA_BC_1_Lexington"
+				"GFX_USA_BB_1_Wyoming_class"
+				"GFX_USA_BB_1_Tennessee_class"
+				"GFX_USA_BB_1_Pennsylvania_class"
+				"GFX_USA_BB_1_New_York_class"
+				"GFX_USA_BB_1_New_Mexico_class"
+				"GFX_USA_BB_1_Nevada_class"
+				"GFX_USA_BB_1_Colorado_class"
+				"GFX_USA_BB_1_South_Dakota_class"
+				"GFX_JAP_BC_1_Amagi"
+				"GFX_JAP_BC_1_Kongo"
+				"GFX_JAP_BB_1_Kongo"
+				"GFX_JAP_BB_1_Kawachi"
+				"GFX_JAP_BB_1_Fusō"
+				"GFX_JAP_BB_1_Fusō_pre37"
+				"GFX_JAP_BB_1_Ise"
+				"GFX_JAP_BB_1_Nagato"
+				"GFX_JAP_BB_1_Nagato_late"
+				"GFX_JAP_BB_1_Tosa"
+				"GFX_JAP_BB_1_Kii"
+				"GFX_JAP_BB_1_No13_Design_M"
+				"GFX_SOV_BC_1_Izmail"
+				"GFX_SOV_BB_1_Marat"
+				"GFX_GER_BC_1_Schlachtkreuzer_1928"
+				"GFX_GER_BB_1_L28"
+				"GFX_ENG_BC_1_Admiral"
+				"GFX_ENG_BC_1_Renown"
+				"GFX_ENG_BC_1_Hood"
+				"GFX_ENG_BC_1_G3"
+				"GFX_ENG_BB_1_King_George_V"
+				"GFX_ENG_BB_1_Iron_Duke"
+				"GFX_ENG_BB_1_Queen_Elizabeth"
+				"GFX_ENG_BB_1_Revenge"
+				"GFX_ENG_BB_1_Nelson"
+				"GFX_ITA_BC_1_OTO_Livorno_23K"
+				"GFX_ITA_BB_1_Caio_Duilio"
+				"GFX_ITA_BB_1_Conti_di_Cavour"
+				"GFX_FRA_BC_1_37000-tonnes_B1"
+				"GFX_FRA_BB_1_Courbet"
+				"GFX_FRA_BB_1_Bretagne"
+				"GFX_USA_BC_2_Design_8_Cruiser_Killer"
+				"GFX_USA_BC_2_1938_proposal"
+				"GFX_USA_BB_2_BB_55_Scheme_B"
+				"GFX_USA_BB_2_BB_55_Scheme_C"
+				"GFX_USA_BB_2_BB_55_Scheme_D"
+				"GFX_USA_BB_2_South_Dakota"
+				"GFX_USA_BB_2_North_Carolina"
+				"GFX_JAP_BC_2_1929_30000T"
+				"GFX_JAP_BB_2_Design_X"
+				"GFX_SOV_BC_2_Kronshtadt"
+				"GFX_SOV_BB_2_Project_21"
+				"GFX_GER_BC_2_Scharnhorst_28cm_B"
+				"GFX_GER_BC_2_Scharnhorst_28cm"
+				"GFX_GER_BB_2_Scharnhorst"
+				"GFX_GER_BB_2_Scharnhorst_38cm"
+				"GFX_ENG_BC_2_10in_Large_Cruiser"
+				"GFX_ENG_BB_2_King_George_V"
+				"GFX_ITA_BC_2_OTO_Livorno_26K"
+				"GFX_ITA_BB_2_Littorio"
+				"GFX_FRA_BC_2_Dunkerque"
+				"GFX_FRA_BB_2_Richelieu"
+				"GFX_USA_BC_3_CA_2D"
+				"GFX_USA_BC_3_S_511_6"
+				"GFX_USA_BB_3_Iowa"
+				"GFX_JAP_BC_3_B_65_late"
+				"GFX_JAP_BC_3_B_65_early"
+				"GFX_JAP_BB_3_A_140D"
+				"GFX_SOV_BC_3_Project_22"
+				"GFX_SOV_BB_3_UP_41"
+				"GFX_GER_BC_3_Schlachtschiff_F"
+				"GFX_GER_BB_3_Bismarck"
+				"GFX_ENG_BC_3_12in_Large_Cruiser"
+				"GFX_ENG_BB_3_Lion"
+				"GFX_ITA_BC_3_Ansaldo_Big_Gun_Cruiser"
+				"GFX_ITA_BB_3_Ansaldo_UP41"
+				"GFX_FRA_BC_3_Fictional"
+				"GFX_FRA_BB_3_Alsace_design_3"
+				"GFX_USA_BC_4_Alaska"
+				"GFX_USA_BB_4_Kentucky_AA_BB"
+				"GFX_USA_BB_4_Missouri"
+				"GFX_JAP_BC_4_fictional_B_65_refit"
+				"GFX_JAP_BB_4_A_140J3"
+				"GFX_SOV_BC_4_Stalingrad"
+				"GFX_SOV_BB_4_Type_A_KB_4_Project_23"
+				"GFX_GER_BC_4_Schlachtkreuzer_O"
+				"GFX_GER_BB_4_H_39"
+				"GFX_ENG_BC_4_Design_14A_38"
+				"GFX_ENG_BB_4_Vanguard"
+				"GFX_ITA_BC_4_Pansarskepp_Ansaldo"
+				"GFX_ITA_BB_4_Fictional"
+				"GFX_FRA_BC_4_Fictional"
+				"GFX_FRA_BB_4_Alsace_final_design"
+				"GFX_USA_BC_5_Hawaii_BCG_Conversion"
+				"GFX_USA_BB_5_Kentucky_BBG"
+				"GFX_JAP_BC_5_B_65_BCG_Conversion"
+				"GFX_JAP_BB_5_fictional_BBG"
+				"GFX_SOV_BC_5_Stalingrad_BCG"
+				"GFX_SOV_BB_5_Sovetsky_Soyuz_BBG"
+				"GFX_GER_BC_5_Schlachtkreuzer_P_BCG"
+				"GFX_GER_BB_5_H_39_BBG"
+				"GFX_ENG_BB_5_Lion_BBG_Conversion"
+				"GFX_ITA_BC_5_Fictional"
+				"GFX_ITA_BB_5_Fictional"
+				"GFX_FRA_BC_5_Fictional"
+				"GFX_FRA_BB_5_Fictional"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_BC_1_Lexington"
+				"GFX_USA_BB_1_Wyoming_class"
+				"GFX_USA_BB_1_Tennessee_class"
+				"GFX_USA_BB_1_Pennsylvania_class"
+				"GFX_USA_BB_1_New_York_class"
+				"GFX_USA_BB_1_New_Mexico_class"
+				"GFX_USA_BB_1_Nevada_class"
+				"GFX_USA_BB_1_Colorado_class"
+				"GFX_USA_BB_1_South_Dakota_class"
+				"GFX_JAP_BC_1_Amagi"
+				"GFX_JAP_BC_1_Kongo"
+				"GFX_JAP_BB_1_Kongo"
+				"GFX_JAP_BB_1_Kawachi"
+				"GFX_JAP_BB_1_Fusō"
+				"GFX_JAP_BB_1_Fusō_pre37"
+				"GFX_JAP_BB_1_Ise"
+				"GFX_JAP_BB_1_Nagato"
+				"GFX_JAP_BB_1_Nagato_late"
+				"GFX_JAP_BB_1_Tosa"
+				"GFX_JAP_BB_1_Kii"
+				"GFX_JAP_BB_1_No13_Design_M"
+				"GFX_SOV_BC_1_Izmail"
+				"GFX_SOV_BB_1_Marat"
+				"GFX_GER_BC_1_Schlachtkreuzer_1928"
+				"GFX_GER_BB_1_L28"
+				"GFX_ENG_BC_1_Admiral"
+				"GFX_ENG_BC_1_Renown"
+				"GFX_ENG_BC_1_Hood"
+				"GFX_ENG_BC_1_G3"
+				"GFX_ENG_BB_1_King_George_V"
+				"GFX_ENG_BB_1_Iron_Duke"
+				"GFX_ENG_BB_1_Queen_Elizabeth"
+				"GFX_ENG_BB_1_Revenge"
+				"GFX_ENG_BB_1_Nelson"
+				"GFX_ITA_BC_1_OTO_Livorno_23K"
+				"GFX_ITA_BB_1_Caio_Duilio"
+				"GFX_ITA_BB_1_Conti_di_Cavour"
+				"GFX_FRA_BC_1_37000-tonnes_B1"
+				"GFX_FRA_BB_1_Courbet"
+				"GFX_FRA_BB_1_Bretagne"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_BC_2_Design_8_Cruiser_Killer"
+				"GFX_USA_BC_2_1938_proposal"
+				"GFX_USA_BB_2_BB_55_Scheme_B"
+				"GFX_USA_BB_2_BB_55_Scheme_C"
+				"GFX_USA_BB_2_BB_55_Scheme_D"
+				"GFX_USA_BB_2_South_Dakota"
+				"GFX_USA_BB_2_North_Carolina"
+				"GFX_JAP_BC_2_1929_30000T"
+				"GFX_JAP_BB_2_Design_X"
+				"GFX_SOV_BC_2_Kronshtadt"
+				"GFX_SOV_BB_2_Project_21"
+				"GFX_GER_BC_2_Scharnhorst_28cm_B"
+				"GFX_GER_BC_2_Scharnhorst_28cm"
+				"GFX_GER_BB_2_Scharnhorst"
+				"GFX_GER_BB_2_Scharnhorst_38cm"
+				"GFX_ENG_BC_2_10in_Large_Cruiser"
+				"GFX_ENG_BB_2_King_George_V"
+				"GFX_ITA_BC_2_OTO_Livorno_26K"
+				"GFX_ITA_BB_2_Littorio"
+				"GFX_FRA_BC_2_Dunkerque"
+				"GFX_FRA_BB_2_Richelieu"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"GFX_USA_BC_3_CA_2D"
+				"GFX_USA_BC_3_S_511_6"
+				"GFX_USA_BB_3_Iowa"
+				"GFX_JAP_BC_3_B_65_late"
+				"GFX_JAP_BC_3_B_65_early"
+				"GFX_JAP_BB_3_A_140D"
+				"GFX_SOV_BC_3_Project_22"
+				"GFX_SOV_BB_3_UP_41"
+				"GFX_GER_BC_3_Schlachtschiff_F"
+				"GFX_GER_BB_3_Bismarck"
+				"GFX_ENG_BC_3_12in_Large_Cruiser"
+				"GFX_ENG_BB_3_Lion"
+				"GFX_ITA_BC_3_Ansaldo_Big_Gun_Cruiser"
+				"GFX_ITA_BB_3_Ansaldo_UP41"
+				"GFX_FRA_BC_3_Fictional"
+				"GFX_FRA_BB_3_Alsace_design_3"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"GFX_USA_BC_4_Alaska"
+				"GFX_USA_BB_4_Kentucky_AA_BB"
+				"GFX_USA_BB_4_Missouri"
+				"GFX_JAP_BC_4_fictional_B_65_refit"
+				"GFX_JAP_BB_4_A_140J3"
+				"GFX_SOV_BC_4_Stalingrad"
+				"GFX_SOV_BB_4_Type_A_KB_4_Project_23"
+				"GFX_GER_BC_4_Schlachtkreuzer_O"
+				"GFX_GER_BB_4_H_39"
+				"GFX_ENG_BC_4_Design_14A_38"
+				"GFX_ENG_BB_4_Vanguard"
+				"GFX_ITA_BC_4_Pansarskepp_Ansaldo"
+				"GFX_ITA_BB_4_Fictional"
+				"GFX_FRA_BC_4_Fictional"
+				"GFX_FRA_BB_4_Alsace_final_design"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"GFX_USA_BC_5_Hawaii_BCG_Conversion"
+				"GFX_USA_BB_5_Kentucky_BBG"
+				"GFX_JAP_BC_5_B_65_BCG_Conversion"
+				"GFX_JAP_BB_5_fictional_BBG"
+				"GFX_SOV_BC_5_Stalingrad_BCG"
+				"GFX_SOV_BB_5_Sovetsky_Soyuz_BBG"
+				"GFX_GER_BC_5_Schlachtkreuzer_P_BCG"
+				"GFX_GER_BB_5_H_39_BBG"
+				"GFX_ENG_BB_5_Lion_BBG_Conversion"
+				"GFX_ITA_BC_5_Fictional"
+				"GFX_ITA_BB_5_Fictional"
+				"GFX_FRA_BC_5_Fictional"
+				"GFX_FRA_BB_5_Fictional"
+			}
+			models = {
+				ship_hull_modern_super_battleship_entity
+			}
+		}
+	}
+	ship_hull_super_heavy = {
+		pool = {
+			icons = {
+				"GFX_USA_SHBB_1_Montana"
+				"GFX_USA_SHBB_1_BB_57_Study_II"
+				"GFX_JAP_SHBB_1_Yamato"
+				"GFX_SOV_SHBB_1_Project_23_final_design"
+				"GFX_GER_SHBB_1_H_40"
+				"GFX_ENG_SHBB_1_Design_O3"
+				"GFX_ITA_SHBB_1_Cassone_design"
+				"GFX_FRA_SHBB_1_Fictional"
+				"GFX_USA_SHBB_2_Montana_2"
+				"GFX_JAP_SHBB_2_A_150"
+				"GFX_SOV_SHBB_2_Project_24"
+				"GFX_GER_SHBB_2_H_41" 
+				"GFX_ENG_SHBB_2_Fictional"
+				"GFX_ITA_SHBB_2_fictional"
+				"GFX_FRA_SHBB_2_fictional"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_SHBB_1_Montana"
+				"GFX_USA_SHBB_1_BB_57_Study_II"
+				"GFX_JAP_SHBB_1_Yamato"
+				"GFX_SOV_SHBB_1_Project_23_final_design"
+				"GFX_GER_SHBB_1_H_40"
+				"GFX_ENG_SHBB_1_Design_O3"
+				"GFX_ITA_SHBB_1_Cassone_design"
+				"GFX_FRA_SHBB_1_Fictional"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_SHBB_2_Montana_2"
+				"GFX_JAP_SHBB_2_A_150"
+				"GFX_SOV_SHBB_2_Project_24"
+				"GFX_GER_SHBB_2_H_41" 
+				"GFX_ENG_SHBB_2_Fictional"
+				"GFX_ITA_SHBB_2_fictional"
+				"GFX_FRA_SHBB_2_fictional"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_SS_1_S"
+				"GFX_USA_SS_1_Porpoise"
+				"GFX_USA_SS_1_Barracuda"
+				"GFX_USA_SS_1_Cachalot"
+				"GFX_JAP_SS_1_I_51_Kaidai"
+				"GFX_SOV_SS_1_Schuka"
+				"GFX_SOV_SS_1_Leninets"
+				"GFX_SOV_SS_1_Dekabrist"
+				"GFX_GER_SS_1_Type_II"
+				"GFX_ENG_SS_1_Grampus"
+				"GFX_ENG_SS_1_S_class"
+				"GFX_ENG_SS_1_River"
+				"GFX_ENG_SS_1_O_class"
+				"GFX_ITA_SS_1_Argonauta"
+				"GFX_FRA_SS_1_Saphir"
+				"GFX_FRA_SS_1_Requin"
+				"GFX_FRA_SS_1_Redoutable"
+				"GFX_FRA_SS_1_Orion"
+				"GFX_FRA_SS_1_Diane"
+				"GFX_FRA_SS_1_Argonaute"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_SS_2_Tambor"
+				"GFX_USA_SS_2_Salmon"
+				"GFX_JAP_SS_2_Type_B"
+				"GFX_SOV_SS_2_S_class"
+				"GFX_GER_SS_2_Type_VII"
+				"GFX_ENG_SS_2_U_class"
+				"GFX_ENG_SS_2_T_class"
+				"GFX_ITA_SS_2_Perla"
+				"GFX_FRA_SS_2_Minerve"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"GFX_USA_SS_3_Mackarel"
+				"GFX_USA_SS_3_Balao"
+				"GFX_USA_SS_3_Gato"
+				"GFX_JAP_SS_3_Type_C"
+				"GFX_JAP_SS_3_Ro_100"
+				"GFX_SOV_SS_3_S_class_XI_Series"
+				"GFX_GER_SS_3_Type_IX"
+				"GFX_ENG_SS_3_V_class"
+				"GFX_FRA_SS_3_Aurore"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"GFX_USA_SS_4_Tench"
+				"GFX_JAP_SS_4_I_201"
+				"GFX_JAP_SS_4_Ha_201"
+				"GFX_SOV_SS_4_Whiskey"
+				"GFX_GER_SS_4_Type_XXI"
+				"GFX_ENG_SS_4_Amphion"
+				"GFX_ITA_SS_4_Flutto"
+				"GFX_FRA_SS_4_Narval"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"GFX_USA_SS_5_Barracuda"
+				"GFX_USA_SS_5_Tang"
+				"GFX_JAP_SS_5_Oyashio"
+				"GFX_SOV_SS_5_Zulu"
+				"GFX_SOV_SS_5_Quebec"
+				"GFX_GER_SS_5_Type_XXIII"
+				"GFX_ENG_SS_5_Explorer"
+				"GFX_ITA_SS_5_Toti"
+				"GFX_FRA_SS_5_Aréthuse"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"GFX_USA_SSG_1_Grayback"
+				"GFX_USA_SSG_1_Halibut"
+				"GFX_USA_SSG_1_George_Washington"
+				"GFX_USA_SS_6_Seawolf"
+				"GFX_USA_SS_6_Nautilus"
+				"GFX_USA_SS_6_Barbel"
+				"GFX_USA_SS_6_Darter"
+				"GFX_JAP_SSG_1_Fictional_B"
+				"GFX_JAP_SSG_1_Fictional"
+				"GFX_JAP_SS_6_Hayashio"
+				"GFX_SOV_SSG_1_Juliett"
+				"GFX_SOV_SS_6_November"
+				"GFX_SOV_SS_6_Romeo"
+				"GFX_SOV_SS_6_Foxtrot"
+				"GFX_GER_SSG_1_Fictional"
+				"GFX_GER_SS_6_Type_CCIX"
+				"GFX_GER_SS_6_Type_CCVI"
+				"GFX_GER_SS_6_Type_CCV"
+				"GFX_ENG_SSG_1_Resolution"
+				"GFX_ENG_SS_6_Dreadnought"
+				"GFX_ENG_SS_6_Oberon"
+				"GFX_ITA_SSG_1_Fictional"
+				"GFX_ITA_SS_6_Sauro"
+				"GFX_FRA_SSG_1_Redoutable"
+				"GFX_FRA_SS_6_Daphné"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_1_BB_Lexington"
+				"GFX_JAP_CV_1_BB_Shinano"
+				"GFX_JAP_CV_1_BB_Akagi"
+				"GFX_JAP_CV_1_BB_Kaga"
+				"GFX_SOV_CV_1_BB_Izmail"
+				GFX_GER_CV_1_BB_Grossflugzeugkreuzer_A
+				"GFX_GER_CV_1_BB_Bismarck_conversion"
+				"GFX_GER_CV_1_BB_Jade"
+				"GFX_ENG_CV_1_BB_Eagle"
+				"GFX_ENG_CV_1_BB_Courageous"
+				"GFX_ITA_CV_1_BB_Francesco_Caracciolo"
+				"GFX_ITA_CV_1_BB_Bonfiglietti_design"
+				"GFX_FRA_CV_1_BB_Béarn"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_1_CVE_Saipan"
+				"GFX_JAP_CV_1_CA_Chitose"
+				"GFX_JAP_CV_1_CA_Ibuki"
+				"GFX_JAP_CV_1_CA_Ryuho"
+				"GFX_JAP_CV_1_Hosho"
+				"GFX_JAP_CV_1_Ryūjō"
+				"GFX_JAP_CV_1_CA_Zuiho"
+				"GFX_SOV_CV_1_CA_Frunze"
+				"GFX_GER_CV_1_CA_Ausonia"
+				"GFX_GER_CV_1_CA_Seydlitz"
+				"GFX_ENG_CV_1_CA_Hermes"
+				"GFX_ITA_CV_1_CA_Sparviero"
+				"GFX_FRA_CV_1_CA_Duquesne"
+				"GFX_USA_CV_1_CA_Independence"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_2_Yorktown"
+				"GFX_USA_CV_2_Ranger"
+				"GFX_JAP_CV_2_Sōryū"
+				"GFX_JAP_CV_2_Hiryū"
+				"GFX_SOV_CV_2_Project_71"
+				"GFX_GER_CV_2_Flugzeugtrager_15k"
+				"GFX_ENG_CV_2_Ark_Royal"
+				"GFX_ITA_CV_2_Aquila"
+				"GFX_FRA_CV_2_Joffre"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_3_Wasp"
+				"GFX_USA_CV_3_Wasp"
+				"GFX_JAP_CV_3_Taiho"
+				"GFX_JAP_CV_3_Shokaku"
+				"GFX_SOV_CV_3_Kostromitinov"
+				"GFX_GER_CV_3_Graf_Zeppelin"
+				"GFX_ENG_CV_3_Illustrious"
+				"GFX_ITA_CV_3_Fictional"
+				"GFX_FRA_CV_3_Painlévé"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_4_Midway"
+				"GFX_JAP_CV_4_Kai_Taiho"
+				"GFX_JAP_CV_4_Unryu"
+				"GFX_SOV_CV_4_Project_72"
+				"GFX_GER_CV_4_Europa"
+				"GFX_ENG_CV_4_Malta"
+				"GFX_ENG_CV_4_Implacable"
+				"GFX_ENG_CV_4_Colossus"
+				"GFX_ITA_CV_4_Fictional"
+				"GFX_FRA_CV_4_Jean_Bart"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_5_United_States"
+				"GFX_JAP_CV_5_Hayataka"
+				"GFX_SOV_CV_5_Project_69AV"
+				"GFX_GER_CV_5_fictional"
+				"GFX_ENG_CV_5_Majestic"
+				"GFX_ENG_CV_5_Audacious"
+				"GFX_ITA_CV_5_Fictional"
+				"GFX_FRA_CV_5_PA28"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_6_Forrestal"
+				"GFX_JAP_CV_6_Fictional"
+				"GFX_SOV_CV_5_Project_69AV"
+				"GFX_GER_CV_6_fictional"
+				"GFX_ENG_CV_6_Centaur"
+				"GFX_ITA_CV_6_Fictional"
+				"GFX_FRA_CV_6_Clemenceau"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"GFX_USA_CV_7_Enterprise"
+				"GFX_USA_CV_7_Kitty_Hawk"
+				"GFX_JAP_CV_7_Fictional"
+				"GFX_SOV_CV_7_Oryol"
+				"GFX_GER_CV_7_fictional"
+				"GFX_ENG_CV_7_Queen_Elizabeth"
+				"GFX_ITA_CV_7_Fictional"
+				"GFX_FRA_CV_7_Fictional"
+				"GFX_FRA_CV_7_PA58"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"GFX_USA_CT_1_Torpedo_Atlanta"
+				"GFX_JAP_CT_1_Kitakami"
+				"GFX_SOV_CT_1_Kirov_Torpedo_Cruiser"
+				"GFX_GER_CT_1_Torpedo_Spähkreuzer_1938"
+				"GFX_ENG_CT_1_Danae_Torpedo"
+				"GFX_ITA_CT_1_Capitani_Romani_Torpedo"
+				"GFX_FRA_CT_1_Emile_Bertin_Torpedo"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"GFX_USA_PsSc_1_S_511_14"
+				"GFX_JAP_PzSc_1_Yuzuru_20KT_Var_B"
+				"GFX_SOV_PzSc_1_Project_X"
+				"GFX_GER_PzSc_Deutschland"
+				"GFX_ENG_PzSc_1_Lilicrap_20K"
+				"GFX_ITA_1_PsSC_Ansaldo_UP_707"
+				"GFX_FRA_PzSc_1_Croiseur_Protégé_de_23690"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"GFX_USA_SSC_1_Narwhal"
+				"GFX_JAP_SSC_1_Type_A"
+				"GFX_JAP_SSC_1_Junsen"
+				"GFX_JAP_SS_2_Type_B"
+				"GFX_SOV_SSC_1_K_class"
+				"GFX_GER_SSC_1_Type_XI"
+				"GFX_ENG_SSC_1_X1_class"
+				"GFX_ITA_SSC_1_Ettore_Fieramosca"
+				"GFX_FRA_SSC_1_Surcouf"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"GFX_USA_MSS_1_O_class"
+				"GFX_JAP_SSM_1_Type_A"
+				"GFX_JAP_SSM_1_Kairyū"
+				"GFX_SOV_SSM_1_Malyutka"
+				"GFX_SOV_SSM_1_M_400_Blokha"
+				"GFX_GER_SSM_1_Biber"
+				"GFX_ENG_SSM_1_X_class"
+				"GFX_ITA_SSM_1_CB"
+				"GFX_FRA_SSM_1_S_622_Seehund"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"GFX_USA_SST_1_Guavina"
+				"GFX_JAP_SST_1_I_351"
+				"GFX_JAP_SST_1_I_361"
+				"GFX_SOV_SST_1_Pravda"
+				"GFX_GER_SST_1_Type_XIV"
+				"GFX_ENG_SST_1_Fictional"
+				"GFX_ITA_SST_1_1934_Tanker_design"
+				"GFX_FRA_SST_1_Surcouf_tanker"
+			}
+		}
+	}
+	ship_hull_carrier_submarine = {
+		pool = {
+			icons = {
+				"GFX_SOV_SSV_1_Fictional" 
+				"GFX_SOV_SSV_2_Fictional"
+				"GFX_GER_SSV_1_Type_IXC2" 
+				"GFX_GER_SSV_2_Fictional"
+				"GFX_JAP_SSC_1_I_400"
+				"GFX_JAP_SSC_2_Fictional"
+				"GFX_USA_SSV_1_Fictional"
+				"GFX_USA_SSV_1_AN_1"
+			}
+		}
+	}
+	ship_hull_carrier_submarine_1 = {
+		pool = {
+			icons = {
+				"GFX_SOV_SSV_1_Fictional" 
+				"GFX_GER_SSV_1_Type_IXC2" 
+				"GFX_JAP_SSC_1_I_400"
+				"GFX_USA_SSV_1_Fictional"
+			}
+		}
+	}
+	ship_hull_carrier_submarine_2 = {
+		pool = {
+			icons = {
+				"GFX_SOV_SSV_2_Fictional"
+				"GFX_GER_SSV_2_Fictional"
+				"GFX_JAP_SSC_2_Fictional"
+				"GFX_USA_SSV_1_AN_1"
+			}
+		}
+	}
+}

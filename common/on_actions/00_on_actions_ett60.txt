@@ -1,0 +1,30 @@
+on_actions = {
+	# country 
+	on_startup = {		
+		effect = {
+			random_country = {
+				limit = { is_ai = no }
+				country_event = { id = ett60.1 }
+			}
+		}
+	}
+	on_startup = {		
+		effect = {
+			random_country = {
+				limit = { is_ai = no }		
+				country_event = { id = shackles.1 }
+			}
+		}
+	}
+	on_uncapitulation = {
+		effect = {
+			ROOT = {
+				limit = { tag = FRA }
+				set_character_name = {
+					character = FRA_marcel_dassault
+					name = FRA_marcel_dassault_loc
+				}
+			}
+		}
+	}				
+}

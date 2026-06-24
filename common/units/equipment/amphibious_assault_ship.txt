@@ -1,0 +1,282 @@
+equipments = {
+
+	amphibious_assault_ship = {
+		year = 1922
+
+		interface_category = interface_category_other_ships
+		
+		is_archetype = yes
+		is_buildable = no
+		type = support_ship
+		alias = amphibious_assault_ship
+		priority = 2000
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		#sub_attack = 1
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 1
+		sub_detection = 1
+		surface_visibility = 1
+		naval_speed = 20
+		reliability = 0.80
+		
+		naval_range = 4000
+		
+		max_strength = 20
+		
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 100
+		resources = {
+		}
+		
+		manpower = 250
+		naval_dominance_factor = 0
+	}
+		
+	amphibious_assault_ship_1 = {
+		abbreviation = "foil"
+		year = 1922
+		model = support_ship
+		visual_level = 0
+		archetype = amphibious_assault_ship
+		modifier_stat = {
+			modifier = amphibious_support 
+			value = 10
+			type = naval_support
+		}
+		
+		#lg_armor_piercing = 1
+		
+		#armor_value = 0
+		reliability = 0.8
+		
+		naval_range = 2000
+		
+		surface_visibility = 14
+
+		#torpedo_attack = 0
+		#lg_attack = 0
+		naval_speed = 10
+		max_strength = 10
+		max_organisation = 20
+		#anti_air_attack = 0
+
+		naval_dominance_factor = 0
+		
+		manpower = 250		
+	}
+		
+	amphibious_assault_ship_2 = {
+		abbreviation = "foi2"
+		year = 1936
+
+		parent = amphibious_assault_ship_1
+		archetype = amphibious_assault_ship
+		priority = 2000
+		model = support_ship
+		modifier_stat = {
+			modifier = amphibious_support 
+			value = 20
+			type = naval_support
+		}
+		
+		lg_armor_piercing = 1
+		armor_value = 0
+		reliability = 0.8
+		
+		naval_range = 4000
+		
+		surface_visibility = 14
+
+		torpedo_attack = 0
+		lg_attack = 0
+		naval_speed = 12
+		max_strength = 22
+		max_organisation = 30
+		anti_air_attack = 0.1
+
+		naval_dominance_factor = 0
+		
+		build_cost_ic = 175
+		resources = {
+			steel = 1
+		}
+		manpower = 300		
+	}
+		
+	amphibious_assault_ship_3 = {
+		abbreviation = "foi3"
+		year = 1936
+
+		parent = amphibious_assault_ship_2
+		archetype = amphibious_assault_ship
+		priority = 2000
+		model = support_ship
+		modifier_stat = {
+			modifier = amphibious_support 
+			value = 40
+			type = naval_support
+		}
+		
+		lg_armor_piercing = 1
+		
+		armor_value = 0
+		
+		reliability = 0.8
+		
+		naval_range = 4250
+		
+		surface_visibility = 14
+
+		torpedo_attack = 0
+		lg_attack = 0.2
+		naval_speed = 20
+		max_strength = 25
+		max_organisation = 35
+		anti_air_attack = 0.1
+
+		naval_dominance_factor = 0
+		
+		build_cost_ic = 300
+		resources = {
+			steel = 1
+		}
+		manpower = 300
+	}
+		
+	amphibious_assault_ship_4 = {
+		abbreviation = "foi3"
+		year = 1936
+
+		parent = amphibious_assault_ship_3
+		archetype = amphibious_assault_ship
+		priority = 2000
+		model = support_ship
+		modifier_stat = {
+			modifier = amphibious_support 
+			value = 100
+			type = naval_support
+		}
+		
+		lg_armor_piercing = 1
+		
+		armor_value = 0
+		
+		reliability = 0.8
+		
+		naval_range = 4500
+		
+		surface_visibility = 14
+
+		torpedo_attack = 0
+		lg_attack = 0.4
+		naval_speed = 25
+		max_strength = 30
+		max_organisation = 40
+		anti_air_attack = 0.2
+
+		naval_dominance_factor = 0
+		
+		build_cost_ic = 400
+		resources = {
+			steel = 2
+		}
+		manpower = 350
+	}
+		
+	amphibious_assault_ship_5 = {
+		abbreviation = "foi3"
+		year = 1936
+
+		parent = amphibious_assault_ship_4
+		archetype = amphibious_assault_ship
+		priority = 2000
+		model = support_ship
+		modifier_stat = {
+			modifier = amphibious_support 
+			value = 125
+			type = naval_support
+		}
+		
+		lg_armor_piercing = 1
+		
+		armor_value = 0
+		
+		reliability = 0.8
+		
+		naval_range = 4750
+		
+		surface_visibility = 14
+
+		torpedo_attack = 0
+		lg_attack = 0.6
+		naval_speed = 30
+		max_strength = 35
+		max_organisation = 40
+		anti_air_attack = 0.5
+
+		naval_dominance_factor = 0
+		
+		build_cost_ic = 600
+		resources = {
+			steel = 2
+		}
+		manpower = 400
+	}
+		
+	amphibious_assault_ship_6 = {
+		abbreviation = "foi3"
+		year = 1936
+				
+		parent = amphibious_assault_ship_5
+		archetype = amphibious_assault_ship
+		priority = 2000
+		model = support_ship
+		modifier_stat = {
+			modifier = amphibious_support 
+			value = 200
+			type = naval_support
+		}
+		
+		lg_armor_piercing = 1
+		
+		armor_value = 6
+		
+		reliability = 0.8
+		
+		naval_range = 5500
+		
+		surface_visibility = 30
+
+		torpedo_attack = 0
+		lg_attack = 0.8
+		hg_attack = 1
+		naval_speed = 30
+		max_strength = 100
+		max_organisation = 40
+		anti_air_attack = 0.5
+
+		naval_dominance_factor = 0
+		
+		build_cost_ic = 1000
+		resources = {
+			steel = 2
+		}
+		
+		
+		manpower = 2000
+	}
+}

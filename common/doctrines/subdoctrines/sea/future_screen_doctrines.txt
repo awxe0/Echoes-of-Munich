@@ -1,0 +1,283 @@
+future_air_coverage = {
+    track = future_screens
+    name = SUBDOCTRINE_ANTI_AIR_SCREEN
+    description = SUBDOCTRINE_ANTI_AIR_SCREEN_DESC
+    icon = GFX_doctrine_massed_strikes_medium 
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+		has_completed_track = screens
+		OR = {
+			has_tech = antiair_c
+			has_tech = fire_control_radar
+			has_tech = advanced_dp_light_battery
+		}
+    }
+
+    ai_will_do = { 
+        base = 1
+		modifier = {
+			add = 10 
+			tag = USA
+		}	
+		modifier = {
+			add = 5 
+			is_major = yes
+		}	
+	}
+
+	light_cruiser = {
+		air_attack = 0.1
+	}
+	destroyer = {
+		air_attack = 0.1
+	}
+	
+	rewards = {
+		network_anti_air_doctrine = {
+			navy_anti_air_attack_factor = 0.1
+		}
+		fighter_target_markdown = {
+			cv_fighter = {
+				air_attack = 0.05
+			}
+			air_carrier_night_penalty_reduction_factor = 0.05
+		}
+		impenetrable_skies_protocol = {
+			air_nav_efficiency = 0.05
+			air_superiority_detect_factor = 0.05
+			night_spotting_chance = 0.05
+		}
+		counter_radar_measures = {
+			light_cruiser = {
+				surface_visibility = -0.1
+				max_organisation = 5
+			}
+			destroyer = {
+				surface_visibility = -0.1
+				max_organisation = 5
+			}
+		}
+		coastal_aa_coordination = {
+			navy_anti_air_attack_factor = 0.05
+			air_attack_factor = 0.05
+			static_anti_air_damage_factor = 0.05
+		}
+	}
+}
+
+future_barotrauma_reference = {
+    track = future_screens
+    name = SUBDOCTRINE_ANTI_SUBMARINE_SCREEN
+    description = SUBDOCTRINE_ANTI_SUBMARINE_SCREEN_DESC
+    icon = GFX_doctrine_convoy_sailing_medium 
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+		has_completed_track = screens
+		has_tech = naval_helicopter_1
+		OR = {
+			is_special_project_completed = sp:sp_naval_escort_carrier	
+			is_special_project_completed = sp:sp_naval_ice_carrier	
+		}	
+    }
+
+    ai_will_do = { 
+        base = 1
+		modifier = {
+			add = 10 
+			tag = SOV
+		}	
+		modifier = {
+			add = 5 
+			is_major = yes
+		}	
+	}
+
+	destroyer = {
+		sub_detection = 0.1
+	}
+	
+	rewards = {
+		long_range_dive_bombs = {
+			destroyer = {
+				sub_attack = 0.05
+			}
+			convoy_escort_efficiency = 0.1
+		}
+		extended_escort = {
+			mines_sweeping_by_fleets_factor = 0.05
+			naval_coordination = 0.05
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+		}
+		torpedo_ballistic_advancements = {
+			naval_torpedo_screen_penetration_factor = 0.05
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		submarines_targeting = {
+			carrier = {
+				sub_detection = 0.05
+			}
+			helicopter_carrier = {
+				sub_detection = 0.05
+			}
+			# escort_carrier = {
+				# sub_detection = 0.05
+			# }
+			category_cv_aircraft = {
+				sub_detection = 0.05
+			}
+			category_naval_helicopter = {
+				sub_detection = 0.05
+			}
+		}
+		sub_cruiser_hunting = {
+			destroyer = {
+				naval_range = 0.1
+				sub_attack = 0.1
+				max_organisation = 15
+			}
+			category_naval_helicopter = {
+				sub_attack = 0.1
+			}
+		}
+	}
+}
+
+future_detection_ships = {
+    track = future_screens
+    name = SUBDOCTRINE_DETECTION_SCREENS
+    description = SUBDOCTRINE_DETECTION_SCREENS_DESC
+    icon = GFX_doctrine_hunter_killer_groups_medium 
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+		has_completed_track = screens
+		OR = {
+			has_tech = modern_sonar
+			has_tech = postwar_radar_tech_1
+		}	
+    }
+
+    ai_will_do = { 
+        base = 1
+		modifier = {
+			add = 5 
+			is_major = yes
+		}	
+	}
+	
+
+	light_cruiser = {
+		surface_detection = 0.1
+	}
+	
+	rewards = {
+		post_combat_tracing = {
+			naval_enemy_retreat_chance = -0.05
+			naval_coordination = 0.05
+		}
+		pre_combat_detection = {
+			naval_enemy_fleet_size_ratio_penalty_factor = 0.05
+			naval_retreat_chance_after_initial_combat = 0.05
+			naval_heavy_gun_hit_chance_factor = 0.05
+		}
+		sub_horizon_ships_detection = {
+			navy_visibility = -0.05
+			destroyer = {
+				surface_detection = 0.05
+				max_organisation = 10
+			}
+			light_cruiser = {
+				surface_detection = 0.05
+				max_organisation = 10
+			}
+		}
+		radio_overview_broadcast = {
+			naval_critical_score_chance_factor = 0.05
+			battleship = {
+				hg_attack = 0.05
+			}
+			heavy_cruiser = {
+				hg_attack = 0.05
+			}
+			battle_cruiser = {
+				hg_attack = 0.05
+			}
+			naval_hit_chance = 0.05
+		}
+		advanced_torpedo_launchers = {
+			naval_torpedo_screen_penetration_factor = 0.05
+			naval_torpedo_reveal_chance_factor = -0.05
+			naval_torpedo_cooldown_factor = -0.05
+		}
+	}
+}
+
+
+future_litoral_ships = {
+    track = future_screens
+    name = SUBDOCTRINE_LITORAL_SHIPS
+    description = SUBDOCTRINE_LITORAL_SHIPS_DESC
+    icon = GFX_doctrine_patrol_boats_medium 
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+		has_completed_track = screens
+    }
+
+    ai_will_do = { 
+        base = 1
+		modifier = {
+			add = 5 
+			is_major = no
+		}	
+	}
+
+	destroyer = {
+		anti_air_attack = 0.05
+		lg_attack = 0.05
+	}
+	
+	rewards = {
+		litorral_doctine = {
+			production_cost_max_ship_hull_light = 4500
+			shore_bombardment_collateral_damage_factor = 0.05
+		}
+		limited_range_operations = {
+			destroyer = {
+				naval_range = -0.3
+				torpedo_attack = 0.1
+				sub_attack = 0.1
+				lg_attack = 0.1
+				max_organisation = 20
+			}
+		}
+		coastal_defence_strategy = {
+			navy_screen_defence_factor = 0.1
+			repair_speed_factor = 0.1
+			screening_efficiency = 0.05
+		}
+		complex_detection = {
+			screening_without_screens = 0.05
+			positioning = 0.1
+			navy_submarine_detection_factor = 0.05
+			naval_enemy_retreat_chance = -0.05
+		}
+		close_range_convoys = {
+			naval_coordination = 0.05
+			naval_detection = 0.05
+			naval_morale_factor = 0.05
+			convoy_escort_efficiency = 0.05
+		}
+	}
+}
+			

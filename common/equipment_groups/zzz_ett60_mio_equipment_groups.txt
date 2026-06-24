@@ -1,0 +1,65 @@
+
+mio_cat_eq_all_heavy_fighters = {
+	equipment_type = {
+		medium_plane_fighter_airframe
+	}
+}
+
+mio_cat_eq_all_modern_tank = { #Includes Modern Tank Chassis
+	equipment_type = {
+		modern_tank_chassis
+	}
+}
+
+mio_cat_eq_all_rockets = { 
+	equipment_type = {
+		guided_missile_equipment
+		slcm_equipment
+		ballistic_missile_equipment
+		nuclear_missile_equipment
+		slbm_equipment
+		sam_missile_equipment
+	}
+}
+
+mio_cat_eq_all_helicopter_carrier = {
+	equipment_type = {
+		ship_hull_helo_carrier
+		ship_hull_escort_carrier
+	}
+}
+
+mio_cat_eq_helicopters = { #
+	equipment_type = {
+		helicopter_equipment
+		cargo_helicopter_equipment
+		utility_helicopter_equipment
+	}
+}
+
+mio_cat_eq_combat_helicopters = {
+	equipment_type = {
+		utility_helicopter_equipment
+		scout_helicopter_equipment
+	}
+}
+
+mio_cat_eq_naval_helicopters = {
+	equipment_type = {
+		naval_helicopter_equipment
+	}
+}
+
+mio_cat_apc_equipment = {
+	equipment_type = {
+		ifv_equipment
+		mechanized_equipment
+		amphibious_mechanized_equipment
+	}
+}
+
+mio_cat_eq_armored_car_at = {
+	equipment_type = {
+		armored_car_at_equipment
+	}
+}

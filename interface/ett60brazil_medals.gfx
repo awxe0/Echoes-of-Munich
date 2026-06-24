@@ -1,0 +1,32 @@
+
+spriteTypes = {
+    	
+    spriteType = {
+		name = "GFX_BRA_medal_1"
+		texturefile = "gfx/interface/medals/BRA_medal_1.dds"
+	}
+    spriteType = {
+		name = "GFX_BRA_medal_2"
+		texturefile = "gfx/interface/medals/BRA_medal_2.dds"
+	}
+    spriteType = {
+		name = "GFX_BRA_medal_3"
+		texturefile = "gfx/interface/medals/BRA_medal_3.dds"
+	}
+    spriteType = {
+		name = "GFX_BRA_medal_4"
+		texturefile = "gfx/interface/medals/BRA_medal_4.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_medal_icon_bra"
+		texturefile = "gfx/interface/medals/bra_medal_strip.dds"
+		noOfFrames = 4
+    }
+	
+	spriteType = {
+		name = "GFX_medal_icon_bra_large"
+		texturefile = "gfx/interface/medals/bra_medal_strip_large.dds"
+		noOfFrames = 4 
+    }
+}

@@ -1,0 +1,8 @@
+scientist_trait_assault_rifle_genius = {
+	specialization = { specialization_land }
+	available = { always = no }
+	modifier = {
+		sp_tag_rifle_speed_factor = 1.5
+		#scientist_research_bonus_factor = -0.02
+	}
+}

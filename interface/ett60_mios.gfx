@@ -1,0 +1,227 @@
+spriteTypes = {
+
+#MIOS
+		
+	SpriteType = { 
+		name = "GFX_mio_lockheed_skunk_works"
+		texturefile = "gfx/interface/military_industrial_organization/policy_icons/mio_skunk_works.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_all_modern_tank"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_all_modern_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_all_rockets"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_all_rockets.dds"
+	} 
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_all_helicopter_carrier"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_all_helicopter_carrier.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_military_industrial_organization_airlifter_equipment"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_airlifter.dds"
+	} 
+
+	spriteType = { 
+		name = "GFX_military_industrial_organization_heavy_artillery_equipment"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_heavy_artillery.dds"
+	} 
+
+	spriteType = { 
+		name = "GFX_mio_cat_eq_combat_helicopters"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_combat_helicopters.dds"
+	} 
+
+	spriteType = { 
+		name = "GFX_mio_cat_eq_naval_helicopters"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_naval_helicopters.dds"
+	} 
+
+	spriteType = { 
+		name = "GFX_idea_flettner"
+		texturefile = "gfx/interface/ideas/flettner.dds"
+	} 
+
+	spriteType = { 
+		name = "GFX_idea_bolkow"
+		texturefile = "gfx/interface/ideas/bolkow.dds"
+	}  
+ 
+	spriteType = { 
+		name = "GFX_idea_bristol"
+		texturefile = "gfx/interface/ideas/bristol.dds"
+	}   
+  
+	spriteType = { 
+		name = "GFX_idea_westland"
+		texturefile = "gfx/interface/ideas/westland.dds"
+	}  
+  
+	spriteType = { 
+		name = "GFX_idea_saro"
+		texturefile = "gfx/interface/ideas/saro.dds" 
+	}  
+  
+	spriteType = { 
+		name = "GFX_idea_kazan"
+		texturefile = "gfx/interface/ideas/kazan.dds" 
+	}   
+  
+	spriteType = { 
+		name = "GFX_mil_mi"
+		texturefile = "gfx/interface/ideas/mi.dds" 
+	}   
+   
+	spriteType = {  
+		name = "GFX_idea_nord"
+		texturefile = "gfx/interface/ideas/nord.dds" 
+	}  
+   
+	spriteType = {  
+		name = "GFX_idea_sud_aviation"
+		texturefile = "gfx/interface/ideas/sud.dds" 
+	}  
+   
+	spriteType = {  
+		name = "GFX_idea_breguet"
+		texturefile = "gfx/interface/ideas/breguet.dds" 
+	}  
+   
+	spriteType = {  
+		name = "GFX_idea_mitsubishi_helicopters"
+		texturefile = "gfx/interface/ideas/mitsubishi_helicopters.dds" 
+	}  
+   
+	spriteType = {  
+		name = "GFX_idea_kawasaki_helicopters"
+		texturefile = "gfx/interface/ideas/kawasaki_helicopters.dds" 
+	}   
+   
+	spriteType = {  
+		name = "GFX_idea_aer_lualdi"
+		texturefile = "gfx/interface/ideas/aerlualdi.dds" 
+	}  
+  
+	spriteType = {  
+		name = "GFX_idea_agusta"
+		texturefile = "gfx/interface/ideas/agusta.dds" 
+	}  
+   
+	spriteType = {  
+		name = "GFX_idea_siai"
+		texturefile = "gfx/interface/ideas/siai.dds" 
+	}
+   
+	spriteType = {  
+		name = "GFX_idea_cherbourg"
+		texturefile = "gfx/interface/ideas/cherbourg.dds" 
+	}
+   
+	spriteType = {  
+		name = "GFX_idea_lrba"
+		texturefile = "gfx/interface/ideas/lrba.dds" 
+	} 
+    
+	spriteType = {  
+		name = "GFX_idea_manurhin"
+		texturefile = "gfx/interface/ideas/manurhin.dds" 
+	} 
+   
+	spriteType = {  
+		name = "GFX_idea_roanne"
+		texturefile = "gfx/interface/ideas/roanne.dds" 
+	} 
+   
+	spriteType = {  
+		name = "GFX_idea_dewoitine"
+		texturefile = "gfx/interface/ideas/dewoitine.dds" 
+	}
+   
+	spriteType = {  
+		name = "GFX_idea_potez"
+		texturefile = "gfx/interface/ideas/potez.dds" 
+	} 
+  
+	spriteType = {  
+		name = "GFX_detroit_arsenal"
+		texturefile = "gfx/interface/ideas/detroit_arsenal.dds" 
+	}
+  
+	spriteType = {  
+		name = "GFX_brooklyn"
+		texturefile = "gfx/interface/ideas/brooklyn.dds" 
+	} 
+
+	spriteType = { 
+		name = "GFX_mio_cat_eq_armored_car_at"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_armored_car_at.dds"
+	}  
+
+	spriteType = { 
+		name = "GFX_mio_cat_apc_equipment"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_apc.dds"
+	}  
+  
+	spriteType = {  
+		name = "GFX_idea_MAK"
+		texturefile = "gfx/interface/ideas/mak.dds" 
+	}
+  
+	spriteType = {  
+		name = "GFX_idea_kurganmashzavod"
+		texturefile = "gfx/interface/ideas/kmz.dds" 
+	}
+  
+	spriteType = {  
+		name = "GFX_idea_FMC"
+		texturefile = "gfx/interface/ideas/fmc.dds" 
+	}
+  
+	spriteType = {  
+		name = "GFX_idea_GKN"
+		texturefile = "gfx/interface/ideas/gkn.dds" 
+	}
+  
+	spriteType = {  
+		name = "GFX_idea_ALM"
+		texturefile = "gfx/interface/ideas/alm.dds" 
+	}
+ 
+	spriteType = {  
+		name = "GFX_idea_komatsu"
+		texturefile = "gfx/interface/ideas/komatsu.dds" 
+	}
+ 
+	spriteType = {  
+		name = "GFX_idea_oto_melara"
+		texturefile = "gfx/interface/ideas/oto_melara.dds" 
+	}
+ 
+	spriteType = {  
+		name = "GFX_cadillac"
+		texturefile = "gfx/interface/ideas/cadillac.dds" 
+	}
+ 
+	spriteType = {  
+		name = "GFX_zis"
+		texturefile = "gfx/interface/ideas/zis.dds" 
+	}
+  
+	spriteType = {    
+		name = "GFX_ipt_sp"
+		texturefile = "gfx/interface/ideas/ipt.dds"  
+	}
+  
+	spriteType = {    
+		name = "GFX_idea_avibras"
+		texturefile = "gfx/interface/ideas/avibras.dds"  
+	}
+   
+}   
+   
+  

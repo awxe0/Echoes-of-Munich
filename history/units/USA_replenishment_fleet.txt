@@ -1,0 +1,31 @@
+units = {
+	fleet = {
+		name = "Auxiliary Fleet"			
+		naval_base = 1562 # San Diego
+		task_force = {					
+			name = "Replenishment Division"				
+			location = 9671 # San Francisco
+			# Replenishment Division			
+			ship = { name = "USS Alameda" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Kaweah" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Laramie" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Mattole" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = USA } } }		
+		}			
+		task_force = {					
+			name = "Repair Division"				
+			location = 9671 # San Francisco
+			# Repair Division			
+			ship = { name = "USS Medusa" definition = repair_ship equipment = { repair_ship_1 = { amount = 1 owner = USA } } }	
+			ship = { name = "USS Bridgeport" definition = repair_ship equipment = { repair_ship_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Prometheus" definition = repair_ship equipment = { repair_ship_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Vestal" definition = repair_ship equipment = { repair_ship_1 = { amount = 1 owner = USA } } }			
+		}				
+		task_force = {					
+			name = "Support Division"				
+			location = 9671 # San Francisco
+			# Repair Division			
+			ship = { name = "USS Bridge" definition = support_ship equipment = { support_ship_1 = { amount = 1 owner = USA } } }	
+			ship = { name = "USS Arctic" definition = support_ship equipment = { support_ship_1 = { amount = 1 owner = USA } } }		
+			}		
+	}
+}

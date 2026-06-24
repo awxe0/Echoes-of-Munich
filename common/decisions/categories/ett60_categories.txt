@@ -1,0 +1,24 @@
+space_decisions = {
+	priority = 999
+	picture = GFX_decision_cat_space
+	visible = {
+		has_tech = sp_nuclear_missile_2
+	}
+}
+
+tutorial_decisions = {
+	priority = 1
+	picture = GFX_decision_category_generic
+	visible = {
+		#has_tech = sp_nuclear_missile_2
+	}
+}
+
+infrastructure_projects = {
+	priority = 1
+	picture = GFX_decision_category_generic_industry
+	visible = {
+		#has_tech = sp_nuclear_missile_2
+		#has_coutry_flag = BRA_hydrelectric_power_flag
+	}
+}

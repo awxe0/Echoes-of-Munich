@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	corneredTileSpriteType = {	
+		name = "GFX_frontend_bg_brazilplus"
+		texturefile = "gfx/interface/brazil_plus/background/load_BrazilAviaion_4k.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=3840 y=2880 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+}

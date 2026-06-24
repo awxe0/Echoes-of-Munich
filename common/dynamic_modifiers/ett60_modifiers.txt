@@ -1,0 +1,51 @@
+airlift_mission_modifier = {
+
+	icon = GFX_decision_ger_military_buildup
+	
+	production_speed_supply_node_factor = 2
+	
+	local_supplies_for_controller = 0.3
+	
+}
+
+furnas_dam_modifier = {
+
+	icon = GFX_modifiers_ETH_state_development
+	
+	# enable = {
+		# 496 = { 
+			# non_damaged_building_level = {
+				# building = dam
+				# level < 2
+			# }
+		# }
+	# }
+	enable = { always = yes }
+	local_factory_energy_consumption = -0.25
+	state_resources_factor = 0.2
+	local_supplies_for_controller = 0.2
+	local_building_slots_factor = 0.2
+}
+
+sobradinho_dam_modifier = {
+
+	icon = GFX_modifiers_ETH_state_development
+	
+	enable = { always = yes }
+	local_factory_energy_consumption = -0.25
+	state_resources_factor = 0.2
+	local_supplies_for_controller = 0.2
+	local_building_slots_factor = 0.2
+}
+
+ilha_solteira_dam_modifier = {
+
+	icon = GFX_modifiers_ETH_state_development
+	
+	enable = { always = yes }
+	local_factory_energy_consumption = -0.25
+	state_resources_factor = 0.2
+	local_supplies_for_controller = 0.2
+	local_building_slots_factor = 0.2
+}
+	

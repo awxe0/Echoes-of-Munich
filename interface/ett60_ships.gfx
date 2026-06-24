@@ -1,0 +1,2501 @@
+spriteTypes = {
+
+	###### GENERIC
+									
+	######################## GER								░██████╗░███████╗██████╗░
+	######################## GER								██╔════╝░██╔════╝██╔══██╗
+	######################## GER								██║░░██╗░█████╗░░██████╔╝
+	######################## GER								██║░░╚██╗██╔══╝░░██╔══██╗
+	######################## GER								╚██████╔╝███████╗██║░░██║
+	######################## GER								░╚═════╝░╚══════╝╚═╝░░╚═╝
+	
+	SpriteType = {
+		name = "GFX_GER_CVH_1_HC800"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CVH/GER_CVH_1_HC800.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_CV_1_BB_Grossflugzeugkreuzer_A"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Grossflugzeugkreuzer_A.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CV_1_BB_Bismarck_conversion"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Bismarck_conversion.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CV_1_BB_Jade"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Jade.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CV_1_CA_Ausonia"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_CA_Ausonia.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CV_1_CA_Seydlitz"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_CA_Seydlitz.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CV_2_Flugzeugtrager_15k"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_2_Flugzeugtrager_15k.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CV_3_Graf_Zeppelin"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_3_Graf_Zeppelin.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_CV_4_Europa"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_4_Europa.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_CV_5_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_5_fictional.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_CV_6_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_6_Fictional.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_CV_7_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_7_Fictional.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_FO_3_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/FO/GER_FO_3_Fictional.dds"		
+	} 
+	SpriteType = {
+		name = "GFX_GER_DD_1_Zerstorer_1934"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_1_Zerstorer_1934.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_DD_2_Zerstorer_1938"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_2_Zerstorer_1938.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_DD_2_Zerstorer_1936"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_2_Zerstorer_1936.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_DD_3_Zerstorer_1942"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_3_Zerstorer_1942.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_DD_4_Zerstorer_1945"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_4_Zerstorer_1945.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_DD_4_Zerstorer_1944"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_4_Zerstorer_1944.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_DD_5_Koln"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_5_Koln.dds"
+	} 
+	SpriteType = {
+		name = "GFX_GER_DD_6_Hamburg"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_6_Hamburg.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_DDG_1_Hamburg"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/DDGC/GER_DDG_1_Hamburg.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_DD_7_Lutjens"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_7_Lutjens.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CA_1_D_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_1_D_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CL_1_Emdem"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_1_Emdem.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CL_1_Konigsberg"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_1_Konigsberg.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CA_2_Admiral_Hipper"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_2_Admiral_Hipper.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CL_2_Spähkreuzer_1938"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_2_Spähkreuzer_1938.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CL_2_Leipzig"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_2_Leipzig.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CA_3_P_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_3_P_class.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_CL_3_Eendracht"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_3_Eendracht.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CL_3_M_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_3_M_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CA_4_Handelszerstörer_Entwurf_III"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_4_Handelszerstörer_Entwurf_III.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_CL_4_Motorkreuzer_1938"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_4_Motorkreuzer_1938.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_CA_5_Handelszerstörer_KIG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_5_Handelszerstörer_KIG.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CL_5_Q_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_5_Q_class.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_CA_6_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_6_fictional.dds"	
+	}
+	SpriteType = { 
+		name = "GFX_GER_CL_6_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_6_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_GER_CA_7_fictional_CAG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_7_fictional_CAG.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_CL_7_Fictional_CLG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_7_Fictional_CLG.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_BB_0_Deutschland"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_0_Deutschland.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_BC_1_Schlachtkreuzer_1928"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_1_Schlachtkreuzer_1928.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_BB_1_L28"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_1_L28.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_BC_2_Scharnhorst_28cm_B"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_2_Scharnhorst_28cm_B.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_BC_2_Scharnhorst_28cm"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_2_Scharnhorst_28cm.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_BB_2_Scharnhorst"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_2_Scharnhorst.dds"		
+	} 
+	SpriteType = {
+		name = "GFX_GER_BB_2_Scharnhorst_38cm"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_2_Scharnhorst_38cm.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_BC_3_Schlachtschiff_F" 
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_3_Schlachtschiff_F.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_BB_3_Bismarck"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_3_Bismarck.dds"	  
+	}
+	SpriteType = {
+		name = "GFX_GER_BC_4_Schlachtkreuzer_O"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_4_Schlachtkreuzer_O.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_BB_4_H_39"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_4_H_39.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_BC_5_Schlachtkreuzer_P_BCG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_5_Schlachtkreuzer_P_BCG.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_BB_5_H_39_BBG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_5_H_39_BBG.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_SHBB_1_H_40"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BB/GER_SHBB_1_H_40.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_SHBB_2_H_41"  
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/BB/GER_SHBB_2_H_41.dds" 
+	}
+	SpriteType = {
+		name = "GFX_GER_SS_1_Type_II"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_1_Type_II.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_SS_2_Type_VII"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_2_Type_VII.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_SS_3_Type_IX"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_3_Type_IX.dds"	
+	}
+	SpriteType = { 
+		name = "GFX_GER_SS_4_Type_XXI"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_4_Type_XXI.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_SS_5_Type_XXIII"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_5_Type_XXIII.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_SSG_1_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SSG/GER_SSG_1_Fictional.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_SS_6_Type_CCIX"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_6_Type_CCIX.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_SS_6_Type_CCVI"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_6_Type_CCVI.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_SS_6_Type_CCV"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_6_Type_CCV.dds"
+	}
+	SpriteType = { 
+		name = "GFX_GER_CT_1_Torpedo_Spähkreuzer_1938"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/CT/GER_CT_1_Torpedo_Spähkreuzer_1938.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_PzSc_Deutschland"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/PzSc/GER_PzSc_Deutschland.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_SSC_1_Type_XI"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SSC/GER_SSC_1_Type_XI.dds"
+	} 
+	SpriteType = {
+		name = "GFX_GER_SSM_1_Biber"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SSM/GER_SSM_1_Biber.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_SST_1_Type_XIV"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SST/GER_SST_1_Type_XIV.dds"
+	} 
+	SpriteType = { 
+		name = "GFX_GER_SSV_1_Type_IXC2" 
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SSV/GER_SSV_1_Type_IXC2.dds"
+	}
+	SpriteType = {  
+		name = "GFX_GER_SSV_2_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SSV/GER_SSV_2_Fictional.dds"
+	}  
+		
+	######################## SOV								░██████╗░█████╗░██╗░░░██╗							
+	######################## SOV							    ██╔════╝██╔══██╗██║░░░██║
+	######################## SOV								╚█████╗░██║░░██║╚██╗░██╔╝
+	######################## SOV								╚█████╗░██║░░██║╚██╗░██╔╝
+	######################## SOV								░╚═══██╗██║░░██║░╚████╔╝░
+	######################## SOV								██████╔╝╚█████╔╝░░╚██╔╝░░
+	######################## SOV								╚═════╝░░╚════╝░░░░╚═╝░░░
+	
+	SpriteType = {
+		name = "GFX_SOV_CVH_1_Kiev"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Kiev.png"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CVH_1_Moskva"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Moskva.png"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CV_1_BB_Izmail"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_BB_Izmail.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CV_1_CA_Frunze"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_CA_Frunze.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CV_2_Project_71"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_2_Project_71.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CV_3_Kostromitinov"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_3_Kostromitinov.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CV_4_Project_72"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_4_Project_72.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CV_5_Project_69AV"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_5_Project_69AV.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CV_6_Project_85"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_6_Project_85.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CV_7_Oryol"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_7_Oryol.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CV_1_CVE_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_CVE_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_FO_1_Polyarnik"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/FO/SOV_FO_1_Polyarnik.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_FO_2_Khobi"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/FO/SOV_FO_2_Khobi.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_1_Fidonisi"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_1_Fidonisi.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_2_Gnenvy"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_2_Gnenvy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_2_Leningrad"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_2_Leningrad.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_3_Ognevoy"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Ognevoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_3_Storozhevoy"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Storozhevoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_3_Tashkent"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Tashkent.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_4_Kiev"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_4_Kiev.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_5_Skoryi"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_5_Skoryi.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_6_Neustrashimy"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_6_Neustrashimy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_6_Kotlin"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_6_Kotlin.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DDG_1_Kildin"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DDGC/SOV_DDG_1_Kildin.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_7_Kashin"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_7_Kashin.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DD_7_Kanin"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_7_Kanin.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CA_1_Krasnyi_Kavkaz"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_1_Krasnyi_Kavkaz.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CL_1_Admiral_Nakhimov"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_1_Admiral_Nakhimov.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CL_1_Svetlana"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_1_Svetlana.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CA_2_Project_26bis"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_2_Project_26bis.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CL_2_Kirov"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_2_Kirov.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CA_3_Project_Kh"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_3_Project_Kh.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CL_3_Project_68I"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_3_Project_68I.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CL_3_Chapayev"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_3_Chapayev.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CA_4_Project_83I"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_4_Project_83I.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CL_4_Project_94"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_4_Project_94.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CA_5_Project_82"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_5_Project_82.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CL_5_Sverdlov"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_5_Sverdlov.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CL_6_Project_65"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_6_Project_65.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CA_6_Project_66"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_6_Project_66.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CL_7_Kynda"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_7_Kynda.dds"
+	} 
+	SpriteType = {
+		name = "GFX_SOV_CL_7_Project_68U2"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_7_Project_68U2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_CA_7_Project_1126"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_7_Project_1126.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_BB_1_Marat"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_1_Marat.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_BC_1_Izmail"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_1_Izmail.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_BB_2_Project_21"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_2_Project_21.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_BC_2_Kronshtadt"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_2_Kronshtadt.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_BC_3_Project_22"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_3_Project_22.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_BB_3_UP_41"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_3_UP_41.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_BC_4_Stalingrad"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_4_Stalingrad.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_BB_4_Type_A_KB_4_Project_23"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_4_Type_A_KB_4_Project_23.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_BC_5_Stalingrad_BCG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_5_Stalingrad_BCG.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SOV_BB_5_Sovetsky_Soyuz_BBG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_5_Sovetsky_Soyuz_BBG.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_SHBB_1_Project_23_final_design"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_1_Project_23_final_design.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_SHBB_2_Project_24"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_2_Project_24.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_SS_1_Schuka"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Schuka.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_SS_1_Leninets"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Leninets.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_SS_1_Dekabrist"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Dekabrist.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_SS_2_S_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_2_S_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_SS_3_S_class_XI_Series"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_3_S_class_XI_Series.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_SS_4_Whiskey"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_4_Whiskey.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_SS_5_Zulu"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Zulu.dds"
+	}		
+	SpriteType = {
+		name = "GFX_SOV_SS_5_Quebec"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Quebec.dds"
+	}			
+	SpriteType = {
+		name = "GFX_SOV_SSG_1_Juliett"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSG/SOV_SSG_1_Juliett.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_SS_6_November"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_November.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_SS_6_Romeo"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_Romeo.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_SS_6_Foxtrot"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_Foxtrot.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_CT_1_Kirov_Torpedo_Cruiser"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CT/SOV_CT_1_Kirov_Torpedo_Cruiser.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_PzSc_1_Project_X"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/PzSc/SOV_PzSc_1_Project_X.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_SSC_1_K_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSC/SOV_SSC_1_K_class.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_SSM_1_Malyutka"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSM/SOV_SSM_1_Malyutka.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_SSM_1_M_400_Blokha"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSM/SOV_SSM_1_M_400_Blokha.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_SST_1_Pravda"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SST/SOV_SST_1_Pravda.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_SSV_1_Fictional" 
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSV/SOV_SSV_1_Fictional.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_SSV_2_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSV/SOV_SSV_2_Fictional.dds"
+	}		
+	
+	
+	######################## USA								██╗░░░██╗░██████╗░█████╗░
+	######################## USA								██║░░░██║██╔════╝██╔══██╗
+	######################## USA								██║░░░██║╚█████╗░███████║
+	######################## USA								██║░░░██║░╚═══██╗██╔══██║
+	######################## USA								╚██████╔╝██████╔╝██║░░██║
+	######################## USA								░╚═════╝░╚═════╝░╚═╝░░╚═╝
+	
+	SpriteType = { 
+		name = "GFX_USA_CVH_1_Iwo_Jima"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CVH/USA_CVH_1_Iwo_Jima.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_1_CA_Independence"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_CA_Independence.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_1_BB_Lexington"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_BB_Lexington.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_1_CVE_Saipan"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_CVE_Saipan.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_2_Yorktown"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_2_Yorktown.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_2_Ranger"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_2_Ranger.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_3_Wasp"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_3_Wasp.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_3_Essex"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_3_Essex.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_4_Midway"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_4_Midway.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_5_United_States"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_5_United_States.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_6_Forrestal"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_6_Forrestal.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_7_Enterprise"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_7_Enterprise.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_7_Kitty_Hawk"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_7_Kitty_Hawk.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CV_1_CVE_Bogue"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_CVE_Bogue.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_FO_1_Kaweah"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/FO/USA_FO_1_Kaweah.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_FO_2_Cimarron"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/FO/USA_FO_2_Cimarron.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_FO_3_Neosho"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/FO/USA_FO_3_Neosho.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_1_Caldwell"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Caldwell.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_1_Clemson"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Clemson.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_1_Wickes"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Wickes.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_1_Farragut"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Farragut.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_2_Bagley"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Bagley.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_2_Benham"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Benham.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_2_Mahan"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Mahan.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_2_Porter"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Porter.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_2_Sims"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Sims.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_2_Somers"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Somers.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_3_Allen_M_Sumner"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Allen_M_Sumner.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_3_Benson"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Benson.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_3_Fletcher"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Fletcher.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_3_Gleaves"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Gleaves.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_4_Gearing"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_4_Gearing.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_5_Norfolk"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_5_Norfolk.dds"		
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_5_Mitscher"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_5_Mitscher.dds"		
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_6_Forrest_Sherman"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_6_Forrest_Sherman.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_DDG_1_Forrest_Sherman"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DDGC/USA_DDG_1_Forrest_Sherman.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_7_Farragut"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_7_Farragut.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_DD_7_Charles_F_Adams"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_7_Charles_F_Adams.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_1_Omaha"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_1_Omaha.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CA_1_Northampton"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_1_Northampton.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CA_1_Pensacola"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_1_Pensacola.dds"	
+	} 
+	SpriteType = {
+		name = "GFX_USA_CA_1_Portland"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_1_Portland.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_2_Brooklyn"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_2_Brooklyn.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_2_St_Louis"	
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_2_St_Louis.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CA_2_New_Orleans"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_2_New_Orleans.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_3_Cleveland"	
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_3_Cleveland.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_3_Oakland"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_3_Oakland.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CA_3_Wichita"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_3_Wichita.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_4_Fargo"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_4_Fargo.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_4_Juneau"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_4_Juneau.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CA_4_Oregon_City"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_4_Oregon_City.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CA_4_Baltimore"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_4_Baltimore.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_5_CL_154"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_5_CL_154.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_5_Worcester"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_5_Worcester.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CA_5_S_511_64"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_5_S_511_64.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CA_5_Des_Moines"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_5_Des_Moines.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_6_Galveston"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_6_Galveston.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_6_Providence"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_6_Providence.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CA_6_Boston"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_6_Boston.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_7_Bainbridge"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_7_Bainbridge.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_7_Belknap"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_7_Belknap.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_7_Leahy"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_7_Leahy.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CA_7_Albany"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_7_Albany.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CA_7_Long_Beach"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_7_Long_Beach.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BC_1_Lexington"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_1_Lexington.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_1_Wyoming_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Wyoming_class.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_1_Tennessee_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Tennessee_class.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_1_Pennsylvania_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Pennsylvania_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_1_New_York_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_New_York_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_1_New_Mexico_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_New_Mexico_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_1_Nevada_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Nevada_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_1_Colorado_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Colorado_class.dds"
+	}
+	SpriteType = { 
+		name = "GFX_USA_BB_1_South_Dakota_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_South_Dakota_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_BC_2_Design_8_Cruiser_Killer"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_2_Design_8_Cruiser_Killer.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BC_2_1938_proposal"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_2_1938_proposal.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_2_BB_55_Scheme_B"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_B.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_2_BB_55_Scheme_C"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_C.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_2_BB_55_Scheme_D"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_D.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_2_South_Dakota"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_South_Dakota.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_2_North_Carolina"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_North_Carolina.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BC_3_CA_2D"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_3_CA_2D.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BC_3_S_511_6"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_3_S_511_6.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_3_Iowa"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_3_Iowa.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BC_4_Alaska"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_4_Alaska.dds"		
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_4_Kentucky_AA_BB"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_4_Kentucky_AA_BB.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_4_Missouri"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_4_Missouri.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_BC_5_Hawaii_BCG_Conversion"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_5_Hawaii_BCG_Conversion.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_5_Kentucky_BBG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_5_Kentucky_BBG.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_BB_2_BB_55_Scheme_D"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_D.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SHBB_1_Montana"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_1_Montana.dds"	
+	} 
+	SpriteType = {
+		name = "GFX_USA_SHBB_1_BB_57_Study_II"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_1_BB_57_Study_II.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_SHBB_2_Montana_2"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_2_Montana_2.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_1_S"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_S.dds"
+	}
+	SpriteType = { 
+		name = "GFX_USA_SS_1_Porpoise"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_Porpoise.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_1_Barracuda"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_Barracuda.dds"		
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_1_Cachalot"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_Cachalot.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_2_Tambor"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_2_Tambor.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_2_Salmon"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_2_Salmon.dds"
+	} 
+	SpriteType = {
+		name = "GFX_USA_SS_3_Mackarel"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_3_Mackarel.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_3_Balao"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_3_Balao.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_3_Gato"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_3_Gato.dds"
+	}  
+	SpriteType = {
+		name = "GFX_USA_SS_4_Tench"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_4_Tench.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_5_Barracuda"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_5_Barracuda.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_5_Tang"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_5_Tang.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_SSG_1_Grayback"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SSG/USA_SSG_1_Grayback.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_SSG_1_Halibut"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SSG/USA_SSG_1_Halibut.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SSG_1_George_Washington"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SSG/USA_SSG_1_George_Washington.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_6_Seawolf"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Seawolf.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_6_Nautilus"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Nautilus.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_6_Barbel"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Barbel.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SS_6_Darter"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Darter.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_CT_1_Torpedo_Atlanta"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/CT/USA_CT_1_Torpedo_Atlanta.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_PsSc_1_S_511_14"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/PzSc/USA_PsSc_1_S_511_14.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SSC_1_Narwhal"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SSC/USA_SSC_1_Narwhal.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_MSS_1_O_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SSM/USA_MSS_1_O_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SST_1_Guavina"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SST/USA_SST_1_Guavina.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SSV_1_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SSV/USA_SSV_1_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SSV_1_AN_1"
+		texturefile = "gfx/interface/equipmentdesigner/ships/USA/SSV/USA_SSV_1_AN_1.dds"
+	}
+	
+	######################## ENG								███████╗███╗░░██╗░██████╗░
+	######################## ENG								██╔════╝████╗░██║██╔════╝░
+	######################## ENG								█████╗░░██╔██╗██║██║░░██╗░
+	######################## ENG								██╔══╝░░██║╚████║██║░░╚██╗
+	######################## ENG								███████╗██║░╚███║╚██████╔╝
+	######################## ENG								╚══════╝╚═╝░░╚══╝░╚═════╝░
+		
+	
+
+	SpriteType = {
+		name = "GFX_ENG_CVH_1_Bulwark"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CVH/ENG_CVH_1_Bulwark.png"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_1_V_and_W"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_V_and_W.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_1_S"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_S.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_1_Town"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_Town.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_1_A_and_B"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_A_and_B.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_1_E_and_F"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_E_and_F.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_2_Tribal"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_Tribal.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_2_J_K_and_N"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_J_K_and_N.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_2_I_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_I_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_2_G_and_H"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_G_and_H.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_3_O_and_P"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_O_and_P.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_3_L_and_M"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_L_and_M.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_3_C_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_C_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_3_Hunt"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_Hunt.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_4_Weapon"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_4_Weapon.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_4_Battle"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_4_Battle.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_5_Daring"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_5_Daring.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_6_Super_Daring"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_6_Super_Daring.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DDG_1_Daring_Conversion"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DDGC/ENG_DDG_1_Daring_Conversion.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_7_GW24"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_7_GW24.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_DD_7_County"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_7_County.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CA_1_York"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_1_York.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CA_1_Hawkins"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_1_Hawkins.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CA_1_County"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_1_County.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_1_Arethusa"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Arethusa.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_1_C_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_C_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_1_Danae"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Danae.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_1_Emerald"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Emerald.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_1_Leander"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Leander.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CA_2_Design_II_Armoured_Cruiser"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_2_Design_II_Armoured_Cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CA_2_Design_I_Armoured_Cruiser"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_2_Design_I_Armoured_Cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_2_Town"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_2_Town.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_2_Dido"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_2_Dido.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CA_3_Design_A_Heavy_Cruiser"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_3_Design_A_Heavy_Cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_3_Fiji"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_3_Fiji.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CA_4_Churchill_Design_E"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_4_Churchill_Design_E.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_4_Minotaur_1943"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_4_Minotaur_1943.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_4_Neptune"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_4_Neptune.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CA_5_Admiral"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_5_Admiral.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_5_Minotaur"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_5_Minotaur.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CA_6_GW1"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_6_GW1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_6_Tiger"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_6_Tiger.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CA_7_GW95"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_7_GW95.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_7_Tiger_CLG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_7_Tiger_CLG.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CL_7_GW96"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_7_GW96.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BC_1_Admiral"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Admiral.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BC_1_Renown"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Renown.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BC_1_Hood"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Hood.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BC_1_G3"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_G3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BB_1_King_George_V"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_King_George_V.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BB_1_Iron_Duke"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Iron_Duke.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BB_1_Queen_Elizabeth"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Queen_Elizabeth.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BB_1_Revenge"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Revenge.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BB_1_Nelson"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Nelson.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BC_2_10in_Large_Cruiser"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_2_10in_Large_Cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BB_2_King_George_V"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_2_King_George_V.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BC_3_12in_Large_Cruiser"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_3_12in_Large_Cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BB_3_Lion"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_3_Lion.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BC_4_Design_14A_38"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_4_Design_14A_38.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BB_4_Vanguard"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_4_Vanguard.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_BB_5_Lion_BBG_Conversion"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_5_Lion_BBG_Conversion.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SHBB_1_Design_O3"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_SHBB_1_Design_O3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SHBB_2_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_SHBB_2_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SS_1_Grampus"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_Grampus.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SS_1_S_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_S_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SS_1_River"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_River.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SS_1_O_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_O_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SS_2_U_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_2_U_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SS_2_T_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_2_T_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SS_3_V_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_3_V_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SS_4_Amphion"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_4_Amphion.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SS_5_Explorer"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_5_Explorer.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SSG_1_Resolution"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SSG/ENG_SSG_1_Resolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SS_6_Dreadnought"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_6_Dreadnought.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SS_6_Oberon"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_6_Oberon.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_1_BB_Eagle"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_BB_Eagle.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_1_BB_Courageous"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_BB_Courageous.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_1_CA_Hermes"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_CA_Hermes.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_2_Ark_Royal"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_2_Ark_Royal.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_3_Illustrious"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_3_Illustrious.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_4_Malta"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Malta.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_4_Implacable"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Implacable.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_4_Colossus"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Colossus.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_5_Majestic"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_5_Majestic.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_5_Audacious"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_5_Audacious.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_6_Centaur"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_6_Centaur.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CV_7_Queen_Elizabeth"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_7_Queen_Elizabeth.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_CT_1_Danae_Torpedo"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/CT/ENG_CT_1_Danae_Torpedo.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_PzSc_1_Lilicrap_20K"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/PzSc/ENG_PzSc_1_Lilicrap_20K.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SSC_1_X1_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SSC/ENG_SSC_1_X1_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SSM_1_X_class"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SSM/ENG_SSM_1_X_class.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_SST_1_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ENG/SST/ENG_SST_1_Fictional.dds"
+	}
+	######################## FRA								███████╗██████╗░░█████╗░
+	######################## FRA								██╔════╝██╔══██╗██╔══██╗
+	######################## FRA								█████╗░░██████╔╝███████║
+	######################## FRA								██╔══╝░░██╔══██╗██╔══██║
+	######################## FRA								██║░░░░░██║░░██║██║░░██║
+	######################## FRA								╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝
+		
+		
+
+	SpriteType = {
+		name = "GFX_FRA_CVH_1_Jeanne_DArc"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CVH/FRA_CVH_1_Jeanne_DArc.png"
+	}
+	SpriteType = {
+		name = "GFX_FRA_FO_3_Durance"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/FO/FRA_FO_3_Durance.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DD_1_Bourrasque"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_1_Bourrasque.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DD_1_Guepard"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_1_Guepard.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DD_1_Vauquelin"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_1_Vauquelin.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DD_2_Le_Fantasque"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_2_Le_Fantasque.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DD_3_Mogador"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_3_Mogador.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DD_3_Le_Hardi"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_3_Le_Hardi.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DD_4_Project_148A"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_4_Project_148A.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DD_4_Improved_Mogador"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_4_Improved_Mogador.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DD_5_T_47"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_5_T_47.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DD_6_T_53"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_6_T_53.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DDG_1_T_56"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DDGC/FRA_DDG_1_T_56.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_DD_7_Suffren"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_7_Suffren.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CA_1_Suffren"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_1_Suffren.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CA_1_Duquesne"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_1_Duquesne.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CL_1_Jeanne_DArc"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_1_Jeanne_DArc.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CL_1_Duguay_Trouin"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_1_Duguay_Trouin.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CA_2_Algerie"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_2_Algerie.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CL_2_La_Galissoriere"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_2_La_Galissoriere.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CL_2_Emile_Bertin"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_2_Emile_Bertin.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CA_3_C5SA1"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_3_C5SA1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CL_3_De_Grasse"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_3_De_Grasse.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CA_4_Saint_Louis"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_4_Saint_Louis.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CL_4_De_Grasse_Late"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_4_De_Grasse_Late.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CA_5_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_5_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CL_5_De_Grasse_Rebuild"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_5_De_Grasse_Rebuild.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CA_6_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_6_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CL_6_Colbert"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_6_Colbert.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CA_7_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_7_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CL_7_Colbert_CLG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_7_Colbert_CLG.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_BC_1_37000-tonnes_B1"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_1_37000-tonnes_B1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_BB_1_Courbet"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_1_Courbet.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_BB_1_Bretagne"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_1_Bretagne.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_BC_2_Dunkerque"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_2_Dunkerque.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_BB_2_Richelieu"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_2_Richelieu.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_BC_3_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_3_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_BB_3_Alsace_design_3"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_3_Alsace_design_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_BC_4_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_4_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_BB_4_Alsace_final_design"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_4_Alsace_final_design.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_BC_5_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_5_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_BB_5_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_5_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SHBB_1_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_SHBB_1_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SHBB_2_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_SHBB_2_fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SS_1_Saphir"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Saphir.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SS_1_Requin"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Requin.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SS_1_Redoutable"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Redoutable.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SS_1_Orion"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Orion.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SS_1_Diane"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Diane.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SS_1_Argonaute"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Argonaute.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SS_2_Minerve"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_2_Minerve.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SS_3_Aurore"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_3_Aurore.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SS_4_Narval"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_4_Narval.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SS_5_Aréthuse"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_5_Aréthuse.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SSG_1_Redoutable"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SSG/FRA_SSG_1_Redoutable.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SS_6_Daphné"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_6_Daphné.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CV_1_BB_Béarn"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_1_BB_Béarn.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CV_1_CA_Duquesne"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_1_CA_Duquesne.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CV_2_Joffre"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_2_Joffre.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CV_3_Painlévé"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_3_Painlévé.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CV_4_Jean_Bart"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_4_Jean_Bart.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CV_5_PA28"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_5_PA28.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CV_6_Clemenceau"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_6_Clemenceau.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CV_7_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_7_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CV_7_PA58"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_7_PA58.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_CT_1_Emile_Bertin_Torpedo"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CT/FRA_CT_1_Emile_Bertin_Torpedo.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_PzSc_1_Croiseur_Protégé_de_23690"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/PzSc/FRA_PzSc_1_Croiseur_Protégé_de_23690.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SSC_1_Surcouf"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SSC/FRA_SSC_1_Surcouf.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SSM_1_S_622_Seehund"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SSM/FRA_SSM_1_S_622_Seehund.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SST_1_Surcouf_tanker"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SST/FRA_SST_1_Surcouf_tanker.dds"
+	}
+	######################## JAP								░░░░░██╗░█████╗░██████╗░
+	######################## JAP								░░░░░██║██╔══██╗██╔══██╗
+	######################## JAP								░░░░░██║███████║██████╔╝
+	######################## JAP								██╗░░██║██╔══██║██╔═══╝░
+	######################## JAP								╚█████╔╝██║░░██║██║░░░░░
+	######################## JAP								░╚════╝░╚═╝░░╚═╝╚═╝░░░░░
+	
+		
+
+	SpriteType = {
+		name = "GFX_JAP_SSC_1_I_400"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSV/JAP_SSC_1_I_400.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SSC_2_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSV/JAP_SSC_2_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_FO_1_Kazahaya"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/FO/JAP_FO_1_Kazahaya.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_FO_3_Aikoku_Maru"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/FO/JAP_FO_3_Aikoku_Maru.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_1_Mutsuki"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Mutsuki.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_1_Minekaze"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Minekaze.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_1_Kamikaze"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Kamikaze.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_1_Hatsuharu"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Hatsuharu.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_1_Fubuki"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Fubuki.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_1_Akatsuki"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Akatsuki.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_2_Shiratsuyu"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_2_Shiratsuyu.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_2_Asashio"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_2_Asashio.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_3_Yugumo"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Yugumo.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_3_Shimakaze"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Shimakaze.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_3_Kagero"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Kagero.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_3_Akizuki"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Akizuki.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CVE_Taiyō"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CVE/JAP_CVE_Taiyō.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_4_Shimakaze_Kai"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_4_Shimakaze_Kai.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_4_Matsu"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_4_Matsu.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_4_Akizuki_Kai"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_4_Akizuki_Kai.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_5_Harukaze"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_5_Harukaze.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_6_Ayanami"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_6_Ayanami.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_6_Akizuki"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_6_Akizuki.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DDG_1_Amatsukaze"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DDGC/JAP_DDG_1_Amatsukaze.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_DD_7_Takatsuki"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_7_Takatsuki.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_1_Yubari"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Yubari.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_1_Tenryu"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Tenryu.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_1_Sendai"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Sendai.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_1_Nagara"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Nagara.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_1_Kuma"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Kuma.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_1_Furutaka"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Furutaka.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_1_Aoba"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Aoba.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_1_Myoko"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Myoko.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_1_Takao"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Takao.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_2_Kumano_AA_Cruiser"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_2_Kumano_AA_Cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_2_C_39"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_2_C_39.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_2_Suzuya_AA_Cruiser"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_2_Suzuya_AA_Cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_2_Tone"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_2_Tone.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_2_Mogami"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_2_Mogami.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_3_Oyodo"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_3_Oyodo.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_3_Fictional_AA"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_3_Fictional_AA.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_3_Agano"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_3_Agano.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_3_Zao"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_3_Zao.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_4_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_4_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_4_Agano_Kai"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_4_Agano_Kai.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_4_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_4_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_5_Fictional_2"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_5_Fictional_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_5_Fictional_1"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_5_Fictional_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_5_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_5_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_6_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_6_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_6_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_6_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_7_Fictional_2"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_7_Fictional_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CL_7_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_7_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_7_Fictional_2"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_7_Fictional_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CA_7_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_7_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BC_1_Amagi"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_1_Amagi.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BC_1_Kongo"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_1_Kongo.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_1_Kongo"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kongo.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_1_Kawachi"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kawachi.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_1_Fusō"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Fusō.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_1_Fusō_pre37"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Fusō_pre37.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_1_Ise"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Ise.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_1_Nagato"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Nagato.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_1_Nagato_late"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Nagato_late.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_1_Tosa"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Tosa.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_1_Kii"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kii.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_1_No13_Design_M"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_No13_Design_M.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BC_2_1929_30000T"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_2_1929_30000T.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_2_Design_X"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_2_Design_X.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BC_3_B_65_late"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_3_B_65_late.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BC_3_B_65_early"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_3_B_65_early.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_3_A_140D"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_3_A_140D.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BC_4_fictional_B_65_refit"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_4_fictional_B_65_refit.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_4_A_140J3"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_4_A_140J3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BC_5_B_65_BCG_Conversion"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_5_B_65_BCG_Conversion.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BB_5_fictional_BBG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_5_fictional_BBG.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SHBB_1_Yamato"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_SHBB_1_Yamato.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SHBB_2_A_150"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_SHBB_2_A_150.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SS_1_I_51_Kaidai"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_1_I_51_Kaidai.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SS_2_Type_B"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_2_Type_B.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SS_3_Type_C"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_3_Type_C.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SS_3_Ro_100"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_3_Ro_100.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SS_4_I_201"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_4_I_201.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SS_4_Ha_201"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_4_Ha_201.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SS_5_Oyashio"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_5_Oyashio.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SSG_1_Fictional_B"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSG/JAP_SSG_1_Fictional_B.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SSG_1_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSG/JAP_SSG_1_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SS_6_Hayashio"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_6_Hayashio.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_1_BB_Shinano"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Shinano.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_1_BB_Akagi"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Akagi.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_1_BB_Kaga"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Kaga.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_1_CA_Chitose"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Chitose.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_1_CA_Ibuki"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Ibuki.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_1_CA_Ryuho"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Ryuho.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_1_Hosho"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_Hosho.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_1_Ryūjō"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_Ryūjō.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_1_CA_Zuiho"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Zuiho.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_2_Sōryū"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_2_Sōryū.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_2_Hiryū"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_2_Hiryū.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_3_Taiho"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_3_Taiho.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_3_Shokaku"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_3_Shokaku.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_4_Kai_Taiho"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_4_Kai_Taiho.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_4_Unryu"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_4_Unryu.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_5_Hayataka"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_5_Hayataka.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_6_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_6_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CV_7_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_7_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CT_1_Kitakami"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CT/JAP_CT_1_Kitakami.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_PzSc_1_Yuzuru_20KT_Var_B"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/PzSc/JAP_PzSc_1_Yuzuru_20KT_Var_B.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SSC_1_Type_A"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSC/JAP_SSC_1_Type_A.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SSC_1_Junsen"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSC/JAP_SSC_1_Junsen.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SSM_1_Type_A"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSM/JAP_SSM_1_Type_A.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SSM_1_Kairyū"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSM/JAP_SSM_1_Kairyū.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SST_1_I_351"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SST/JAP_SST_1_I_351.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_SST_1_I_361"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SST/JAP_SST_1_I_361.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CVH_1_Hyuga"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Hyuga.png"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CVH_1_Shirane"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Shirane.png"
+	}
+	SpriteType = {
+		name = "GFX_JAP_CVH_1_Haruna"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Haruna.png"
+	}
+	######################## ITA								██╗████████╗░█████╗░
+	######################## ITA								██║╚══██╔══╝██╔══██╗
+	######################## ITA								██║░░░██║░░░███████║
+	######################## ITA								██║░░░██║░░░██╔══██║
+	######################## ITA								██║░░░██║░░░██║░░██║
+	######################## ITA								╚═╝░░░╚═╝░░░╚═╝░░╚═╝
+	SpriteType = {
+		name = "GFX_ITA_CVH_1_Vittorio_Veneto"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CVH/ITA_CVH_1_Vittorio_Veneto.png"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CVH_1_Andrea_Doria"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CVH/ITA_CVH_1_Andrea_Doria.png"
+	}
+	SpriteType = {
+		name = "GFX_ITA_DD_1_Navigatori"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_1_Navigatori.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_DD_1_Folgore"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_1_Folgore.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_DD_1_Freccia"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_1_Freccia.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_DD_2_Soldati"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_2_Soldati.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_DD_2_Alfredo_Oriani"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_2_Alfredo_Oriani.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_DD_3_Ansaldo_1939_design"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_3_Ansaldo_1939_design.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_DD_4_Comandanti_Medaglia_d'Oro"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_4_Comandanti_Medaglia_d'Oro.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_DD_5_San_Giorgio"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_5_San_Giorgio.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_DD_6_Impetuoso"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_6_Impetuoso.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_DDG_1_Impetuoso"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/DDGC/ITA_DDG_1_Impetuoso.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_DD_7_Impavido"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_7_Impavido.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CA_1_Trento"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_1_Trento.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CA_1_Bolzano"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_1_Bolzano.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CL_1_Condottieri"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_1_Condottieri.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CA_2_Ansaldo_Project_770"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_2_Ansaldo_Project_770.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CA_2_Zara"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_2_Zara.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CL_2_Capitani_Romani"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_2_Capitani_Romani.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CA_3_Ansaldo_UP102"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_3_Ansaldo_UP102.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CL_3_OTO_Scout_Cruiser"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_3_OTO_Scout_Cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CL_3_Etna"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_3_Etna.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CA_4_Ansaldo_9x203"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_4_Ansaldo_9x203.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CL_4_Ansaldo_12x152"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_4_Ansaldo_12x152.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CA_5_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_5_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CL_5_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_5_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CA_6_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_6_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CL_6_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_6_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CA_7_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_7_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CL_7_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_7_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CL_7_Duca_degli_Abruzzi_CLG"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_7_Duca_degli_Abruzzi_CLG.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_BC_1_OTO_Livorno_23K"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_1_OTO_Livorno_23K.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_BB_1_Caio_Duilio"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_1_Caio_Duilio.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_BB_1_Conti_di_Cavour"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_1_Conti_di_Cavour.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_BC_2_OTO_Livorno_26K"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_2_OTO_Livorno_26K.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_BB_2_Littorio"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_2_Littorio.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_BC_3_Ansaldo_Big_Gun_Cruiser"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_3_Ansaldo_Big_Gun_Cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_BB_3_Ansaldo_UP41"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_3_Ansaldo_UP41.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_BC_4_Pansarskepp_Ansaldo"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_4_Pansarskepp_Ansaldo.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_BB_4_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_4_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_BC_5_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_5_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_BB_5_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_5_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SHBB_1_Cassone_design"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_SHBB_1_Cassone_design.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SHBB_2_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_SHBB_2_fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SS_1_Argonauta"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_1_Argonauta.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SS_2_Perla"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_2_Perla.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SS_3_Marconi"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_3_Marconi.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SS_4_Flutto"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_4_Flutto.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SS_5_Toti"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_5_Toti.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SSG_1_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/SSG/ITA_SSG_1_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SS_6_Sauro"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_6_Sauro.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CV_1_BB_Francesco_Caracciolo"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_BB_Francesco_Caracciolo.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CV_1_BB_Bonfiglietti_design"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_BB_Bonfiglietti_design.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CV_1_CA_Sparviero"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_CA_Sparviero.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CV_2_Aquila"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_2_Aquila.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CV_3_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_3_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CV_4_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_4_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CV_5_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_5_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CV_6_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_6_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CV_7_Fictional"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_7_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_CT_1_Capitani_Romani_Torpedo"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/CT/ITA_CT_1_Capitani_Romani_Torpedo.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_1_PsSC_Ansaldo_UP_707"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/PzSc/ITA_1_PsSC_Ansaldo_UP_707.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SSC_1_Ettore_Fieramosca"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/SSC/ITA_SSC_1_Ettore_Fieramosca.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SSM_1_CB"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/SSM/ITA_SSM_1_CB.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SST_1_1934_Tanker_design"
+		texturefile = "gfx/interface/equipmentdesigner/ships/ITA/SST/ITA_SST_1_1934_Tanker_design.dds"
+	}
+
+}
+	
+		
+		
+	

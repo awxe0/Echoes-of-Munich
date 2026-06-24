@@ -1,0 +1,530 @@
+﻿USA = {
+	
+	amphibious_assault_ship_1 = {
+		prefix = ""
+		generic = { "LCVP" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = {}
+	}
+	
+	amphibious_assault_ship_2 = {
+		prefix = "USS"
+		generic = { "APA" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = { 
+			"Doyen" "Harris" "Zeilin" "McCawley" "Barnett" "Heywood" "Fuller" "William P. Biddle" "Neville" "Harry Lee" "Feland" "Leonard Wood" "Joseph T. Dickman" "Hunter Liggett" "Henry T. Allen" "J. Franklin Bell"
+			"American Legion" "President Jackson" "President Adams" "President Hayes" "Crescent City" "Joseph Hewes" "John Penn" "Edward Rutledge" "Arthur Middleton" "Samuel Chase" "George Clymer" "Charles Carroll" "Thomas Stone"
+			"Thomas Jefferson" "Monrovia" "Calvert" "Bayfield" "Bolivar" "Callaway" "Cambria" "Cavalier" "Chilton" "Clay" "Custer" "Du Page" "Elmore" "Fayette" "Fremont" "Henrico" "Knox" "Lamar" "Leon" "Ormsby" "Pierce" "Sheridan"
+			"Sumter" "Warren" "Wayne" "Windsor" "Leedstown" "Gilliam" "Appling" "Audrain" "Banner" "Barrow" "Berrien" "Bladen" "Bracken" "Briscoe" "Brule" "Burleson" "Butte" "Carlisle" "Carteret" "Catron" "Clarendon" "Cleburne"
+			"Colusa" "Cortland" "Crenshaw" "Crittenden" "Cullman" "Dawson" "Dickenson" "Drew" "Elbert" "Fentress" "Floyd" "Frederick Funston" "Gadsden" "Gage" "Gallatin" "Goodhue" "Greenwood" "Hale" "Haskell" "Hinsdale" "Hubbard"
+			"Huntington" "Kendall" "Kennebec" "Kittson" "La Moure" "La Salle" "Latimer" "Letcher" "Livingston" "Logan" "Lyon" "Marion" "McCracken" "McLean" "Medina" "Mercer" "Merrick" "Monterey" "Montrose" "Newberry" "Noble"
+			"Oglethorpe" "Perry" "Pickens" "Pike" "Pine" "Pitt" "Pocahontas" "Polk" "Ramsey" "Randall" "Renville" "Rhea" "Rolette" "Saginaw" "Sanborn" "Shelby" "Stanislaus" "Starr" "Stutsman" "Talbot" "Tazewell" "Thurston"
+			"Tyrrell" "Upshur" "Vanderburgh" "Vermilion" "Walworth" "Wayne" "Westmoreland" "Yolo" "Adair" "Alpine" "Allendale" "Alcona" "Amador" "Amherst" "Anselma" "Antrim" "Aransas" "Arapahoe" "Archuleta" "Arenac" "Atascosa"
+			"Attala" "Audubon" "Auglaize" "Baker" "Baldwin" "Barry" "Barton" "Bates" "Baylor" "Beadle" "Beaverhead" "Benton" "Bergen" "Berkshire" "Bibb" "Bingham" "Blaine" "Boone" "Bourbon" "Bowie" "Brazos" "Breckinridge"
+			"Bristol" "Brooks" "Brown" "Buchanan" "Buffalo" "Bureau" "Burke" "Butler" "Cabell" "Calhoun" "Caldwell" "Calloway" "Camden" "Cameron" "Campbell" "Cannon" "Carbon" "Carroll" "Cedar" "Chambers" "Champaign" "Cherokee"
+			"Chester" "Cheyenne" "Chickasaw" "Clarke" "Clayton" "Clinton" "Cochise" "Colbert" "Comanche" "Converse" "Cook" "Cooper" "Crockett" "Crow Wing" "Custer" "Dakota" "Dane" "Daviess" "DeKalb" "Desha" "Dewey" "Dodge"
+			"Douglas" "Duval" "Eddy" "El Dorado" "Erie" "Escambia" "Essex" "Fannin" "Fayette" "Fillmore" "Ford" "Franklin" "Fulton" "Garfield" "Genesee" "Glacier" "Grafton" "Grant" "Greene" "Grundy" "Hancock" "Hardin" "Harrison"
+			"Henderson" "Henry" "Hidalgo" "Hood" "Houston" "Howard" "Huron" "Jackson" "Jasper" "Jefferson" "Johnson" "Jones" "Kalamazoo" "Kane" "Kearny" "King" "Knox" "Kosciusko" "La Porte" "Lake" "Lancaster" "Lauderdale"
+			"Lawrence" "Lee" "Leon" "Lincoln" "Loudoun" "Lubbock" "Luzerne" "Macon" "Madison" "Mahoning" "Manatee" "Maricopa" "Marin" "Marion" "Marshall" "Mason" "McHenry" "McIntosh" "Medina" "Merced" "Miami" "Milam"
+			"Monroe" "Montgomery" "Morrow" "Napa" "Nassau" "New Madrid" "Norfolk" "Norton" "Oakland" "Ocean" "Orange" "Osage" "Ottawa" "Ouachita" "Paulding" "Peoria" "Pierce" "Platte" "Polk" "Portage" "Preble" "Prowers" "Racine"
+			"Randolph" "Rappahannock" "Reno" "Rice" "Richland" "Roanoke" "Rock" "Sacramento" "Salem" "San Diego" "San Juan" "Santa Clara" "Santa Cruz" "Schuyler" "Scott" "Seminole" "Shawnee" "Shelby" "Spokane" "Stark" "Stearns"
+			"Suffolk" "Summit" "Susquehanna" "Tarrant" "Taylor" "Tippecanoe" "Travis" "Tulsa" "Tuscaloosa" "Union" "Ventura" "Vigo" "Wabash" "Walla Walla" "Washtenaw" "Washington" "Wayne" "Webster" "Whitley" "Wilson" "Winnebago"
+			"Wood" "Wyandot" "Yakima" 
+		}
+	}
+	
+	amphibious_assault_ship_3 = {
+		prefix = ""
+		generic = { "LST" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = {}
+	}
+	
+	amphibious_assault_ship_4 = {
+		prefix = "USS"
+		generic = { "LST" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = {
+			"Addison County" "Alameda County" "Armstrong County" "Atchison County" "Bamberg County" "Benton County" "Benzie County" "Berkeley County" "Berkshire County" "Bernalillo County" "Blanco County" "Bledsoe County"
+			"Boone County" "Bowman County" "Bradley County" "Branch County" "Brewster County" "Buchanan County" "Bulloch County" "Buncombe County" "Burnett County" "Caddo Parish" "Calaveras County" "Calhoun County"
+			"Cape May County" "Caroline County" "Cassia County" "Catahoula Parish" "Cayuga County" "Chase County" "Cheboygan County" "Chelan County" "Chesterfield County" "Chittenden County" "Churchill County" "Clarke County"
+			"Clearwater County" "Coconino County" "Crook County" "Curry County" "Daggett County" "Daviess County" "DeKalb County" "Dodge County" "Douglas County" "Dukes County" "Dunn County" "Duval County" "Eddy County"
+			"Esmeraldo County" "Floyd County" "Ford County" "Garfield County" "Garrett County" "Gibson County" "Greer County" "Hamilton County" "Hampden County" "Hampshire County" "Harnett County" "Harris County" "Henry County"
+			"Hickman County" "Hillsborough County" "Hillsdale County" "Holmes County" "Hunterdon County" "Iredell County" "Iron County" "Jefferson County" "Jennings County" "Jerome County" "Johnson County" "Juniata County"
+			"Kane County" "Kemper County" "Kent County" "King County" "Lafayette County" "Lake County" "La Moure County" "Lawrence County" "Lee County" "Lincoln County" "Linn County" "Litchfield County" "Luzerne County"
+			"Lyman County" "Lyon County" "Madera County" "Mahnomen County" "Mahoning County" "Maricopa County" "Marinette County" "Marion County" "Meeker County" "Middlesex County" "Millard County" "Mineral County"
+			"Monmouth County" "Monroe County" "Montgomery County" "Morgan County" "Nansemond County" "New London County" "Nye County" "Orange County" "Orleans Parish" "Ouachita County" "Outagamie County" "Overton County"
+			"Page County" "Park County" "Payette County" "Pender County" "Pima County" "Pitkin County" "Plumas County" "Polk County" "Potter County" "Pulaski County" "Rice County" "Russell County" "Sagadahoc County"
+			"St. Clair County" "Saline County" "San Bernardino County" "Stark County" "Sedgwick County" "Snohomish County" "Solano County" "Somervell County" "Steuben County" "Stone County" "Strafford County" "Sublette County"
+			"Summit County" "Sumner County" "Sutter County" "Sweetwater County" "Talbot County" "Tallahatchie County" "Terrebonne Parish" "Terrell County" "Tioga County" "Tom Green County" "Traverse County" "Vernon County"
+			"Wahkiakum County" "Waldo County" "Walworth County" "Washoe County" "Washtenaw County" "Westchester County" "Wexford County" "Whitfield County" "Windham County" "De Soto County" "Grant County" "Suffolk County"
+			"Graham County" "Lorain County" "York County" "Wood County" "Newport" "Manitowoc" "Sumter" "Fresno" "Peoria" "Frederick" "Schenectady" "Cayuga" "Tuscaloosa" "Saginaw" "San Bernardino" "Boulder" "Racine"
+			"Spartanburg County" "Fairfax County" "La Moure County" "Barbour County" "Harlan County" "Barnstable County" "Bristol County"
+		}
+	}
+	
+	amphibious_assault_ship_5 = {
+		prefix = "USS"
+		generic = { "LSD" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = {
+			"Ashland" "Belle Grove" "Carter Hall" "Epping Forest" "Gunston Hall" "Lindenwald" "Oak Hill" "White Marsh" "Lake Champlain" "Point Defiance" "Rushmore" "Shadwell" "Cabildo" "Catamount" "Colonial" "Comstock" "Donner"
+			"Fort Mandan" "Fort Marion" "Thomaston" "Plymouth Rock" "Fort Snelling" "Point Loma" "Spiegel Grove" "Alamo" "Hermitage" "Monticello" "Anchorage" "Portland" "Pensacola" "Mount Vernon" "Fort Fisher" "Whidbey Island"
+			"Germantown" "Fort McHenry" "Gunston Hall" "Comstock" "Tortuga" "Rushmore" "Ashland" "Harpers Ferry" "Carter Hall" "Oak Hill" "Pearl Harbor"
+		}
+	}
+	
+	amphibious_assault_ship_6 = {
+		prefix = "USS"
+		generic = { "LPH" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = {
+			"Block Island" "Iwo Jima" "Okinawa" "Guadalcanal" "Guam" "Tripoli" "New Orleans" "Inchon" "Boxer" "Princeton" "Valley Forge" "Thetis Bay" "Tarawa" "Saipan" "Belleau Wood" "Nassau" "Peleliu" "Bonhomme Richard"
+			"Makin Island" "America"  "Bougainville" "Wasp" "Essex" "Kearsarge" "Bataan" 
+		}
+	}
+	
+	naval_helicopter_equipment = {
+		prefix = ""
+		generic = { "Helicopter Combat Support Squadron" "HC" }
+		generic_pattern = AIR_WING_NAME_USA_CARRIER
+		unique = {
+		}	
+	} 
+	
+	naval_helicopter = {
+		prefix = ""
+		generic = { "Helicopter Combat Support Squadron" "HC" }
+		generic_pattern = AIR_WING_NAME_USA_CARRIER
+		unique = {
+		}
+	}
+	
+	fleet_oiler = {
+		prefix = "USS"
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {			
+			"Mattole" "Laramie" "Cimarron"  "Neosho" "Platte" "Sabine" "Salamonie" "Kaskaskia" "Sangamon" "Santee" "Chemung" "Chenango" "Guadalupe" "Suwannee" "Ashtabula" "Cacapon" "Caliente" "Chikaskia" "Elokomin" "Aucilla"
+			"Marias" "Manatee" "Mississinewa" "Nantahala" "Severn" "Taluga" "Chipola" "Tolovana" "Allagash" "Caloosahatchee" "Canisteo" "Chukawan" "Mispillion" "Navasota" "Passumpsic" "Pawcatuck" "Waccamaw" "Chicopee" "Housatonic"
+			"Kennebec" "Merrimack" "Winooski" "Kankakee" "Lackawanna" "Mattaponi" "Monongahela" "Tappahannock" "Patuxent" "Neches" "Chiwawa" "Enoree" "Escalante" "Neshanic" "Niobrara" "Suamico" "Tallulah" "Pecos" "Cache" "Millicoma"
+			"Saranac" "Saugatuck" "Schuylkill" "Cossatot" "Chepachet" "Cowanesque" "Escambia" "Kennebago" "Cahaba" "Mascoma" "Ocklawaha" "Pamanset" "Ponaganset" "Sebec" "Tomahawk" "Pasig" "Abatan" "Soubarissen" "Anacostia" "Caney"
+			"Tamalpais" "Cohocton" "Concho" "Conecuh" "Contoocook" "Mississinewa" "Hassayampa" "Kawishiwi" "Truckee" "Ponchatoula"
+		}
+	}	
+	
+	helicopter_carrier = {
+		prefix = "USS"
+		generic = { "Amphibious Assault Ship" }
+		unique = {
+			"Iwo Jima" "Okinawa" "Guadalcanal" "Guam" "Tripoli" "New Orleans" "Inchon" "Block Island" "Boxer" "Princeton" "Thetis Bay" "Valley Forge" "Tarawa" "Saipan" "Belleau Wood" "Nassau" "Peleliu" "Wasp" "Essex" "Kearsarge" 
+			"Bataan" "Bonhomme Richard" "Makin Island"
+		}
+	}
+	
+	repair_ship = {
+		prefix = "USS"
+		generic = { "Repair Ship" }
+		unique = {			
+			"Vulcan" "Ajax" "Hector" "Jason" "Delta" "Alcor" "Rigel" "Briareus" "Amphion" "Cadmus" "Xanthus" "Laertes" "Dionysus" "Klondike" "Markab" "Grand Canyon" "Oglala" "Luzon" "Mindanao" "Tutuila" "Oahu" "Cebu" "Culebra Island" 
+			"Leyte" "Mona Island" "Palawan" "Samar" "Dumaran" "Masbate" "Kermit Roosevelt" "Hooper Island" "Beaver" "Otus" "Basilan" "Burias" 
+		}
+	}	
+	
+	support_ship = {
+		prefix = "USS"
+		generic = { "Provisions Ship" }
+		unique = {			
+			"Boras" "Yukon" "Aldebaran" "Polaris" "Mizar" "Tarazed" "Talamanca" "Pastores" "Antigua" "Calamares" "Roamer" "Pontiac" "Merak" "Ariel" "Cygnus" "Delphinus" "Taurus" "Octans" "Pictor" "Saturn"
+			"Hyades" "Graffias" "Adria" "Arequipa" "Corduba" "Karin" "Kerstin" "Latona" "Lioba" "Malabar" "Merapi" "Palisana" "Athanasia" "Bondia" "Gordonia" "Laurentia" "Lucidor" "Octavia" "Valentine" "Alstede"
+			"Zelima" "Blue Jacket" "Arcturus" "Pictor" "Aludra" "Sirius" "Procyon" "Bellatrix" "Bald Eagle" "Grommet Reefer" "Denebola" "Regulus" "Asterion" "Perseus" "Rigel" "Vega" "Mars" "Sylvania" "Niagara Falls"
+			"White Plains" "Concord" "San Diego" "San Jose" "Sirius" "Spica" "Saturn"
+		}
+	}	
+	
+	nuclear_missile = {
+		prefix = ""
+		generic = { "Strategic Aerospace Wing" "SAW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	slbm = {
+		prefix = ""
+		generic = { "Strategic Naval Wing" "SNW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	slcm = {
+		prefix = ""
+		generic = { "Strategic Naval Wing" "SNW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "Space Combat Squadron" "SCS" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+
+	airlifter_equipment = {
+		prefix = ""
+		generic = { "Airlift Group" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	}
+}
+
+generic = {
+		
+	stealth_scout_plane_equipment = {
+		prefix = ""
+		generic = { "Reconnaissance Group" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+		}	
+	}
+		
+	small_scout_plane = {
+		prefix = ""
+		generic = { "Reconnaissance Group" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+		}	
+	}
+	
+	amphibious_assault_ship_1 = {
+		prefix = ""
+		generic = { "Landing Barge Squadron" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = {}
+	}
+	
+	amphibious_assault_ship_2 = {
+		prefix = ""
+		generic = { "Attack Transport" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = { 
+			
+		}
+	}
+	
+	amphibious_assault_ship_3 = {
+		prefix = ""
+		generic = { "Landing Ship Tank" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = {}
+	}
+	
+	amphibious_assault_ship_4 = {
+		prefix = ""
+		generic = { "Landing Ship Tank" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = {
+			
+		}
+	}
+	
+	amphibious_assault_ship_5 = {
+		prefix = ""
+		generic = { "Landing Ship Dock" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = {
+			
+		}
+	}
+	
+	amphibious_assault_ship_6 = {
+		prefix = ""
+		generic = { "Landing Platform Helicopter" }
+		generic_pattern = AMPHIBIOUS_SHIPS_USA_GENERIC
+		unique = {
+			
+		}
+	}
+		
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {}
+	}
+	
+	nuclear_missile = {
+		prefix = ""
+		generic = { "Strategic Missile Squadron" "SMS" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	slbm = {
+		prefix = ""
+		generic = { "Strategic Naval Wing" "SNW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	slcm = {
+		prefix = ""
+		generic = { "Strategic Naval Wing" "SNW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	ballistic_missile = {
+		prefix = ""
+		generic = { "Tactical Missile Wing" "TMW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	guided_missile = {
+		prefix = ""
+		generic = { "Guided Missile Wing" "GMW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	sam_missile = {
+		prefix = ""
+		generic = { "Air Defense Wing" "ADW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "Space Combat Squadron" }
+		#generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+
+	airlifter_equipment = {
+		prefix = ""
+		generic = { "Airlift Wing" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	}
+
+	sub_fighter = {
+		prefix = ""
+		generic = { "Naval Special Fighter Squadron" "NSFS" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	}
+
+	sub_cas = {
+		prefix = ""
+		generic = { "Naval Special Attack Squadron" "NSAS" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	}
+
+	sub_nav_bomber = {
+		prefix = ""
+		generic = { "Naval Special Strike Squadron" "NSSS" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	}
+}
+
+GER = {	
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Dithmarschen" "Altmark" "Northmark" "Franken" "Ermland" "Lothringen" "Lüneburg" "Coburg" "Freibug" "Glücksburg" "Saarburg" "Nienburg" "Offenburg" "Meersburg" "Westerwald" "Odenwald" "Rhön" "Spessart" "Elbe" 
+			"Mosel" "Rhein" "Werra" "Main" "Donau" "Berlin" "Frankurt am Main" "Bonn"
+		}
+	}
+	
+	small_scout_plane = {
+		prefix = ""
+		generic = { "Nahaufklärungsgeschwader" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+		}	
+	}
+	
+	small_plane_scout_plane_airframe = {
+		prefix = ""
+		generic = { "Nahaufklärungsgeschwader" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+		}	
+	}
+	
+	support_ship = {
+		prefix = ""
+		generic = { "Replenishment Ship" }
+		unique = {
+			"Tonga" "Carl Peters" "Adolf Lüderitz" "Hela" "Friedrich Karl"
+		}
+	}
+	
+	repair_ship = {
+		prefix = ""
+		generic = { "Repair Ship" }
+		unique = {
+			"Kamerun" "Huascaran" "Neumark" "Wieland"
+		}
+	}
+	
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "Weltraumkampfgeschwader" "WK" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+		}	
+	} 
+
+	airlifter_equipment = {
+		prefix = ""
+		generic = { "Transportgeschwader" "Kampfgeschwader zbV."}
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"TS 'Condor'" "KG zbV 1" "KG zbV 2" "KG zbV 3" 
+		}	
+	}
+}
+
+SOV = {	
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Alazan" "Tartu" "Goryn" "Khobi" "Sosya" "Orsha" "Titan" "Tunguska" "Sunta"  "Linda" "Indiga" "Moksha" "Sysola" "Cheremshan" "Lovat" "Shacha" "Seyma" "Shelon" "Terek" "Sheksna" "Don" "Donets" "Dnepr" "Dunay" "Koyda" "Lena" "Vishera"
+			"Kola" "Yel'nya" "Yergorlik" "Izhora" "Prut" "Ilim"
+		}
+	}
+	helicopter_carrier = {
+		prefix = ""
+		generic = { "Helicopter Cruiser" }
+		unique = {
+			"Moskva" "Leningrad" "Kiev" "Minsk" "Novorossiysk" "Admiral Gorshkov"
+		}
+	}	
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "KBP" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	} 
+
+	airlifter_equipment = {
+		prefix = ""
+		generic = { "TrAD"}
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+}
+ENG = {	
+	fleet_oiler = {
+		prefix = "HMS"
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Olcades" "Oligarch" "Olynthus" "Olwen" "Olna" "Oleander" "Abbeydale" "Aldersdale" "Arndale" "Bishopdale" "Boardale" "Broomdale" "Cairndale" "Cedardale" "Dewdale" "Darkdale" "Derwentdale" "Dingledale" "Dinsdale" "Denbydale" 
+			"Eaglesdale" "Easedale" "Ennerdale" "Echodale" "Airsprite" "Nasprite" "Gold Ranger" "Green Ranger" "Grey Ranger" "Black Ranger" "Blue Ranger" "Brown Ranger" "Wave Baron" "Wave Chief" "Wave Emperor" "Wave Governor" "Wave Liberator"
+			"Wave Protector" "Wave Regent" "Wave Ruler" "Wave Sovereign" "Wave Victor" "Wave King" "Wave Monarch" "Wave Duke" "Wave Knight" "Wave Laird" "Wave Prince" "Wave Protector" "Wave Master" "Wave Commander" "Wave Conqueror" "Northmark"
+			"Surf Patrol" "Surf Pioneer" "Eddybeach" "Eddybay" "Eddycliff" "Eddycreek" "Eddyrock" "Eddyreef" "Eddyfirth" "Eddyness" "Tidereach" "Tideflow" "Tidesurge" "Tide Austral" "Appleleaf" "Bayleaf" "Brambleleaf" "Orangeleaf" "Plumleaf"
+			"Pearleaf" "Tidespring" "Tidepool"
+		}
+	}
+	helicopter_carrier = {
+		prefix = "HMS"
+		generic = { "Helicopter Carrier" }
+		unique = {
+			"Bulwark" "Albion" "Illustrious" "Ocean"
+		}
+	}
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "KBP" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	} 
+	
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "Space Squadron No." }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+}
+JAP = {	
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Kazahaya" "Karasaki" "Hayasui" "Inatori" "Kariko" "Tsurikake" "Kumomi" "Kamisu" "Kōshū" "Seitō" "Noma" "Hario" "Inatori" "Karasaki" "Tatsumai" "Hamana" "Sagami" "Towada" "Tokiwa" "Mashū" "Ōmi"
+			"Kinesaki" "Hayasaki" "Shirasaki" "Arasaki" "Kiyosaki" "Ōsaki" "Hesaki" "Kashizaki" "Kuresaki" "Misaki" "Fujisaki" "Irako" "Mamiya" "Nosaki" "Kurasaki" "Sōya" "Kashino" "Komahasi" "Taigei" "Jingei" "Chōgei"
+		}
+	}
+}
+FRA = {	
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Durance" "Meuse" "Var" "Marne" "Somme" "Émile Bertin" "Gustave Zédé"
+		}
+	}
+	helicopter_carrier = {
+		prefix = ""
+		generic = { "Helicopter Carrier" }
+		unique = {
+			"Jeanne D'Arc" "Mistral" "Tonnerre" "Dixmude"
+		}
+	}
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "Groupe de Combat Spatial" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	} 
+	airlifter_equipment = {
+		prefix = ""
+		generic = { "Escadron de Transport" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+}
+ITA = {	
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Stromboli" "Vesuvio" "Bormida" "Favignana" "Linosa" "Panarea" "Salina" "Etna"
+		}
+	}
+	helicopter_carrier = {
+		prefix = ""
+		generic = { "Helicopter Carrier" }
+		unique = {
+			"Vittorio Veneto" "Caio Duilio" "Andrea Doria"
+		}
+	}
+}

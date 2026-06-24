@@ -1,0 +1,286 @@
+future_sub_cruisers_doc = {
+    track = future_submarines
+    name = SUBDOCTRINE_SUB_CRUISERS
+    description = SUBDOCTRINE_SUB_CRUISERS_DESC
+    icon = GFX_global_reach_medium 
+
+    xp_cost = 100
+    xp_type = navy
+    
+	available = {
+		has_completed_track = submarines
+		is_special_project_completed = sp:sp_naval_nuclear_missile_submarine	
+    }
+	
+	visible = {
+		has_dlc = "Gotterdammerung"
+	}
+	 
+    ai_will_do = { 	
+        base = 1
+		modifier = {
+			add = 50 
+			is_special_project_completed = sp:sp_naval_nuclear_missile_submarine
+		}	
+	}
+
+	missile_submarine = {
+		naval_range = 0.1
+	}
+	
+	rewards = {
+		advanced_sub_engines = {
+			missile_submarine = {
+				sub_visibility = -0.1
+				naval_speed = 0.05
+			}
+		}
+		advanced_ship_based_missiles = {
+			slbm = {
+				maximum_speed = 0.05
+				air_agility = 0.1
+			}
+			slcm = {
+				maximum_speed = 0.05
+				air_agility = 0.1
+			}
+		}
+		submarine_evacuation_tactics = {
+			naval_retreat_chance = 0.05
+			naval_retreat_speed_after_initial_combat = 0.05
+			navy_submarine_defence_factor = 0.05
+		}
+		autonomous_missions = {
+			missile_submarine = {
+				build_cost_ic = 0.1
+				naval_range = 0.1
+				sub_visibility = -0.1
+				fuel_consumption = 0.1
+			}
+		}
+		nuclear_sub_cruisers = {
+			slbm = {
+				air_range = 0.1
+				air_agility = 0.1
+			}
+			slcm = {
+				air_range = 0.1
+				air_agility = 0.1
+			}
+			equipment_bonus = {
+				slbm_equipment = {
+					build_cost_ic = -0.05
+					instant = yes 
+				}
+				slcm_equipment = {
+					build_cost_ic = -0.05
+					instant = yes 
+				}
+			}
+		}
+	}
+}
+
+future_sub_deep_operations = {
+    track = future_submarines
+    name = SUBDOCTRINE_DEEP_OPERATIONS
+    description = SUBDOCTRINE_DEEP_OPERATIONS_DESC
+    icon = GFX_doctrine_unrestricted_submarine_warfare_medium 
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+		has_completed_track = submarines
+		is_special_project_completed = sp:sp_naval_fleet_submarine	
+    }
+	
+    ai_will_do = { 
+        base = 1
+		modifier = {
+			add = 10 
+			tag = SOV
+		}
+		modifier = {
+			add = 10 
+			tag = GER
+		}		
+		modifier = {
+			add = 5 
+			is_major = yes
+		}
+	}
+
+	convoy_raiding_efficiency_factor = 0.1
+	
+	rewards = {
+		better_torpedo_guidance = {
+			fleet_submarine = {
+				torpedo_attack = 0.05
+				convoy_raiding_coordination  = 0.05
+			}
+		}
+		durable_submarines_composition = {
+			fleet_submarine = {
+				max_organisation = 10
+			}
+		}
+		convoy_interception_theory = {
+			naval_torpedo_reveal_chance_factor = -0.05
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		operative_depth_increasing = {
+			fleet_submarine = {
+				sub_visibility = -0.1
+			}
+			sub_retreat_speed = 0.05
+		}
+		nuclear_powered_submarines = {
+			fleet_submarine = {
+				fuel_consumption = -0.1
+				build_cost_ic = 0.1
+				naval_range = 0.05
+			}
+			equipment_bonus = {
+				ship_hull_fleet_submarine = {
+					reliability = -0.05
+				}
+			}
+		}
+	}
+}
+
+future_sub_anti_capitals = {
+    track = future_submarines
+    name = SUBDOCTRINE_CAPITAL_HUNTERS
+    description = SUBDOCTRINE_CAPITAL_HUNTERS_DESC
+    icon = GFX_doctrine_undersea_blockade_medium 
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+		has_completed_track = submarines
+		has_tech = homing_torpedo
+		has_tech = advanced_ship_hull_submarine
+    }
+	
+    ai_will_do = { 	
+		base = 1
+		modifier = {
+			add = 5 
+			is_major = no
+		}
+	}
+
+	submarine = {
+		max_organisation = 10
+		naval_range = -0.1
+	}
+	
+	module_open_cycle_aip_design_cost_factor = -1
+	module_closed_cycle_diesel_aip_design_cost_factor = -1
+	module_closed_cycle_walther_engine_design_cost_factor = -1
+	
+	rewards = {
+		critical_targets = {
+			naval_critical_effect_factor = -0.05
+			naval_critical_score_chance_factor = 0.05
+		}
+		quick_torpedo_loaders = {
+			naval_torpedo_cooldown_factor = -0.05
+			naval_enemy_fleet_size_ratio_penalty_factor = 0.05
+			naval_torpedo_screen_penetration_factor = 0.05
+		}
+		long_range_strikes = {
+			naval_torpedo_hit_chance_factor = 0.05
+			submarine = {
+				torpedo_attack = 0.1
+				sub_visibility= -0.1
+			}
+		}
+		detection_synchronisation = {
+			night_spotting_chance = 0.05
+			screening_efficiency = 0.05
+			spotting_chance = 0.05
+		}
+		sub_surface_coordination = {
+			navy_capital_ship_attack_factor = 0.05
+			navy_submarine_attack_factor = 0.05
+			navy_max_range_factor = 0.05
+		}
+	}
+}
+
+future_sub_convoy_protection = {
+    track = future_submarines
+    name = SUBDOCTRINE_CONVOY_ESCORT_SUBS
+    description = SUBDOCTRINE_CONVOY_ESCORT_SUBS_DESC
+    icon = GFX_doctrine_escort_patrols_medium 
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+		has_completed_track = submarines
+		has_tech = homing_torpedo
+		has_tech = advanced_ship_hull_submarine
+    }
+	
+    ai_will_do = { 
+		base = 1
+		modifier = {
+			add = 10
+			tag = USA
+		}
+		modifier = {
+			add = 5 
+			is_major = yes
+		}
+	}
+
+	submarine = {
+		sub_detection = 0.06
+		sub_attack = 0.1
+	}
+	
+	rewards = {
+		trade_counterinterdiction = {
+			convoy_retreat_speed = 0.05
+			submarine = {
+				max_organisation = 5
+			}
+		}
+		preemptive_strikes_on_hunters = {
+			submarine = {
+				torpedo_attack = 0.1
+				sub_visibility = 0.05
+				sub_attack = 0.1
+			}
+			naval_accidents_chance = -0.05
+		}
+		naval_aircraft_coordination = {
+			convoy_escort_efficiency = 0.05
+			submarine = {
+				sub_detection = 0.06
+				sub_attack = 0.1
+			}
+		}
+		capital_ships_cooperation = {
+			destroyer = {
+				search_and_destroy_coordination = 0.1
+			}
+			submarine = {
+				search_and_destroy_coordination = 0.15
+			}
+		}
+		quick_interception_task_forces = {
+			submarine = {
+				max_organisation = 5
+			}
+			strike_force_movement_org_loss = -0.1
+			ships_at_battle_start = 0.05
+			naval_morale_factor = 0.05
+		}
+	}
+}

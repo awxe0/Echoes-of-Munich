@@ -1,0 +1,306 @@
+air_subdoctrine_multirole_focus = {
+	track = future_fighter_aircraft
+	name = SUBDOCTRINE_MULTIROLE_FOCUS
+	description = SUBDOCTRINE_MULTIROLE_FOCUS_DESC
+    icon = GFX_ample_spectrum_ops_medium
+
+    xp_cost = 100
+    xp_type = air
+
+    available = {
+		has_tech = imp_bomb_rack
+		has_completed_track = fighter_aircraft
+    }
+	
+	ai_will_do = {
+        base = 1
+		modifier = {
+			add = 10 
+			tag = USA
+		}	
+		modifier = {
+			add = 10 
+			tag = ENG
+		}	
+		modifier = {
+			add = 5 
+			is_major = no
+		}	
+    }
+	
+	category_fighter = {
+		air_ground_attack = 0.05
+	}
+	
+	rewards = {
+		early_jet_training = {
+			air_ace_generation_chance_factor = 0.1			
+		}
+		multirole_training = {
+			category_fighter = {
+				air_defence = 0.1				
+			}
+		}
+		fast_merge_tactics = {
+			air_superiority_efficiency =  0.05	
+		}
+		multirole_escort = {
+			ground_attack_factor = 0.05
+			air_escort_efficiency = 0.05
+		}
+		hybrid_patrols = {	
+			air_cas_efficiency =0.05
+			air_superiority_bonus_in_combat = 0.05
+			category_fighter = {
+				air_ground_attack = 0.05
+				air_defence = 0.05
+			}
+		}
+	}
+}
+
+air_subdoctrine_air_superiority_fighters = {
+	track = future_fighter_aircraft
+	name = SUBDOCTRINE_AIR_SUPERIORITY_FIGHTERS
+	description = SUBDOCTRINE_AIR_SUPERIORITY_FIGHTERS_DESC
+    icon = GFX_high_speed_engagements_medium
+
+    xp_cost = 100
+    xp_type = air
+
+    available = {
+		is_special_project_completed = sp:sp_air_axial_jet_engine 
+		has_completed_track = fighter_aircraft
+    }
+	
+	ai_will_do = {
+        base = 1
+		modifier = {
+			add = 10 
+			tag = GER
+		}	
+    }	
+	
+	category_fighter = {
+		air_attack = 0.05
+	}
+	
+	rewards = {
+		advanced_jet_training = {
+			ace_effectiveness_factor = 0.1
+		}
+		jet_combat_training = {
+			category_fighter = {
+				air_attack = 0.05
+				air_agility = 0.05
+			}
+		}
+		fast_merge_tactics_2 = {
+			air_superiority_efficiency = 0.05	
+		}
+		high_speed_engagements = {
+			air_superiority_efficiency = 0.05
+			air_escort_efficiency = 0.05 
+		}
+		air_superiority_patrols = {
+			air_intercept_efficiency = 0.05
+			enemy_army_bonus_air_superiority_factor = -0.05
+		}
+	}
+}
+
+air_subdoctrine_ground_centric_interception = {
+	track = future_fighter_aircraft
+	name = SUBDOCTRINE_AIR_GROUND_CENTRIC_INTERCEPTION
+	description = SUBDOCTRINE_AIR_GROUND_CENTRIC_INTERCEPTION_DESC
+    icon = GFX_ground_directed_medium
+
+    xp_cost = 100
+    xp_type = air
+
+    available = {
+        is_special_project_completed = sp:sp_air_axial_jet_engine 
+		has_tech = postwar_radar_tech_1
+		has_completed_track = fighter_aircraft
+    }
+	
+	ai_will_do = {
+        base = 1		
+		modifier = {
+			add = 10 
+			tag = SOV
+		}	
+    }
+	
+	air_interception_detect_factor = 0.15
+	
+	rewards = {
+		early_jet_training_2 = {
+			ace_effectiveness_factor =0.1
+		}
+		radar_coordinated_intercept = {
+			air_intercept_efficiency  = 0.05
+			category_fighter = {
+				air_attack = 0.05
+			}
+		}
+		ground_directed_merge = {
+			air_superiority_detect_factor = 0.05
+			air_home_defence_factor = 0.1
+		}
+		layered_air_defense = {
+			static_anti_air_damage_factor = 0.1
+			static_anti_air_hit_chance_factor = 0.1
+			category_heavy_fighter = {
+				air_attack = 0.1
+			}
+		}
+		sam_integration = {
+			sam_missile = {
+				air_attack = 0.5
+			}
+		}
+	}
+}
+
+air_subdoctrine_autonomous_interception = {
+	track = future_fighter_aircraft
+	name = SUBDOCTRINE_AIR_AUTONOMOUS_INTERCEPTION
+	description = SUBDOCTRINE_AIR_AUTONOMOUS_INTERCEPTION_DESC
+    icon = GFX_missile_tactics_medium
+
+    xp_cost = 100
+    xp_type = air
+
+    available = {
+        is_special_project_completed = sp:sp_air_axial_jet_engine 
+		has_tech = air_air_missile_1
+		NOT = {
+			has_doctrine = air_subdoctrine_steel_predators
+		}
+		has_completed_track = fighter_aircraft
+    }
+	
+	ai_will_do = {
+        base = 1		
+		modifier = {
+			add = 5 
+			is_major = yes
+		}	
+    }
+	
+	air_superiority_detect_factor = 0.15
+	
+	rewards = {
+		advanced_jet_training_2 = {
+			ace_effectiveness_factor = 0.1
+			category_heavy_fighter = {
+				air_defence = 0.05
+			}
+			category_fighter = {
+				air_defence = 0.05
+			}
+		}
+		autonomous_air_patrols = {
+			air_interception_detect_factor = 0.15
+		}
+		tactical_intercept = {
+			air_intercept_efficiency = 0.15
+			#effect = {
+				#hidden_effect = {
+					module_air_air_missile_2_module_design_cost_factor = -1
+					module_air_air_missile_3_module_design_cost_factor = -1
+					module_air_air_missile_4_module_design_cost_factor = -1
+				#}
+				#custom_effect_tooltip = intercept_missiles_cost_reduction_tt	
+			#}
+			# custom_effect_tooltip = {
+				# localization_key = DOCTRINE_REDUCTION_COST
+				# MCAT = tt_cat_missiles 
+			# }			
+		}
+		frontline_training = {
+			air_untrained_pilots_penalty_factor = -0.1
+			category_heavy_fighter = {
+				air_agility = 0.05
+			}
+			category_fighter = {
+				air_agility = 0.05
+			}
+		}
+		round_the_clock_patrols = {
+			air_power_projection_factor = 0.1
+			category_heavy_fighter = {
+				reliability = 0.1
+			}
+			category_fighter = {
+				reliability = 0.1
+			}
+		}
+	}
+}
+
+air_subdoctrine_modern_naval_fighters = {
+	track = future_fighter_aircraft
+	name = SUBDOCTRINE_AIR_NAVAL_FIGHTERS
+	description = SUBDOCTRINE_NAVAL_FIGHTERS_DESC
+    icon = GFX_doctrine_modern_naval_fighters_medium
+
+    xp_cost = 100
+    xp_type = air
+
+    available = {
+		is_special_project_completed = sp:sp_air_axial_jet_engine 
+		has_tech = advanced_ship_hull_carrier
+		has_completed_track = fighter_aircraft
+    }
+	
+	ai_will_do = {
+        base = 0
+		modifier = {
+			add = 5
+			has_navy_size = {
+				size > 0
+				type = carrier
+			}
+		}
+    }
+	
+	fighter_sortie_efficiency = 0.1
+	
+	rewards = {
+		carrier_composition_schemes = {
+			#category_cv_aircraft = {
+			#	carrier_size = -0.05
+			#}
+			carrier_capacity_penalty_reduction = -0.05
+			air_superiority_efficiency = 0.05
+			#rocket_interceptor = {
+			#	carrier_capable = yes 
+			#}
+		}
+		fighter_aa_integration = {
+			category_carrier_fighter = {
+				air_attack = 0.05 
+				air_agility = 0.05
+			}
+			navy_anti_air_attack_factor = 0.05
+		}
+		critical_range_operations = {
+			category_cv_aircraft = {
+				air_range = 0.05
+			}
+			sortie_efficiency = 0.05
+		}
+		naval_detection_strategy = {
+			mines_sweeping_by_air_factor = 0.1
+			spotting_chance = 0.05
+		}
+		vtol_aircraft = {
+			navy_carrier_air_agility_factor = 0.05
+			navy_carrier_air_attack_factor = 0.05	
+			navy_carrier_air_targetting_factor = 0.05
+			sortie_efficiency = 0.05
+		}
+	}
+}

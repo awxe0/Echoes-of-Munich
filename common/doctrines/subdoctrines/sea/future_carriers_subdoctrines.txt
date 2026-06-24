@@ -1,0 +1,306 @@
+future_carrier_battlegroups = {
+    track = future_carriers
+    name = SUBDOCTRINE_BEHEMOTH_FLEET
+    description = SUBDOCTRINE_BEHEMOTH_FLEET_DESC
+    icon = GFX_doctrine_carrier_primacy_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {		
+		has_completed_track = carriers
+    }
+    
+    ai_will_do = { 
+        base = 1
+		modifier = {
+			add = 5 
+			is_major = yes
+		}	
+		modifier = {
+			add = 10 
+			tag = USA
+		}	
+	}
+
+	carrier_traffic = 0.05
+	
+	rewards = {
+		formation_training = {
+			ships_at_battle_start = 0.05
+			positioning = 0.05
+		}
+		distributed_detection = {			
+			equipment_bonus = {
+				ship_hull_carrier = {
+					surface_visibility = -0.1
+				}
+			}
+		}
+		air_operations_center = {
+			carrier = {
+				max_organisation = 40
+			}
+			sortie_efficiency = 0.05
+			carrier_capacity_penalty_reduction = -0.05
+		}
+		cruiser_escort = {
+			heavy_cruiser = {				
+				max_organisation = 20
+			}
+			equipment_bonus = {
+				ship_hull_cruiser = {
+					anti_air_attack = 0.07
+					naval_speed = 0.05
+					surface_detection = 0.1
+				}
+			}
+		}
+		battlegroup_coordination = {
+			navy_capital_ship_attack_factor = 0.05 
+			navy_screen_attack_factor = 0.05
+			navy_carrier_air_attack_factor = 0.05
+		}
+	}
+}
+
+modern_carrier_escort = {
+    track = future_carriers
+    name = SUBDOCTRINE_MOSQUITO_FLEET
+    description = SUBDOCTRINE_MOSQUITO_FLEET_DESC
+    icon = GFX_doctrine_subsidiary_carrier_role_medium  
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {		
+		has_completed_track = carriers
+    }
+    
+    ai_will_do = { 
+        base = 1
+		modifier = {
+			add = 5 
+			is_major = no
+		}	
+		modifier = {
+			add = 10 
+			tag = GER
+		}
+	}
+	
+	carrier = {
+		sub_detection = 0.1
+		max_organisation = 10
+	}
+	
+	rewards = {
+		fleet_umbrella = {
+			vtol_fighter = {
+				air_agility = 0.05
+			}
+			fighter_sortie_efficiency = 0.1
+		}
+		combined_reconaissance = {
+			vtol_fighter = {
+				surface_detection = 0.1
+			}
+			naval_helicopter =  {
+				surface_detection = 0.1
+			}			
+			spotting_chance = 0.05
+		}
+		asw_coordination = {
+			equipment_bonus = {
+				naval_helicopter_equipment =  {
+					sub_detection = 0.15
+					sub_attack = 0.15
+				}
+			}			
+			equipment_bonus = {
+				ship_hull_escort_carrier = {
+					search_and_destroy_coordination = 0.15	
+					sub_detection = 0.15
+				}
+			}
+			equipment_bonus = {
+				ship_hull_helo_carrier = {
+					search_and_destroy_coordination = 0.15
+					sub_detection = 3		
+				}
+			}
+		}
+		critical_patrol_distances = {
+			vtol_fighter = {	
+				air_range = 0.1
+			}
+			navy_carrier_air_targetting_factor = 0.05
+		}
+		long_range_operations = {
+			carrier = {
+				naval_range = 0.05
+				naval_speed = 0.05
+				max_organisation = 20
+			}
+			fighter_sortie_efficiency = 0.05
+		}
+	}
+}
+
+light_carrier_task_force = {
+    track = future_carriers
+    name = SUBDOCTRINE_STEALTH_CARRIERS
+    description = SUBDOCTRINE_STEALTH_CARRIERS_DESC
+    icon = GFX_doctrine_carrier_task_forces_medium 
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+		
+		has_completed_track = carriers	
+    }
+	
+    ai_will_do = { 
+        base = 1
+		modifier = {
+			add = 5 
+			is_major = no
+		}	
+		modifier = {
+			add = 10
+			tag = FRA
+		}	
+		modifier = {
+			add = 10 
+			tag = ENG
+		}	
+	}
+
+	carrier = {
+		surface_visibility = -0.1
+	}
+	
+	rewards = {
+		multipurpose_fighters = {
+			vtol_fighter = {
+				naval_strike_attack = 0.05
+				naval_strike_targetting = 0.05
+			}
+			cv_fighter = {
+				naval_strike_attack = 0.05
+				naval_strike_targetting = 0.05
+			}
+			fighter_sortie_efficiency = 0.1
+		}
+		combined_reconaissance = {
+			cv_nav_bomber = {
+				surface_detection = 0.1
+			}
+			vtol_fighter = {
+				surface_detection = 0.1
+			}
+			cv_fighter = {
+				surface_detection = 0.1
+			}
+			naval_helicopter =  {
+				surface_detection = 0.1
+			}			
+			spotting_chance = 0.05
+		}
+		task_force_coordination = {
+			naval_accidents_chance = -0.05
+			naval_coordination = 0.05
+			naval_retreat_chance_after_initial_combat = 0.05
+		}
+		sensor_network = {
+			carrier = {
+				air_attack = 0.1
+				max_organisation = 30
+			}
+			cv_fighter = {
+				air_superiority = 0.05
+			}
+			vtol_fighter = {
+				air_superiority = 0.05
+			}
+		}		
+		strategic_mobility = {
+			carrier = {
+				naval_speed = 0.05
+			}
+			naval_retreat_speed = 0.05
+			naval_retreat_speed_after_initial_combat = 0.05
+			navy_org_factor = 0.05
+		}		
+	}
+}
+
+combat_carriers = {
+    track = future_carriers
+    name = SUBDOCTRINE_NAVAL_HUNTERS
+    description = SUBDOCTRINE_NAVAL_HUNTERS_DESC
+    icon = GFX_doctrine_floating_airfield_medium 
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {		
+		has_completed_track = carriers
+    }
+
+    
+    ai_will_do = { 
+        base = 1
+		modifier = {
+			add = 5 
+			is_major = no
+		}	
+		modifier = {
+			add = 10 
+			tag = SOV
+		}
+	}
+	
+	navy_carrier_air_attack_factor = 0.1
+	naval_retreat_chance = -0.1
+	
+	rewards = {
+		expanded_submarine_detectors = {
+			cv_nav_bomber = {
+				sub_detection = 0.05
+				surface_detection = 0.05
+			}
+		}
+		sub_chasing_tactics = {
+			night_spotting_chance = 0.05
+			strike_force_movement_org_loss = -0.05
+			carrier = {
+				sub_detection = 0.05
+				surface_detection = 0.05
+				max_strength = 0.1
+			}
+		}
+		advanced_antiship_weaponry = {
+			sortie_efficiency = 0.05
+			cv_nav_bomber = {
+				naval_strike_attack = 0.1
+			}
+			carrier = {
+				lg_attack = 0.2
+				hg_attack = 0.2
+			}
+		}
+		carrier_defensive_manouvres = {
+			naval_torpedo_damage_reduction_factor = 0.05
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			carrier = {
+				surface_visibility = -0.15
+			}
+		}
+		strike_group_superiority = {
+			navy_carrier_air_attack_factor = 0.05
+			navy_weather_penalty = -0.05
+		}
+	}
+}
