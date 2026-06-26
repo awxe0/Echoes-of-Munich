@@ -143,20 +143,6 @@ types = {
 
 		command_power = 25
 
-		allowed = {
-			has_dlc = "Thunder at Our Gates"
-			tag = INS
-		}
-
-		visible = {
-			INS = {
-				has_country_flag = {
-					flag = INS_revolution_has_started
-				}
-				has_completed_focus = INS_just_a_fisherman
-			}
-			has_event_target = INS_dutch_indonesia
-
 			NOT = {
 				has_war_with = HOL
 			}
@@ -932,17 +918,6 @@ types = {
 		}
 
 		command_power = 40
-
-		allowed = {
-			has_dlc = "Thunder at Our Gates"
-			tag = SIA
-		}
-
-		visible = {
-			SIA = {
-				has_completed_focus = SIA_pacific_war
-			}
-		}
 
 		show_target = {
 			var:target_state = {

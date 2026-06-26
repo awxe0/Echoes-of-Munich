@@ -61,19 +61,7 @@ types = {
 
 		command_power = 25
 
-		allowed = {
-			has_dlc = "No Compromise, No Surrender"
-			original_tag = PRC
-		}
-
 		fire_only_once = no
-
-		visible = {
-			OR = {
-				has_completed_focus = PRC_raid_weapon_depots
-				has_completed_focus = PRC_raiding_parties
-			}
-		}
 
 		show_target = {
 			var:target_state = {
@@ -488,22 +476,7 @@ types = {
 	
 		command_power = 25
 	
-		allowed = {
-			has_dlc = "No Compromise, No Surrender"
-			original_tag = PRC
-		}
-	
 		fire_only_once = no
-	
-		visible = {
-			has_completed_focus = PRC_know_the_enemy
-			NOT = {
-				has_country_flag = {
-					flag = PRC_probe_border_defenses_flag
-					value > 2
-				}
-			}
-		}
 	
 		show_target = {
 			var:target_state = {
