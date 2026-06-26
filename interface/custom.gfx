@@ -1,0 +1,661 @@
+spriteTypes = {	
+	
+	
+#######i make more stuff
+	
+		spriteType = {
+		name = "GFX_idea_king"
+		texturefile = "gfx/interface/ideas/idea_hun_hungarian_monarchy.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_idea_pope"
+		texturefile = "gfx/interface/ideas/idea_generic_war_preparation.dds"
+			
+	}
+	
+		spriteType = {
+		name = "GFX_idea_unaligned"
+		texturefile = "gfx/interface/ideas/idea_hol_aloof_neutrality.dds"
+			
+	}
+	
+		spriteType = {
+		name = "GFX_idea_fasc_0"
+		texturefile = "gfx/interface/ideas/generic_victors_of_ww1.dds"
+			
+	}
+	
+		spriteType = {
+		name = "GFX_idea_fasc_1"
+		texturefile = "gfx/interface/ideas/idea_generic_fascism_drift_2.dds"
+			
+	}	
+	
+			spriteType = {
+		name = "GFX_idea_fasc_2"
+		texturefile = "gfx/interface/ideas/idea_generic_license_production.dds"
+			
+	}	
+			spriteType = {
+		name = "GFX_idea_fasc_3"
+		texturefile = "gfx/interface/ideas/idea_generic_oppression.dds"
+			
+	}		
+
+			spriteType = {
+		name = "GFX_idea_fasc_4"
+		texturefile = "gfx/interface/ideas/idea_saf_ossewabrandwag_2.dds"
+			
+	}	
+			spriteType = {
+		name = "GFX_idea_commie_1"
+		texturefile = "gfx/interface/ideas/idea_ger_bulwark_against_bolshevism.dds"
+			
+	}	
+	
+				spriteType = {
+		name = "GFX_idea_commie_2"
+		texturefile = "gfx/interface/ideas/idea_eng_spirit_of_the_industrial_revolution.dds"
+			
+	}	
+	
+				spriteType = {
+		name = "GFX_idea_commie_3"
+		texturefile = "gfx/interface/ideas/idea_generic_army_war_college.dds"
+			
+	}
+	
+			spriteType = {
+		name = "GFX_idea_commie_4"
+		texturefile = "gfx/interface/ideas/idea_mex_revolutionary_army.dds"
+			
+	}	
+
+			spriteType = {
+		name = "GFX_idea_mp_1"
+		texturefile = "gfx/interface/ideas/german_advisors.dds"
+			
+	}
+			spriteType = {
+		name = "GFX_idea_mp_2"
+		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"
+			
+	}
+	
+			spriteType = {
+		name = "GFX_idea_mp_3"
+		texturefile = "gfx/interface/ideas/FRA_scw_intervention_nationalists_focus.dds"
+			
+	}	
+
+			spriteType = {
+		name = "GFX_idea_dem_1"
+		texturefile = "gfx/interface/ideas/idea_generic_local_self_management.dds"
+			
+	}	
+	
+			spriteType = {
+		name = "GFX_idea_dem_2"
+		texturefile = "gfx/interface/ideas/FRA_national_mobilization_focus.dds"
+			
+	}
+
+			spriteType = {
+		name = "GFX_idea_dem_3"
+		texturefile = "gfx/interface/ideas/air_support_focus.dds"
+			
+	}
+
+			spriteType = {
+		name = "GFX_idea_dig_1"
+		texturefile = "gfx/interface/ideas/idea_ast_all_in.dds"
+			
+	}
+			spriteType = {
+		name = "GFX_idea_dig_2"
+		texturefile = "gfx/interface/ideas/idea_ast_all_in.dds"
+			
+	}	
+			spriteType = {
+		name = "GFX_idea_build_good"
+		texturefile = "gfx/interface/ideas/generic_goods_red_bonus.dds"
+			
+	}	
+	
+	
+		spriteType = {
+		name = "GFX_idea_rcp_train_school"
+		texturefile = "gfx/interface/ideas/idea_generic_army_war_college.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_qnt_1"
+		texturefile = "gfx/interface/ideas/FRA_motorized_focus.dds"
+			
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_qnt_2"
+		texturefile = "gfx/interface/ideas/FRA_motorized_focus.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_qnt_3"
+		texturefile = "gfx/interface/ideas/FRA_motorized_focus.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_qlt_1"
+		texturefile = "gfx/interface/ideas/idea_generic_license_production.dds"
+			
+	}
+	spriteType = {
+		name = "GFX_idea_rcp_qlt_2"
+		texturefile = "gfx/interface/ideas/idea_generic_license_production.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_qlt_3"
+		texturefile = "gfx/interface/ideas/idea_generic_license_production.dds"
+			
+	}
+	
+	
+spriteType = {
+		name = "GFX_idea_rcp_def_nation"
+		texturefile = "gfx/interface/ideas/FRA_fortification_focus.dds"
+			
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_more_gun"
+		texturefile = "gfx/interface/ideas/idea_ast_volunteer_defence_corps.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_more_artl"
+		texturefile = "gfx/interface/ideas/idea_generic_artillery_regiments.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_more_misc"
+		texturefile = "gfx/interface/ideas/idea_generic_artillery_manufacturer_2.dds"
+			
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_insta_con"
+		texturefile = "gfx/interface/ideas/generic_victors_of_ww1.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_buy"
+		texturefile = "gfx/interface/ideas/idea_generic_foreign_capital.dds"
+			
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_puppet_yes_2"
+		texturefile = "gfx/interface/ideas/vittoria_mutilata.dds"
+			
+	}	
+	
+spriteType = {
+		name = "GFX_idea_rcp_more_planes"
+		texturefile = "gfx/interface/ideas/idea_generic_fighter_production_diverted.dds"
+			
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_more_bombers"
+		texturefile = "gfx/interface/ideas/idea_generic_bomber_production_diverted.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_nukes"
+		texturefile = "gfx/interface/ideas/idea_ast_naval_auxiliary_patrol.dds"
+			
+	}
+	
+	
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_navy"
+		texturefile = "gfx/interface/ideas/idea_generic_coastal_navy.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_civ"
+		texturefile = "gfx/interface/ideas/idea_civilian_economy.dds"
+			
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_road"
+		texturefile = "gfx/interface/ideas/idea_generic_build_infrastructure.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_mils"
+		texturefile = "gfx/interface/ideas/idea_man_five_year_plan_industry.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_mils_max"
+		texturefile = "gfx/interface/ideas/idea_generic_fortify_the_borders.dds"
+			
+	}	
+	
+		spriteType = {
+		name = "GFX_idea_dig_3"
+		texturefile = "gfx/interface/ideas/idea_generic_exploit_mines.dds"
+			
+	}
+	
+	
+		spriteType = {
+		name = "GFX_idea_rcp_fund"
+		texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_fund_2"
+		texturefile = "gfx/interface/ideas/idea_jap_duplicate_research.dds"
+			
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_export"
+		texturefile = "gfx/interface/ideas/idea_can_wartime_prices_and_trade_board.dds"
+			
+	}
+spriteType = {
+		name = "GFX_idea_build_good_2"
+		texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_1.dds"
+			
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_fund_max"
+		texturefile = "gfx/interface/ideas/idea_jap_supremacy_of_will.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_compl"
+		texturefile = "gfx/interface/ideas/spa_la_division_azul.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_comp2"
+		texturefile = "gfx/interface/ideas/spa_la_division_azul.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_grand_army"
+		texturefile = "gfx/interface/ideas/idea_chi_army_corruption3.dds"
+			
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_autonomy"
+		texturefile = "gfx/interface/ideas/generic_democratic_drift_bonus.dds"
+			
+	}
+	
+	
+	
+		
+	spriteType = {
+		name = "GFX_idea_rcp_partisan"
+		texturefile = "gfx/interface/ideas/idea_por_volunteers_in_the_war2.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_mil_school"
+		texturefile = "gfx/interface/ideas/idea_generic_army_war_college.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_any_cost"
+		texturefile = "gfx/interface/ideas/air_war_plans_division_focus.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_supr"
+		texturefile = "gfx/interface/ideas/idea_ger_revive_the_kaiserreich.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_guide_ind"
+		texturefile = "gfx/interface/ideas/idea_man_five_year_plan_industry.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_imper_army"
+		texturefile = "gfx/interface/ideas/idea_hun_hungarian_monarchy_fascism.dds"
+			
+	}	
+	
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_civils"
+		texturefile = "gfx/interface/ideas/idea_por_colonial_assimilation.dds"
+			
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_for_empire"
+		texturefile = "gfx/interface/ideas/air_support_focus.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_border"
+		texturefile = "gfx/interface/ideas/idea_hun_secret_rearmament.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_claims"
+		texturefile = "gfx/interface/ideas/FRA_army_of_aggression_focus.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_worker_r"
+		texturefile = "gfx/interface/ideas/idea_prc_low_popular_support3.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_trade_un"
+		texturefile = "gfx/interface/ideas/idea_por_iberian_workers_united.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_workers_p"
+		texturefile = "gfx/interface/ideas/fra_liberte_egalite_solidarite.dds"
+			
+	}
+	
+		spriteType = {
+		name = "GFX_idea_rcp_no_gov"
+		texturefile = "gfx/interface/ideas/spr_anarchist_public_transport.dds"
+			
+	}
+	
+	
+	
+		spriteType = {
+		name = "GFX_idea_rcp_no_god"
+		texturefile = "gfx/interface/ideas/spr_appropriate_church_riches.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_collectivization"
+		texturefile = "gfx/interface/ideas/idea_generic_agrarian_reform.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_social_sci"
+		texturefile = "gfx/interface/ideas/socialist_science_focus.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_peace_war"
+		texturefile = "gfx/interface/ideas/spr_political_violence.dds"
+			
+	}
+	spriteType = {
+		name = "GFX_idea_rcp_rev"
+		texturefile = "gfx/interface/ideas/spr_anti_fascist_crusade.dds"
+			
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_rich"
+		texturefile = "gfx/interface/ideas/spr_relocate_the_gold_reserves.dds"
+			
+	}	
+	
+	
+spriteType = {
+		name = "GFX_idea_rcp_exploitppl"
+		texturefile = "gfx/interface/ideas/idea_generic_army_war_college.dds"
+			
+	}	
+	
+spriteType = {
+		name = "GFX_idea_rcp_p_army"
+		texturefile = "gfx/interface/ideas/idea_mex_politicised_army.dds"
+			
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_onegod"
+		texturefile = "gfx/interface/ideas/spa_crusade_against_democracy.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_onegod2"
+		texturefile = "gfx/interface/ideas/spa_eliminate_the_carlists.dds"
+			
+	}	
+	spriteType = {
+		name = "GFX_idea_rcp_holy_army"
+		texturefile = "gfx/interface/ideas/spa_embrace_the_spanish_destiny.dds"
+			
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_holy_war"
+		texturefile = "gfx/interface/ideas/air_war_plans_division_focus.dds"
+			
+	}
+	
+	
+		spriteType = {
+		name = "GFX_idea_mp_2_2"
+		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"
+			
+	}
+	
+	
+			spriteType = {
+		name = "GFX_idea_rcp_state_devo"
+		texturefile = "gfx/interface/ideas/idea_eng_imperial_conscription.dds"
+			
+	}
+	
+	
+			spriteType = {
+		name = "GFX_idea_rcp_ari_con"
+		texturefile = "gfx/interface/ideas/idea_por_monarchist_uprising.dds"
+			
+	}
+	
+		spriteType = {
+		name = "GFX_idea_rcp_new_serf"
+		texturefile = "gfx/interface/ideas/idea_prc_low_popular_support3.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_spy_1"
+		texturefile = "gfx/interface/ideas/generic_spy_intel.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_spy_2"
+		texturefile = "gfx/interface/ideas/generic_spy_coup.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_spy_3"
+		texturefile = "gfx/interface/ideas/generic_spy_political.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_fund_p"
+		texturefile = "gfx/interface/ideas/idea_por_volunteers_in_the_war2.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_foreign"
+		texturefile = "gfx/interface/ideas/idea_por_colonial_army.dds"
+			
+	}
+	
+	
+		spriteType = {
+		name = "GFX_idea_rcp_intel"
+		texturefile = "gfx/interface/ideas/idea_usa_department_of_defense.dds"
+			
+	}
+	
+		spriteType = {
+		name = "GFX_idea_rcp_intel_c"
+		texturefile = "gfx/interface/ideas/idea_usa_war_department.dds"
+			
+	}
+	
+		spriteType = {
+		name = "GFX_idea_rcp_partisan_def"
+		texturefile = "gfx/interface/ideas/idea_por_volunteers_in_the_war3.dds"
+			
+	}
+	
+	
+			spriteType = {
+		name = "GFX_idea_rcp_grill"
+		texturefile = "gfx/interface/ideas/idea_civilian_economy.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_grill_2"
+		texturefile = "gfx/interface/ideas/generic_goods_red_bonus.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_welfare"
+		texturefile = "gfx/interface/ideas/generic_pp_unity_bonus.dds"
+			
+	}
+	
+	
+		spriteType = {
+		name = "GFX_idea_rcp_market"
+		texturefile = "gfx/interface/ideas/idea_generic_free_trade.dds"
+			
+	}
+	
+	
+		spriteType = {
+		name = "GFX_idea_rcp_open"
+		texturefile = "gfx/interface/ideas/idea_prc_low_popular_support3.dds"
+			
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_family"
+		texturefile = "gfx/interface/ideas/generic_volunteer_expedition_bonus.dds"
+			
+	}	
+	
+
+	spriteType = {
+		name = "GFX_idea_rcp_tarrif"
+		texturefile = "gfx/interface/ideas/idea_can_wartime_prices_and_trade_board.dds"
+			
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_mil_priv"
+		texturefile = "gfx/interface/ideas/idea_chi_army_corruption3.dds"
+			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rcp_class_struggle"
+		texturefile = "gfx/interface/ideas/spr_class_war.dds"
+			
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rcp_ppl_army"
+		texturefile = "gfx/interface/ideas/spr_crush_the_revolution.dds"
+			
+	}
+	
+	
+	
+	
+	
+	}
