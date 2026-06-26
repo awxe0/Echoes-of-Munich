@@ -13,112 +13,37 @@ bookmarks = {
 			history = FRA_EOM_DESC_LOC
 			ideology = democratic
 			version = base_game
-			ideas={
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
-			}
-			focuses = {
-				FRA_strengthen_government_support
-				FRA_arms_purchases_in_the_us
-				FRA_french_union
-			}
 		}
 		USA = {
 			history = USA_EOM_DESC_LOC
 			ideology = democratic
 			version = base_game
-			ideas = {
-				home_of_the_free
-				great_depression_3
-				air_war_plans_division_focus
-				USA_war_department
-				new_deal
-			}
-			focuses = {
-				USA_war_plan_black
-				USA_arsenal_of_democracy
-				USA_selective_training_act
-			}
 		}
 		ENG = {
 			history = ENG_EOM_DESC_LOC
 			ideology = democratic
-			version = base_game
-			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				ENG_george_vi
-				british_austerity_idea
-				ENG_colonial_elite
-			}
-			focuses = {
-				ENG_war_with_japan
-				bomber_command_focus
-				maud_focus
-			}
-			
+			version = base_game			
 		}
 		GER = {
 			history = GER_EOM_DESC_LOC
 			ideology = fascism
 			version = base_game
-			ideas = { #TODO_Danne Make sure these spirits display the proper numbers!
-				GER_mefo_bills_1939_fake_ns
-				GER_army_1939_fake_ns
-				GER_wehrwirtschaft_fake_ns
-			}
-			focuses = {
-				GER_shatter_usas_hegemony
-				GER_war_with_the_ussr
-				GER_mittelafrika
-			}
 		}
 		ITA = {
 			history = ITA_EOM_DESC_LOC
 			ideology = fascism
-			version = base_game
-			ideas={
-				vittorio_emanuele_albania_ethiopia
-				ITA_camicie_nere
-				ITA_pact_of_steel
-			}
-			focuses = {
-				ITA_battaglioni_d_assalto
-				ITA_by_blood_alone
-				ITA_ferrea_mole_ferreo_cuore
-			}			
+			version = base_game		
 		}
 		JAP = {
 			history = JAP_EOM_DESC_LOC
 			ideology = fascism
 			version = base_game
-			override_leader_portrait = JAP_emperor_hirohito
-			ideas = {
-				JAP_1939_fake_state_shintoism_idea
-				JAP_central_economic_council_idea
-				JAP_militarism
-			}	
-			focuses = {
-				JAP_imperial_rule_assistance_association
-				JAP_sea_greater_east_asian_co_properity_sphere
-				JAP_the_eternal_kingdom
-			}		
+			override_leader_portrait = JAP_emperor_hirohito	
 		}
 		SOV = {
 			history = SOV_EOM_DESC_LOC
 			ideology = communism
 			version = base_game
-			ideas = {
-				SOV_anti_soviet_military_thinking_banned_navy
-				SOV_second_five_year_plan_fake_1939_ns
-				SOV_purged_junior_army_officers_2
-			}
-			focuses = {
-				SOV_found_the_comecon
-				SOV_father_of_nations
-				SOV_patriarch_of_all_russia
-			}
 		}
 
 		"---"={
