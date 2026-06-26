@@ -2,27 +2,86 @@ capital = 284
 
 oob = "NZL_1940"
 
-set_research_slots = 3
+set_research_slots = 2
+
+set_stability = 0.7
+set_war_support = 0.3
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_mountaineers = 1
 	tech_trucks = 1
-	tech_support = 1
+	gw_artillery = 1
+	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	fuel_silos = 1
-	synth_oil_experiments = 1
-	basic_train = 1
 }
 
-set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+set_grand_doctrine = grand_battleplan
+set_grand_doctrine = new_fleet_in_being
+
+recruit_character = NZL_michael_joseph_savage
+recruit_character = NZL_sidney_holland
+recruit_character = NZL_john_ormond
+recruit_character = NZL_elsie_farrelly
+recruit_character = NZL_bernard_freyberg
+recruit_character = NZL_robert_row
+recruit_character = NZL_william_stevens
+recruit_character = NZL_edmund_rupert_drummond
+recruit_character = NZL_peter_phipps
+recruit_character = NZL_r_a_cochrane
+recruit_character = NZL_l_p_peterson
+recruit_character = NZL_j_c_nichols
+recruit_character = NZL_n_weir
+recruit_character = NZL_j_e_duigan
+recruit_character = NZL_edward_puttick
+recruit_character = NZL_norris_stephen_falla
+recruit_character = NZL_trevor_handley
+recruit_character = NZL_keith_j_holyoake
+recruit_character = NZL_a_j_stallworthy
+recruit_character = NZL_eric_prendergast
+recruit_character = NZL_arthur_dawes
+recruit_character = NZL_william_sinclair_burgess
+recruit_character = NZL_h_e_horan
+recruit_character = NZL_h_d_mcgregor
+recruit_character = NZL_w_h_stratton
+recruit_character = NZL_a_e_davy
+recruit_character = NZL_walter_nash
+recruit_character = NZL_w_a_veitch_milne
+recruit_character = NZL_peter_fraser
+recruit_character = NZL_bob_semple
+recruit_character = NZL_leslie_lefeaux
+recruit_character = NZL_thomas_leech
+recruit_character = NZL_william_polson
+recruit_character = NZL_alexander_galbraith
+recruit_character = NZL_john_a_lee
+recruit_character = NZL_bernard_ashwin
+recruit_character = NZL_vic_wilcox
+
+add_to_tech_sharing_group = commonwealth_research
+
+726 = {
+	start_resistance = yes
+	set_compliance = 10
+	set_resistance = 25
 }
+
+add_ideas = {
+		#laws
+		low_economic_mobilisation
+		limited_conscription
+	}
+
+set_politics = {
+		ruling_party = democratic
+		last_election = "1938.10.15"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	
+set_popularities = {
+	democratic = 100
+}
+
+set_convoys = 70
