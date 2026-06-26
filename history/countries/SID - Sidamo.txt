@@ -1,6 +1,6 @@
 capital = 837
 
-oob = SID_1940"
+"oob = SID_1940"
 
 set_research_slots = 3
 
