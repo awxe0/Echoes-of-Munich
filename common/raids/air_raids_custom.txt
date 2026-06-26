@@ -29,13 +29,6 @@ types = {
 
 		fire_only_once = yes
 
-		visible = {
-			OR = {
-				has_completed_focus = AUS_second_brothers_war
-				has_completed_focus = AUS_deal_with_the_german_threat
-			}
-		}
-
 		show_target = {
 			64 = { is_owned_and_controlled_by = GER }
 		}
@@ -1154,19 +1147,6 @@ types = {
 
 		fire_only_once = yes
 
-		visible = {
-			OR = {
-				AND = {
-					original_tag = GER
-					has_completed_focus = GER_amerikabomber
-				}
-				AND = {
-					original_tag = JAP
-					has_completed_focus = JAP_project_z_bomber_project
-				}
-			}
-		}
-
 		show_target = {
 			has_war_with = USA
 			358 = {
@@ -1473,27 +1453,6 @@ types = {
 
 		command_power = 15
 
-		allowed = {
-			has_dlc = "Gotterdammerung"
-			original_tag = GER
-		}
-
-		fire_only_once = yes
-
-		visible = {
-			has_completed_focus = GER_strike_eastward
-		}
-
-		show_target = {
-			has_war_with = SOV
-			219 = {
-				is_owned_and_controlled_by = SOV
-			}
-		}
-		available = {
-
-		}
-
 		target_type = {
 			building = {
 				type = landmark_kremlin
@@ -1775,20 +1734,7 @@ types = {
 
 		command_power = 25 # command power allocation cost
 
-		allowed = {
-			has_dlc = "Gotterdammerung"
-			tag = CHI
-		}
-
 		# Raid Type is visible
-		visible = {
-			IF = {
-				limit = {
-					has_dlc = "No Compromise, No Surrender"
-				}
-				has_completed_focus = CHI_bring_the_war_home
-			}
-		}
 
 		# Specific Target is visible
 		show_target = {
@@ -2011,16 +1957,7 @@ types = {
 
 		command_power = 15
 
-		allowed = {
-			has_dlc = "No Compromise, No Surrender"
-			original_tag = CHI
-		}
-
 		fire_only_once = yes
-
-		visible = {
-			has_completed_focus = CHI_bring_the_war_home
-		}
 
 		show_target = {
 			has_war_with = JAP
@@ -2304,16 +2241,7 @@ types = {
 
 		command_power = 15
 
-		allowed = {
-			has_dlc = "No Compromise, No Surrender"
-			original_tag = CHI
-		}
-
 		fire_only_once = yes
-
-		visible = {
-			has_completed_focus = CHI_bring_the_war_home
-		}
 
 		show_target = {
 			has_war_with = JAP
@@ -2597,16 +2525,7 @@ types = {
 
 		command_power = 15
 
-		allowed = {
-			has_dlc = "No Compromise, No Surrender"
-			original_tag = CHI
-		}
-
 		fire_only_once = yes
-
-		visible = {
-			has_completed_focus = CHI_bring_the_war_home
-		}
 
 		show_target = {
 			has_war_with = JAP
@@ -2896,15 +2815,7 @@ types = {
 
 		command_power = 15
 
-		allowed = {
-			original_tag = JAP
-		}
-
 		fire_only_once = yes
-
-		visible = {
-			has_completed_focus = JAP_nanshin_ron
-		}
 
 		show_target = {
 			629 = {
@@ -2918,7 +2829,6 @@ types = {
 
 		launchable = {
 			OR = {
-				has_completed_focus = JAP_strike_the_southern_road
 				has_war_with = USA
 			}
 		}
@@ -2954,22 +2864,6 @@ types = {
 		success_factors = {
 			success = {
 				base = 0.75
-
-				completed_kido_butai_focus = {
-				    
-			        # MTTH block
-			        formula = {
-			            base = 0
-			            modifier = {
-			                has_completed_focus = JAP_form_the_kido_butai
-			                add = 1
-			            }
-			        }
-				    
-				    weight = 0.1
-				    can_actor_affect = yes # If true, this modifier will be included in the list of measures the actor country can take to increase the success chance of the raid
-				    can_target_affect = no # If true, this modifier will be included in the list of countermeasures the target country can take to decreases the success chance of the raid
-				}
 
 				# Raiding unit modifiers
 				experience = {
@@ -3013,27 +2907,6 @@ types = {
 					#start_reference = 50
 					reference = 100
 				}
-
-			}
-
-			critical = {
-				base = 0.1
-
-					completed_kido_butai_focus = {
-					    
-				        # MTTH block
-				        formula = {
-				            base = 0
-				            modifier = {
-				                has_completed_focus = JAP_form_the_kido_butai
-				                add = 1
-				            }
-				        }
-					    
-					    weight = 0.05 
-					    can_actor_affect = yes # If true, this modifier will be included in the list of measures the actor country can take to increase the success chance of the raid
-					    can_target_affect = no # If true, this modifier will be included in the list of countermeasures the target country can take to decreases the success chance of the raid
-					}
 
 			}
 		}
@@ -3336,26 +3209,8 @@ types = {
 		target_loc_key = raid_target_name_CZE_volunteer_transport
 
 		fire_only_once = yes #We got one shot at this stunt
-
-		allowed = {
-			original_tag = SOV
-			has_dlc = "Peace For Our Time"
-		}
-		visible = {
-			CZE = {
-				has_completed_focus = CZE_airlift_soviet_support
-				NOT = {
-					has_war_with = ROOT
-				}
-			}
-		}
 		show_target = {
 			73 = { is_fully_controlled_by = CZE }
-		}
-		available = {	#only for tooltip purposes, for SOV to understand why this is showing
-			CZE = {
-				has_completed_focus = CZE_airlift_soviet_support
-			}
 		}
 
 		launchable = {
