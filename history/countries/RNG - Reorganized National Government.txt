@@ -1,6 +1,6 @@
 capital = 613
 
-oob = "TAG_1936"
+oob = "RNG_1940"
 
 set_research_slots = 3
 

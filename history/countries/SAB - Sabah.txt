@@ -1,6 +1,6 @@
 capital = 1024
 
-oob = "TAG_1936"
+oob = "SAB_1940"
 
 set_research_slots = 3
 
