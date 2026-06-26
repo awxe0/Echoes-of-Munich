@@ -1,0 +1,15 @@
+add_namespace = rcpnew
+
+##Event: A New Major Power
+news_event = {
+	id = rcpnew.1
+	title = rcpnew.1.title
+	desc = rcpnew.1.desc
+	picture = GFX_news_event_064
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rcpnew.1.a
+		ai_chance = { factor = 1}
+	}
+}
