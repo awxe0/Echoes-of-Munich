@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	### FID
+
+	spriteType = {
+		name = "GFX_Portrait_Indochina_Jean_Decoux"
+		texturefile = "gfx/leaders/FID/Portrait_Indochina_Jean_Decoux.dds"
+	}
+}

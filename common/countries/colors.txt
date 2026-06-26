@@ -1262,4 +1262,10 @@ GAL = {
 	color_ui = rgb { 195 72 16 }	
 }
 
+### EOM Colors ###
+
+FID = {
+	color = rgb { 245 244 1 }
+	color_ui = rgb { 245 244 1 }	
+}
 

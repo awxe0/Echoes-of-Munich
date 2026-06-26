@@ -5,7 +5,8 @@ state = {
 
 	history = {
 
-		owner = FRA
+		owner = FID
+		add_core_of = FID
 		add_core_of = CAM
 
 		victory_points = {
