@@ -1,0 +1,46 @@
+capital = 671
+
+oob = "FID_1940"
+
+set_convoys = 20
+set_war_support = 0.1
+set_stability = 0.50 
+
+set_research_slots = 3
+add_command_power = 20
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 4
+	fascism = 10
+	communism = 23
+	neutrality = 63
+}
+
+create_country_leader = {
+	name = "Jean Decoux"
+	desc = ""
+	picture = GFX_Portrait_Indochina_Jean_Decoux
+	ideology = neutrality_ideology
+	traits = {
+		#
+	}
+}
+
+set_country_leader = FID_jean_decoux
+
+add_to_tech_sharing_group = french_research

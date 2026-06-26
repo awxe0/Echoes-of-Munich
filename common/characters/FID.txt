@@ -1,0 +1,17 @@
+characters = {
+
+	# Jean Decoux	
+	FID_jean_decoux = {
+		name = FID_jean_decoux
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FID/GFX_Portrait_Indochina_Jean_Decoux.dds"
+			}
+		}		
+		country_leader = {
+			ideology = colonial_government
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

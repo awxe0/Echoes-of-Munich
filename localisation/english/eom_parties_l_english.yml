@@ -117,3 +117,11 @@
  the_peoples_tutelage_desc:0 "\n£GFX_ideology_Neutrality_Ideology_the_peoples_tutelagem_bar\n\n\n\n\n§L§ONationalism§!, §3Democracy§!, §RWelfare§!. Those were the Three Principles of the People that Sun-Yat Sen's Xinghai revolution was based off of. But the first Republican government after 4000 years of dynastic rule in China could not afford these luxuries just yet, and so comes in the §YPeople's Tutelage§!.\n\nAs part of Sun Yat-Sen's plan, the People's Tutelage would be a period following the establishment of the Republic of China where the Kuomintang would rule China as a §gone party state§!, preparing the nation for democracy. However, following Sun's death and the takeover of Chiang Kai-Shek, the White Terror agaisnt any opposition to the Nationalist rule has transformed the system into a corrupt autocracy.§!"
  populism:0 "§0Populism§!"
  populism_desc:0 "\n£GFX_ideology_democracy_Ideology_populism_bar\n\n\n\n\n§YPopulism§! is a political movement characterized by the absence of a clearly defined ideological framework, instead drawing selectively from across the political spectrum in order to appeal directly to the electorate. Rather than being guided by consistent doctrine, populist movements prioritize policies and rhetoric that resonate with popular sentiment and mass frustration.\n\nCentral to populism is the perception of a fundamental divide between the 'common people' and a distant or self-serving political elite. Political authority is legitimized through claims of popular will, often expressed via charismatic leadership, mass mobilization, and direct appeals to public opinion. While populism can exist within democratic systems, its flexible and often opportunistic nature allows it to adapt rapidly to changing political conditions, for better or worse."
+ 
+ #FID
+ FID_communism_party:0 "CPV"
+ FID_communism_party_long:0 "Communist Party of Vietnam"
+ FID_neutrality_party:0 "Gouvernorat Général"
+ FID_fascism_party:0 "Cuong De's Faction"
+ FID_democratic_party:0 "VNQDD"
+ FID_democratic_party_long:0 "Viet Nam Quoc Dân Đang"
