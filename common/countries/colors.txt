@@ -1269,3 +1269,8 @@ FID = {
 	color_ui = rgb { 245 244 1 }	
 }
 
+FCO = {
+	color = rgb { 207 10 28 }
+	color_ui = rgb { 207 10 28 }	
+}
+

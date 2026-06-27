@@ -1,1 +1,2 @@
 FID	= "countries/French Indochina.txt"
+FCO	= "countries/French Commune.txt"
