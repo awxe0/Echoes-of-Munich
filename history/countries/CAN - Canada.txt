@@ -2,11 +2,11 @@ capital = 276
 
 oob = "CAN_1940"
 
-set_research_slots = 3
-set_country_flag = monroe_doctrine
+# Set Base Values
 set_stability = 0.8
 set_war_support = 0.1
-set_convoys = 100
+set_research_slots = 3
+add_to_tech_sharing_group = commonwealth_research
 
 # Starting tech
 set_technology = {
@@ -20,9 +20,14 @@ set_technology = {
 	basic_train = 1
 }
 
+# Doctrine
 set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being
 
+# Starting Convoys
+set_convoys = 100
+
+# Recruiting Characters
 recruit_character = CAN_mackenzie_king
 recruit_character = CAN_adrien_arcand
 recruit_character = CAN_tim_buck
@@ -76,10 +81,11 @@ if = {
 	set_cosmetic_tag = CAN_ALY
 }
 
+# Set Flags
 set_cosmetic_tag = CAN_UK
+set_country_flag = monroe_doctrine
 
-add_to_tech_sharing_group = commonwealth_research
-
+# Ideology and Politics
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.10.14"

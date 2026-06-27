@@ -2,6 +2,8 @@ capital = 4
 
 oob = "AUS_ww_1940"
 
+# Set Base Values
+set_stability = 0.50
 set_research_slots = 3
 
 # Starting tech
@@ -37,22 +39,7 @@ IF = {
 		}
 }
 
-set_politics = {
-	ruling_party = fascism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-	democratic = 3
-	fascism = 50
-	communism = 1
-	neutrality = 46
-}
-
-set_stability = 0.50
-
+# Recruiting Characters
 IF = {
 	limit = { 
 		has_dlc = "Gotterdammerung"
@@ -137,8 +124,6 @@ IF = {
 	recruit_character = AUS_carl_heinz_birnbacher
 	recruit_character = AUS_franz_von_keil
 
-
-
 	#scientists, commented out before we know how to handle them
 	recruit_character = AUS_herbert_wagner
 	recruit_character = AUS_eugen_sanger
@@ -146,27 +131,7 @@ IF = {
 	recruit_character = AUS_egon_schweidler
 	recruit_character = AUS_paul_eisler
 
-	#Operatives
-
-	create_operative_leader = {
-		name = AUS_erwin_von_lahousen
-		bypass_recruitment = no 
-		available_to_spy_master = yes 
-		gfx = GFX_portrait_AUS_erwin_von_lahousen 
-		traits = { operative_double_agent operative_commando }
-		nationalities = { AUS GER }
-	}
-
-	create_operative_leader = {
-		name = AUS_wilhelm_ergert
-		bypass_recruitment = no 
-		available_to_spy_master = yes 
-		gfx = GFX_portrait_AUS_wilhelm_ergert 
-		traits = { operative_double_agent operative_linguist operative_safe_cracker }
-		nationalities = { AUS GER YUG }
-	}
-
-	ELSE_IF = {
+    ELSE_IF = {
 		limit = {
 			NOT = {
 				has_dlc = "Gotterdammerung"
@@ -200,4 +165,38 @@ IF = {
 		recruit_character = AUS_leopold_figl
 		recruit_character = AUS_friedrich_mandl
 	}
+
+# Operatives
+	create_operative_leader = {
+		name = AUS_erwin_von_lahousen
+		bypass_recruitment = no 
+		available_to_spy_master = yes 
+		gfx = GFX_portrait_AUS_erwin_von_lahousen 
+		traits = { operative_double_agent operative_commando }
+		nationalities = { AUS GER }
+	}
+
+	create_operative_leader = {
+		name = AUS_wilhelm_ergert
+		bypass_recruitment = no 
+		available_to_spy_master = yes 
+		gfx = GFX_portrait_AUS_wilhelm_ergert 
+		traits = { operative_double_agent operative_linguist operative_safe_cracker }
+		nationalities = { AUS GER YUG }
+	}
+}
+
+# Ideology and Politics 
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 3
+	fascism = 50
+	communism = 1
+	neutrality = 46
 }

@@ -2,9 +2,10 @@ capital = 6
 
 oob = "BEL_WW_1940_lar_ncns"
 
-set_research_slots = 3
+# Set Base Values
 set_stability = 0.75
 set_war_support = 0.3
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
@@ -23,8 +24,13 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
+# Doctrine
 set_grand_doctrine = grand_battleplan
 
+# Starting Convoys
+set_convoys = 80
+
+# Recruiting Characters
 if = {
 	limit = { has_dlc = Gotterdammerung }
 	recruit_character = BEL_hubert_pierlot
@@ -97,18 +103,7 @@ if = {
 	}
 }
 
-
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	set_autonomy = {
-		target = COG
-		autonomous_state = autonomy_colony
-		freedom_level = 0.2
-	}
-}
-
+# Ideology and Politics 
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.11.27"
@@ -122,4 +117,14 @@ set_popularities = {
 	communism = 6
 }
 
-set_convoys = 80
+# Diplomacy
+IF = {
+	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	set_autonomy = {
+		target = COG
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+}

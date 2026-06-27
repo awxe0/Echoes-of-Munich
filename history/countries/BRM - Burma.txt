@@ -2,7 +2,8 @@ capital = 995
 
 oob = "BRM_1940"
 
-set_research_slots = 1
+# Set Base Values
+set_research_slots = 2
 
 # Starting tech
 set_technology = {
@@ -11,8 +12,13 @@ set_technology = {
 	tech_engineers = 1
 }
 
+# Doctrine
 set_grand_doctrine = grand_battleplan
 
+# Starting Convoys
+set_convoys = 5
+
+# Recruiting Characters
 recruit_character = BRM_acgs
 recruit_character = BRM_acr
 recruit_character = BRM_stc
@@ -40,10 +46,10 @@ recruit_character = BRM_ba_maw
 recruit_character = BRM_u_nu
 recruit_character = BRM_myat_phaya_lat
 
-set_convoys = 5
-
+# Set Flags
 set_cosmetic_tag = BRM_british # Gets them the correct starting flag
 
+# Ideology and Politics
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

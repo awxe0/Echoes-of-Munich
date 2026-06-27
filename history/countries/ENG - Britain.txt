@@ -2,6 +2,7 @@ capital = 126
 
 oob = "ENG_1940"
 
+# Set Base Values
 set_stability = 0.6
 set_war_support = 0.1
 add_command_power = 20
@@ -26,58 +27,14 @@ set_technology = {
 	fuel_refining = 1
 }
 
+# Doctrine
 set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being
 
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	give_guarantee = BEL
-}
-
-IF = {
-	limit = {
-		has_dlc = "Graveyard of Empires"
-	}
-	give_guarantee = IRQ
-}
-
-IRQ = {
-	give_military_access = ENG
-	IF = {
-		limit = {
-			has_dlc = "No Compromise, No Surrender"
-		}
-		diplomatic_relation = { 
-			country = ENG
-			relation = OFFER_AIR_BASE_ACCESS 
-			active = yes
-		}
-	}
-}
-
+# Starting Convoys
 set_convoys = 1000
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "1935.11.14"
-	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
-}
-
-set_popularities = {
-	democratic = 97
-	fascism = 2
-	communism = 1
-}
-
-add_ideas = {		
-		#laws
-		partial_economic_mobilisation
-		limited_conscription
-	}
-
+# Faction
 create_faction_from_template = faction_template_allies
 IF= {
 	limit = {
@@ -99,6 +56,7 @@ give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet
 add_to_faction = MAL
 
+# Recruiting Characters
 # Order matters - here Chamberlain becomes starting leader
 recruit_character = ENG_oswald_mosley
 recruit_character = ENG_stanley_baldwin
@@ -161,8 +119,6 @@ recruit_character = ENG_frederick_bowhill
 recruit_character = ENG_cyril_newall
 recruit_character = ENG_sholto_douglas
 recruit_character = ENG_edward_ellington
-
-
 
 recruit_character = ENG_john_beckett
 recruit_character = ENG_corgis_1
@@ -257,7 +213,28 @@ if = {
 	}
 }
 
-# DIPLOMACY Puppets
+# Ideas
+add_ideas = {		
+		#laws
+		partial_economic_mobilisation
+		limited_conscription
+	}
+
+# Ideology and Politics
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes ##suspended through duration of war, which is handled via event
+}
+
+set_popularities = {
+	democratic = 97
+	fascism = 2
+	communism = 1
+}
+
+# Diplomacy
 if = {
 	limit = {
 		OR = {
@@ -333,5 +310,33 @@ if = {
 		puppet = EGY
 		puppet = KUW
 		puppet = OMA
+	}
+}
+
+IF = {
+	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	give_guarantee = BEL
+}
+
+IF = {
+	limit = {
+		has_dlc = "Graveyard of Empires"
+	}
+	give_guarantee = IRQ
+}
+
+IRQ = {
+	give_military_access = ENG
+	IF = {
+		limit = {
+			has_dlc = "No Compromise, No Surrender"
+		}
+		diplomatic_relation = { 
+			country = ENG
+			relation = OFFER_AIR_BASE_ACCESS 
+			active = yes
+		}
 	}
 }

@@ -2,7 +2,8 @@ capital = 838
 
 oob = "GBA_1940"
 
-set_research_slots = 3
+# Set Base Values
+set_research_slots = 1
 
 # Starting tech
 set_technology = {
@@ -19,6 +20,8 @@ set_technology = {
 	synth_oil_experiments = 1
 	basic_train = 1
 }
+
+# Ideology and Politics
 
 set_popularities = {
 	democratic = 25

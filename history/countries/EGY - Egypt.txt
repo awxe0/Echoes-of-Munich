@@ -2,6 +2,7 @@ capital = 907
 
 oob = "EGY_1940"
 
+# Set Base Values
 set_research_slots = 3
 
 # Starting tech
@@ -14,10 +15,10 @@ set_technology = {
 	tech_trucks = 1
 }
 
+# Starting Convoys
 set_convoys = 20
 
-set_cosmetic_tag = EGY_brit_puppet
-
+# Recruiting Characters
 create_country_leader = {
 	name = "Muhammad Naguib"
 	desc = ""
@@ -58,6 +59,10 @@ create_country_leader = {
 	}
 }
 
+# Set Flags
+set_cosmetic_tag = EGY_brit_puppet
+
+# Ideology and Politics
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
