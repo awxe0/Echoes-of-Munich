@@ -2,6 +2,7 @@ capital = 554
 
 oob = "SYR_1940"
 
+# Set Base Values
 set_research_slots = 1
 
 # Starting tech
@@ -13,21 +14,10 @@ set_technology = {
 	gw_artillery = 1
 }
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 50
-	fascism = 10
-	communism = 10
-	neutrality = 30
-}
+# Starting Convoys
+set_convoys = 5
 
-set_cosmetic_tag = SYR_mandate
-
+# Recruiting Characters
 recruit_character = SYR_mehemed_ali_abed
 recruit_character = SYR_hashim_al_atassi
 recruit_character = FRA_henri_dentz
@@ -52,4 +42,19 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 5
+# Set Flags
+set_cosmetic_tag = SYR_mandate
+
+# Ideology and Politics
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 50
+	fascism = 10
+	communism = 10
+	neutrality = 30
+}

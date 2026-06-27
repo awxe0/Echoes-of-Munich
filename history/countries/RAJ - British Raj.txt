@@ -2,10 +2,11 @@ capital = 439
 
 oob = "RAJ_1940_GOE"
 
+# Set Base Values
 set_stability = 0.6
 set_war_support = 0.1
-
 set_research_slots = 3
+add_to_tech_sharing_group = commonwealth_research
 
 # Starting tech
 set_technology = {
@@ -21,15 +22,14 @@ set_technology = {
 	gw_artillery = 1
 }
 
+# Starting Convoys
 set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being
 
-add_ideas = {
-		#laws
-		volunteer_only
-		low_economic_mobilisation
-	}
+# Starting Convoys
+set_convoys = 20
 
+# Recruiting Characters
 recruit_character = RAJ_lord_linlithgow
 recruit_character = RAJ_v_d_savarkar
 recruit_character = RAJ_p_krishna_pillai
@@ -124,10 +124,6 @@ if = {
 	}
 }
 
-add_to_tech_sharing_group = commonwealth_research
-
-set_cosmetic_tag = RAJ_UK # British Raj
-
 if = {
 	limit = {
 		has_dlc = "La Resistance"
@@ -143,6 +139,17 @@ if = {
 	}
 }
 
+# Set Flags
+set_cosmetic_tag = RAJ_UK # British Raj
+
+# Ideas
+add_ideas = {
+		#laws
+		volunteer_only
+		low_economic_mobilisation
+	}
+
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1939.11.14"
@@ -156,5 +163,3 @@ set_popularities = {
 	communism = 1
 	neutrality = 80
 }
-
-set_convoys = 20

@@ -2,10 +2,11 @@ capital = 275
 
 oob = "SAF_1940"
 
+# Set Base Values
 set_stability = 0.6
 set_war_support = 0.1
-
 set_research_slots = 2
+add_to_tech_sharing_group = commonwealth_research
 
 # Starting tech
 set_technology = {
@@ -23,17 +24,14 @@ set_technology = {
 	basic_train = 1
 }
 
+# Doctrine
 set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being
 
-add_ideas = {
-		#laws
-		volunteer_only
-		low_economic_mobilisation
-	}
-
+# Starting Convoys
 set_convoys = 25
 
+# Recruiting Characters
 recruit_character = SAF_j_b_m_hertzog
 recruit_character = SAF_d_f_malan
 recruit_character = SAF_moses_kotane
@@ -57,8 +55,14 @@ recruit_character = SAF_nicolaas_havenga
 recruit_character = SAF_sir_patrick_duncan
 recruit_character = SAF_abram_fischer
 
-add_to_tech_sharing_group = commonwealth_research
+# Ideas
+add_ideas = {
+		#laws
+		volunteer_only
+		low_economic_mobilisation
+	}
 
+# Ideology and Politics
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.5.17"
