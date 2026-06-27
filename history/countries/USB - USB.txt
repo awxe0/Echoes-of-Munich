@@ -2,6 +2,7 @@ capital = 361
 
 oob = "USA_1940"
 
+# Set Base Values
 set_research_slots = 3
 
 # Starting tech
@@ -19,6 +20,8 @@ set_technology = {
 	synth_oil_experiments = 1
 	basic_train = 1
 }
+
+# Ideology and Politics
 
 set_popularities = {
 	democratic = 25

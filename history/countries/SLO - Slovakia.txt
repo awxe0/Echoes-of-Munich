@@ -2,10 +2,8 @@ capital = 70
 
 oob = "SLO_1943"
 
+# Set Base Values
 set_research_slots = 3
-
-set_grand_doctrine = grand_battleplan
-set_grand_doctrine = new_battlefield_support
 
 # Starting tech
 set_technology = {
@@ -24,19 +22,11 @@ set_technology = {
 	basic_fortification_tech = 1
 }
 
-set_politics = {
-	ruling_party = fascism
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
-}
+# Doctrine
+set_grand_doctrine = grand_battleplan
+set_grand_doctrine = new_battlefield_support
 
-set_popularities = {
-	democratic = 6
-	fascism = 90
-	communism = 4
-}
-
+# Recruiting Characters
 recruit_character = SLO_jozef_tiso
 recruit_character = SLO_jaroslav_kratochvil
 recruit_character = SLO_vojtech_daubner
@@ -58,6 +48,21 @@ recruit_character = SLO_janko_jesensky
 recruit_character = SLO_ferdinand_catlos
 recruit_character = SLO_anton_pulanick
 
+# Ideas
 add_ideas = {
 	low_economic_mobilisation
+}
+
+# Ideology and Politics
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 6
+	fascism = 90
+	communism = 4
 }
