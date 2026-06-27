@@ -1,6 +1,6 @@
 capital = 554
 
-oob = "SYR_1940"
+#oob = "SYR_1940"
 
 # Set Base Values
 set_research_slots = 1

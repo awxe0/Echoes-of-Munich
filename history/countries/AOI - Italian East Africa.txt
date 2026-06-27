@@ -1,6 +1,6 @@
 capital = 271
 
-oob = "AOI_1940"
+#oob = "AOI_1940"
 
 # Set Base Values
 set_stability = 0.4

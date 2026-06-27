@@ -1,6 +1,6 @@
 capital = 553
 
-oob = "LEB_1940"
+#oob = "LEB_1940"
 
 # Set Base Values
 set_research_slots = 1

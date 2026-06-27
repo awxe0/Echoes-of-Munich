@@ -1,6 +1,6 @@
 capital = 85
 
-oob = "DNZ_1940"
+#oob = "DNZ_1940"
 
 # Set Base Values
 set_research_slots = 2
