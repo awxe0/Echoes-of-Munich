@@ -2,6 +2,7 @@ capital = 455
 
 oob = "JOR_1940"
 
+# Set Base Values
 set_research_slots = 1
 
 # Starting tech
@@ -9,8 +10,10 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-set_cosmetic_tag = JOR_emirate
+# Starting Convoys
+set_convoys = 5
 
+# Recruiting Characters
 recruit_character = JOR_abdullah_bin_al_hussein
 
 create_country_leader = {
@@ -43,6 +46,10 @@ create_country_leader = {
 	}
 }
 
+# Set Flags
+set_cosmetic_tag = JOR_emirate
+
+# Ideology and Politics
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -55,5 +62,3 @@ set_popularities = {
 	communism = 5
 	neutrality = 50
 }
-
-set_convoys = 5

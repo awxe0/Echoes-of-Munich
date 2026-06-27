@@ -2,9 +2,8 @@ capital = 10
 
 oob = "POL_1940"
 
+# Set Base Values
 set_research_slots = 3
-
-set_grand_doctrine = grand_battleplan
 
 # Starting tech
 set_technology = {
@@ -39,35 +38,10 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = fascism
-	last_election = "1935.9.8"
-	election_frequency = 36
-	elections_allowed = no
-}
+# Doctrine
+set_grand_doctrine = grand_battleplan
 
-set_popularities = {
-	democratic = 30
-	fascism = 40
-	communism = 19
-	neutrality = 11
-}
-
-add_ideas = {
-		#laws
-		limited_conscription
-		partial_economic_mobilisation
-	}
-	if = {
-		limit = {
-			NOT = { has_dlc = "Poland: United and Ready" }
-		}
-		add_ideas = {
-			#laws
-			limited_exports
-		}
-	}
-
+# Recruiting Characters
 recruit_character = POL_ignacy_moscicki
 recruit_character = POL_wladyslaw_sikorski
 recruit_character = POL_boleslaw_wieniawa_glugoszowski
@@ -175,3 +149,34 @@ if = {
 		nationalities = { POL }
 	}
 }	
+
+# Ideas
+add_ideas = {
+		#laws
+		limited_conscription
+		partial_economic_mobilisation
+	}
+	if = {
+		limit = {
+			NOT = { has_dlc = "Poland: United and Ready" }
+		}
+		add_ideas = {
+			#laws
+			limited_exports
+		}
+	}
+
+# Ideology and Politics
+set_politics = {
+	ruling_party = fascism
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 30
+	fascism = 40
+	communism = 19
+	neutrality = 11
+}

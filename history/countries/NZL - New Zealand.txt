@@ -2,10 +2,11 @@ capital = 284
 
 oob = "NZL_1940"
 
-set_research_slots = 2
-
+# Set Base Values
 set_stability = 0.7
 set_war_support = 0.3
+set_research_slots = 2
+add_to_tech_sharing_group = commonwealth_research
 
 # Starting tech
 set_technology = {
@@ -18,9 +19,14 @@ set_technology = {
 	tech_recon = 1
 }
 
+# Doctrine
 set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being
 
+# Starting Convoys
+set_convoys = 70
+
+# Recruiting Characters
 recruit_character = NZL_michael_joseph_savage
 recruit_character = NZL_sidney_holland
 recruit_character = NZL_john_ormond
@@ -59,20 +65,21 @@ recruit_character = NZL_john_a_lee
 recruit_character = NZL_bernard_ashwin
 recruit_character = NZL_vic_wilcox
 
-add_to_tech_sharing_group = commonwealth_research
-
+# Set Flags
 726 = {
 	start_resistance = yes
 	set_compliance = 10
 	set_resistance = 25
 }
 
+# Ideas
 add_ideas = {
 		#laws
 		low_economic_mobilisation
 		limited_conscription
 	}
 
+	# Ideology and Politics
 set_politics = {
 		ruling_party = democratic
 		last_election = "1938.10.15"
@@ -83,5 +90,3 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
-
-set_convoys = 70
