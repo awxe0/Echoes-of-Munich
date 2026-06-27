@@ -1,7 +1,8 @@
 capital = 656
 
-oob = ""
+#oob = ""
 
+# Set Base Values
 set_research_slots = 1
 
 # Starting tech
@@ -10,8 +11,10 @@ set_technology = {
 	tech_trucks = 1
 }
 
-set_cosmetic_tag = KUW_protectorate
+# Starting Convoys
+set_convoys = 5
 
+# Recruiting Characters
 recruit_character = KUW_ahmad_al_sabah
 recruit_character = KUW_pot
 recruit_character = KUW_aco2
@@ -34,6 +37,10 @@ recruit_character = KUW_nt
 recruit_character = KUW_communist_guy
 recruit_character = KUW_acr
 
+# Set Flags
+set_cosmetic_tag = KUW_protectorate
+
+# Ideology and Politics
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -46,5 +53,3 @@ set_popularities = {
 	communism = 1
 	neutrality = 58
 }
-
-set_convoys = 5

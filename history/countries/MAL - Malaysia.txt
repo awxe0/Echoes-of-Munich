@@ -2,7 +2,9 @@ capital = 336
 
 oob = "MAL_1940"
 
+# Set Base Values
 set_research_slots = 3
+add_to_tech_sharing_group = commonwealth_research
 
 # Starting tech
 set_technology = {
@@ -20,21 +22,23 @@ set_technology = {
 	basic_train = 1
 }
 
+# Doctrine
 set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being
 
+# Recruiting Characters
 recruit_character = MAL_shenton_thomas
 recruit_character = MAL_onn_jaafar
 recruit_character = MAL_lai_teck
 recruit_character = MAL_ibrahim_hj_yaacob
 recruit_character = MAL_winston_tyron
 
+# Set Flags
+set_cosmetic_tag = MAL_UK # British Malaya
+
+# Ideology and Politics
 set_popularities = {
 	democratic = 33
 	communism = 33
 	neutrality = 34
 }
-
-add_to_tech_sharing_group = commonwealth_research
-
-set_cosmetic_tag = MAL_UK # British Malaya

@@ -2,6 +2,7 @@ capital = 2
 
 oob = "ITA_1940"
 
+# Set Base Values
 set_research_slots = 4
 
 # Starting tech
@@ -20,42 +21,14 @@ set_technology = {
 	basic_train = 1
 }
 
+# Doctrine
 set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being
 
-add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-}
-
-every_owned_state = { #LIBYAN STATES
-	limit = {
-		is_core_of = LBA
-		NOT = { state = 273 } #Don't add resistance in the middle of the impassable desert thanks
-	}
-	start_resistance = yes
-	set_compliance = 35
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
+# Starting Convoys
 set_convoys = 200
 
-set_politics = {
-	ruling_party = fascism
-	last_election = "1934.3.26"
-	election_frequency = 60
-	elections_allowed = no
-}
-
-set_popularities = {
-	democratic = 20
-	fascism = 73
-	communism = 2
-	neutrality = 5
-}
-
+# Recruiting Characters
 recruit_character = ITA_benito_mussolini
 recruit_character = ITA_grand_council
 recruit_character = ITA_vittorio_emanuele_iii
@@ -179,7 +152,41 @@ recruit_character = ITA_giovanni_giorgi
 recruit_character = ITA_filippo_bonfiglietti
 recruit_character = ITA_curio_bernardis
 
-# Puppets
+# Set Flags
+every_owned_state = { #LIBYAN STATES
+	limit = {
+		is_core_of = LBA
+		NOT = { state = 273 } #Don't add resistance in the middle of the impassable desert thanks
+	}
+	start_resistance = yes
+	set_compliance = 35
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+
+# Ideas
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+# Ideology and Politics
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 20
+	fascism = 73
+	communism = 2
+	neutrality = 5
+}
+
+# Diplomacy
 set_autonomy = {
     target = ALB
     autonomy_state = autonomy_puppet

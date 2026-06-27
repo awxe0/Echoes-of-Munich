@@ -1,8 +1,8 @@
 capital = 31
 
-oob = ""
+#oob = ""
 
-set_research_slots = 3
+set_research_slots = 2
 
 # Starting tech
 set_technology = {
@@ -20,6 +20,7 @@ set_technology = {
 	basic_train = 1
 }
 
+# Ideology and Politics
 set_popularities = {
 	democratic = 25
 	fascism = 25

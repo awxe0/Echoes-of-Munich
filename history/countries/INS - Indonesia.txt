@@ -2,7 +2,7 @@ capital = 1058
 
 oob = "INS_1940"
 
-set_convoys = 25
+# Set Base Values
 set_war_support = 0.2
 set_stability = 0.55
 set_research_slots = 2
@@ -35,7 +35,8 @@ if = {
 	set_technology = { bicycle_infantry = 1 }
 }
 
-set_cosmetic_tag = INS_HOL # Netherlands East Indies
+# Starting Convoys
+set_convoys = 25
 
 # Characters that only exist with TAOG
 if = {
@@ -113,6 +114,10 @@ recruit_character = INS_murk_boersta
 recruit_character = INS_ludolph_hendrik_van_oyen
 recruit_character = INS_simon_spoor
 
+# Set Flags
+set_cosmetic_tag = INS_HOL # Netherlands East Indies
+
+# Ideology and Politics
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.4.26"

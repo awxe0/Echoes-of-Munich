@@ -2,6 +2,7 @@ capital = 454
 
 oob = "PAL_1940"
 
+# Set Base Values
 set_research_slots = 1
 
 # Starting tech
@@ -10,8 +11,10 @@ set_technology = {
 	tech_trucks = 1
 }
 
-set_cosmetic_tag = PAL_mandate
+# Starting Convoys
+set_convoys = 5
 
+# Recruiting Characters
 recruit_character = PAL_harold_macmichael
 
 create_country_leader = {
@@ -51,6 +54,10 @@ create_country_leader = {
 	}
 }
 
+# Set Flags
+set_cosmetic_tag = PAL_mandate
+
+# Ideology and Politics
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -63,5 +70,3 @@ set_popularities = {
 	fascism = 6
 	communism = 4 
 }
-
-set_convoys = 5
