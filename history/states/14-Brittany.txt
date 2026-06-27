@@ -9,10 +9,10 @@ state={
 	history={
 		owner = FRA
 		victory_points = {
-			3552 20
+			3552 30
 		}
 		victory_points = {
-			6536 5
+			6536 10
 		}
 		victory_points = {
 			9495 1
@@ -42,6 +42,7 @@ state={
 		}
 		add_core_of = FRA
 		add_core_of = BRI
+		add_core_of = FCO
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

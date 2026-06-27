@@ -125,3 +125,9 @@
  FID_fascism_party:0 "Cuong De's Faction"
  FID_democratic_party:0 "VNQDD"
  FID_democratic_party_long:0 "Viet Nam Quoc Dân Đang"
+ 
+ #FCO
+ FCO_communism_party:0 "Parti Communiste Français"
+ FCO_neutrality_party:0 "Action Française"
+ FCO_fascism_party:0 "Mouvement Franciste"
+ FCO_democratic_party:0 "Parti Radical"
