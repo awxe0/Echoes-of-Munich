@@ -2,7 +2,8 @@ capital = 85
 
 oob = "DNZ_1940"
 
-set_research_slots = 3
+# Set Base Values
+set_research_slots = 2
 
 # Starting tech
 set_technology = {
@@ -19,27 +20,11 @@ set_technology = {
 	gw_artillery = 1
 }
 
+# Doctrine
 set_grand_doctrine = new_mobile_warfare
 set_grand_doctrine = new_convoy_raiding
 
-set_politics = {
-	ruling_party = fascism
-	last_election = "1935.4.7"
-	election_frequency = 36
-	elections_allowed = no
-}
-
-set_popularities = {
-	democratic = 22
-	fascism = 62
-	communism = 6
-	neutrality = 10
-}
-
-85 = {
-	add_dynamic_modifier = { modifier = international_city }
-}
-
+# Hiring Characters 
 create_country_leader = {
 	name = "Albert Forster"
 	desc = ""
@@ -71,4 +56,24 @@ create_country_leader = {
 	traits = {
 		
 	}
+}
+
+# Ideology and Politics
+set_politics = {
+	ruling_party = fascism
+	last_election = "1935.4.7"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 22
+	fascism = 62
+	communism = 6
+	neutrality = 10
+}
+
+# Modifier
+85 = {
+	add_dynamic_modifier = { modifier = international_city }
 }

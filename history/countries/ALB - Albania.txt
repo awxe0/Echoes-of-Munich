@@ -2,6 +2,7 @@ capital = 44
 
 oob = "ALB_1940"
 
+# Set Base Values
 set_research_slots = 2
 
 # Starting tech
@@ -12,6 +13,10 @@ set_technology = {
 	tech_recon = 1
 }
 
+# Starting Convoys
+set_convoys = 5
+
+# Ideology and Politics 
 set_politics = {
 	ruling_party = fascism
 	last_election = "1933.3.5"
@@ -25,5 +30,3 @@ set_popularities = {
 	communism = 2
 	neutrality = 24
 }
-
-set_convoys = 5

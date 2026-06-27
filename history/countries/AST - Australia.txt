@@ -2,10 +2,11 @@ capital = 285
 
 oob = "AST_1940"
 
+# Set Base Values
 set_stability = 0.7
 set_war_support = 0
-
 set_research_slots = 2
+add_to_tech_sharing_group = commonwealth_research
 
 # Starting tech
 set_technology = {
@@ -22,9 +23,14 @@ set_technology = {
 	fuel_silos = 1
 }
 
+# Doctrine
 set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being
 
+# Starting Convoys
+set_convoys = 100
+
+# Recruiting Characters
 recruit_character = AST_john_curtin
 recruit_character = AST_eric_campbell
 recruit_character = AST_richard_dixon
@@ -39,7 +45,7 @@ recruit_character = AST_jack_piddington
 recruit_character = AST_leslie_morshead
 recruit_character = AST_thomas_blamey
 recruit_character = AST_iven_mackay
-recruit_character = AST_alan_vasey #George A. Vasey"
+recruit_character = AST_alan_vasey #George A. Vasey
 recruit_character = AST_horace_robertson
 recruit_character = AST_john_northcott
 recruit_character = AST_john_collins
@@ -104,13 +110,16 @@ if = {
 	recruit_character = AST_peter_jeffrey
 	recruit_character = AST_mark_oliphant
 	recruit_character = AST_lawrence_wackett
+}
 
-    set_party_name = {
-		ideology = neutrality
-		name = AST_colonial_administration
-		long_name = AST_colonial_administration_long
-	}
+# Ideas
+add_ideas = {
+		#laws		
+		volunteer_only
+		low_economic_mobilisation
+}
 
+# Ideology and Politics 
 set_politics = {
 	ruling_party = democratic
 	last_election = "1934.9.15"
@@ -123,12 +132,8 @@ set_popularities = {
 	communism = 2
 }
 
-add_to_tech_sharing_group = commonwealth_research
-
-add_ideas = {
-		#laws		
-		volunteer_only
-		low_economic_mobilisation
-	}
-
-set_convoys = 100
+set_party_name = {
+		ideology = neutrality
+		name = AST_colonial_administration
+		long_name = AST_colonial_administration_long
+}

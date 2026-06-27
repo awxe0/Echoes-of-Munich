@@ -2,6 +2,7 @@ capital = 295
 
 oob = "COG_1940"
 
+# Set Base Values
 set_war_support = 0.4 
 set_stability = 0.35
 set_research_slots = 3
@@ -17,6 +18,9 @@ set_technology = {
 	interwar_antitank = 1
 	tech_engineers = 1
 }
+
+# Starting Convoys
+set_convoys = 5
 
 # Hiring Characters 
 IF = {
@@ -62,6 +66,7 @@ IF = {
 # Set Flags
 set_cosmetic_tag = COG_belgian_congo # The Belgian Congo
 
+# Ideology and Politics
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -74,5 +79,3 @@ set_popularities = {
 	fascism = 0
 	communism = 5
 }
-
-set_convoys = 5

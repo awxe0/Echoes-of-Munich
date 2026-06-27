@@ -2,56 +2,10 @@ capital = 64
 
 oob = "GER_1940"
 
-add_breakthrough_progress = {
-	specialization = specialization_land
-	value = 1.0
-}
-
-add_breakthrough_progress = {
-	specialization = specialization_naval
-	value = 0.8
-}
-
-add_breakthrough_progress = {
-	specialization = specialization_air
-	value = 0.3
-}
-
-    set_grand_doctrine = new_mobile_warfare
-	set_grand_doctrine = new_convoy_raiding
-	set_grand_doctrine = new_battlefield_support
-	set_sub_doctrine = mobile_infantry
-	add_mastery = {
-		amount = 200
-		sub_doctrine = mobile_infantry
-	}
-	set_sub_doctrine = mission_type_tactics
-	add_mastery = {
-		amount = 100
-		sub_doctrine = mission_type_tactics
-	}
-	set_sub_doctrine = mobile_recon_and_assault
-	add_mastery = {
-		amount = 150
-		sub_doctrine = mobile_recon_and_assault
-	}
-	set_sub_doctrine = air_subdoctrine_tactical_flexibility
-	add_mastery = {
-		amount = 100
-		sub_doctrine = air_subdoctrine_tactical_flexibility
-	}
-	set_sub_doctrine = air_subdoctrine_dive_bombers
-	add_mastery = {
-		amount = 50
-		sub_doctrine = air_subdoctrine_dive_bombers
-	}
-
+# Set Base Values
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
-
-# Starting Stats of various kinds
-set_research_slots = 4
-set_convoys = 200
+set_war_support = 0.3
 IF = {
 	limit = {
 		has_dlc = "Gotterdammerung"
@@ -61,7 +15,7 @@ IF = {
 		set_stability = 0.75
 	}
 }
-set_war_support = 0.3
+set_research_slots = 4
 
 # Starting tech
 set_technology = {
@@ -116,31 +70,56 @@ if = {
 	}
 }
 
-# Setup Politics
-set_politics = {
-	ruling_party = fascism
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
+add_breakthrough_progress = {
+	specialization = specialization_land
+	value = 1.0
 }
 
-set_popularities = {
-	democratic = 35
-	fascism = 40
-	communism = 10
-	neutrality = 15
+add_breakthrough_progress = {
+	specialization = specialization_naval
+	value = 0.8
 }
 
-# Wowow nice faction
+add_breakthrough_progress = {
+	specialization = specialization_air
+	value = 0.3
+}
+
+    set_grand_doctrine = new_mobile_warfare
+	set_grand_doctrine = new_convoy_raiding
+	set_grand_doctrine = new_battlefield_support
+	set_sub_doctrine = mobile_infantry
+	add_mastery = {
+		amount = 200
+		sub_doctrine = mobile_infantry
+	}
+	set_sub_doctrine = mission_type_tactics
+	add_mastery = {
+		amount = 100
+		sub_doctrine = mission_type_tactics
+	}
+	set_sub_doctrine = mobile_recon_and_assault
+	add_mastery = {
+		amount = 150
+		sub_doctrine = mobile_recon_and_assault
+	}
+	set_sub_doctrine = air_subdoctrine_tactical_flexibility
+	add_mastery = {
+		amount = 100
+		sub_doctrine = air_subdoctrine_tactical_flexibility
+	}
+	set_sub_doctrine = air_subdoctrine_dive_bombers
+	add_mastery = {
+		amount = 50
+		sub_doctrine = air_subdoctrine_dive_bombers
+	}
+
+# Doctrine
+set_convoys = 200
+
+# nice faction
 create_faction_from_template = faction_template_axis
 add_to_faction = GER
-
-# Setup of National Spirits
-add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-}
 
 # Character Recruitment
 recruit_character = GER_wilhelm_pieck
@@ -318,7 +297,29 @@ if = {
 	GER_create_operative_fritz_duquesne = yes
 }
 
-# Puppets
+# Ideas
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+# Ideology and Politics
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 35
+	fascism = 40
+	communism = 10
+	neutrality = 15
+}
+
+# Diplomacy
 set_autonomy = {
     target = AUS
     autonomy_state = autonomy_puppet
