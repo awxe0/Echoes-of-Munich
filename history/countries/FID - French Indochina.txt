@@ -1,6 +1,6 @@
 capital = 671
 
-oob = "FID_1940"
+#oob = "FID_1940"
 
 # Set Base Values
 set_war_support = 0.1
