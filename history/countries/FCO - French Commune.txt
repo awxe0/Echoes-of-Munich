@@ -2,6 +2,11 @@ capital = 20
 
 #oob = "FCO_1940"
 
+add_named_threat = { 
+		threat = 8
+		name = 1939_bookmark_threat 
+}
+
 # Set Base Values
 add_command_power = 20
 set_research_slots = 3
