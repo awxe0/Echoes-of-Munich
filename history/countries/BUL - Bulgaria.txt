@@ -21,10 +21,66 @@ set_technology = {
 	basic_train = 1
 }
 
+# Doctrine
+set_grand_doctrine = grand_battleplan
+set_grand_doctrine = new_fleet_in_being
+set_grand_doctrine = new_operational_integrity
+
+# Starting Convoys
+set_convoys = 5
+
+# Recruiting Characters
+recruit_character = BUL_boris_iii
+recruit_character = BUL_georgi_dimitrov
+recruit_character = BUL_nikola_petkov
+recruit_character = BUL_hristo_lukov
+recruit_character = BUL_georgi_popov
+recruit_character = BUL_vasil_boydev
+recruit_character = BUL_asen_nikolov
+recruit_character = BUL_georgi_petsov
+recruit_character = BUL_atanas_zhilkov
+recruit_character = BUL_bonyu_stoev_pironkov
+recruit_character = BUL_ivan_gaidimitriv
+recruit_character = BUL_kiril_stanchev
+recruit_character = BUL_blagoi_ivanov
+recruit_character = BUL_stoyan_stoyanov
+recruit_character = BUL_nikola_hadzipetkov
+recruit_character = BUL_kiril_dimitrov_yanchulev
+recruit_character = BUL_nikola_totev_markov
+recruit_character = BUL_georgi_ivanov_kyoseivanov
+recruit_character = BUL_dobri_bozhilov
+recruit_character = BUL_konstantin_muraviev
+
 # Ideology and Politics
-set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
-}
+set_party_name = { # DLC
+		ideology = democratic
+		name = BUL_democratic_party_bftb
+		long_name = BUL_democratic_party_bftb_bulgarian_long
+	}	
+
+set_politics = { #DLC
+		ruling_party = neutrality
+		last_election = "1935.1.22"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	else = { #VANILLA
+		#SET UP IDEAS
+		add_ideas = { #VANILLA
+			limited_conscription
+		}
+
+		#POLITICS
+		set_popularities = { #VANILLA
+			democratic = 5
+			fascism = 35
+			neutrality = 60
+		}
+		set_politics = { #VANILLA
+			ruling_party = neutrality
+			last_election = "1931.6.21"
+			election_frequency = 48
+			elections_allowed = no
+		}
+	}		
