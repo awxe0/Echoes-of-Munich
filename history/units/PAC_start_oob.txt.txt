@@ -1,0 +1,7 @@
+units = {
+    division = {
+        name = "Paris Commune Militia"
+        location = 11100
+        division_template = "Infantry"
+    }
+}

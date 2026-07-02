@@ -2,19 +2,16 @@ capital = 64
 
 oob = "GER_1940"
 
+add_named_threat = { 
+		threat = 22 
+		name = 1939_bookmark_threat 
+}
+
 # Set Base Values
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
-set_war_support = 0.3
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	set_stability = 0.7 # Was 0.75, but get 5% from the Reichstag
-	ELSE = {
-		set_stability = 0.75
-	}
-}
+set_war_support = 0.7
+add_command_power = 80
 set_research_slots = 4
 
 # Starting tech
@@ -299,6 +296,8 @@ if = {
 
 # Ideas
 add_ideas = {
+	sour_loser
+	#Laws
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -324,18 +323,22 @@ set_autonomy = {
     target = AUS
     autonomy_state = autonomy_puppet
 }
+give_military_access = AUS
 
 set_autonomy = {
     target = DNZ
     autonomy_state = autonomy_puppet
 }
+give_military_access = DNZ
 
 set_autonomy = {
     target = SLO
     autonomy_state = autonomy_puppet
 }
+give_military_access = SLO
 
 set_autonomy = {
     target = POL
     autonomy_state = autonomy_puppet
 }
+give_military_access = POL

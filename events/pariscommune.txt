@@ -1,0 +1,25 @@
+add_namespace = pariscommune
+
+country_event = {
+    id = pariscommune.1
+    title = "Paris Commune"
+    desc = "The Paris Commune has been declared!"
+    picture = GFX_report_event_generic_handshake
+    is_triggered_only = yes
+    
+    option = {
+        name = "Vive la Commune!"
+        
+        16 = {
+            set_owner = PAC
+            set_controller = PAC
+            add_core_of = PAC
+        }
+        
+        set_capital = 18
+        
+        PAC = { 
+            load_oob = "PAC_start_oob" 
+        }
+    }
+}

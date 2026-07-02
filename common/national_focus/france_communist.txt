@@ -1,0 +1,585 @@
+focus_tree = {
+	id = france_focus
+
+	country = {
+		base = 0
+		modifier = {
+			add = 100
+			original_tag = FCO
+		}
+	}
+
+	continuous_focus_position = { x = -600 y = 500 }
+
+	focus = {
+		id = The_Second_Commune
+		icon = generic_political_pressure
+		x = 7
+		y = -1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus The_Second_Commune"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = Loyalty_to_Moscow
+		icon = Loyalty to Moscow
+		x = 15
+		y = 0
+		cost = 10
+		prerequisite = { focus = The_Second_Commune }
+		mutually_exclusive = { focus = A_Sovereign_Revolution }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus Loyalty_to_Moscow"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = The_Alpine_Lifeline
+		icon = generic_political_pressure
+		x = 15
+		y = 1
+		cost = 10
+		prerequisite = { focus = Loyalty_to_Moscow }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus The_Alpine_Lifeline"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = Eastern_Brigades
+		icon = generic_political_pressure
+		x = 15
+		y = 2
+		cost = 10
+		prerequisite = { focus = The_Alpine_Lifeline }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus Eastern_Brigades"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = A_Sovereign_Revolution
+		icon = generic_political_pressure
+		x = -1
+		y = 0
+		cost = 10
+		prerequisite = { focus = The_Second_Commune }
+		mutually_exclusive = { focus = Loyalty_to_Moscow }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus A_Sovereign_Revolution"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = Soviet_Tanks
+		icon = generic_political_pressure
+		x = 18
+		y = 1
+		cost = 10
+		prerequisite = { focus = Loyalty_to_Moscow }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus Soviet_Tanks"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = KGB_Support
+		icon = generic_political_pressure
+		x = 12
+		y = 1
+		cost = 10
+		prerequisite = { focus = Loyalty_to_Moscow }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus KGB_Support"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = Money_For_Guns
+		icon = generic_political_pressure
+		x = 15
+		y = 3
+		cost = 10
+		prerequisite = { focus = Eastern_Brigades }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus Money_For_Guns"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = Purge_for_Marxsism
+		icon = generic_political_pressure
+		x = 13
+		y = 3
+		cost = 10
+		prerequisite = { focus = Eastern_Brigades }
+		mutually_exclusive = { focus = Soviet_Investment }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus Purge_for_Marxsism"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = War_Time_Industry
+		icon = generic_political_pressure
+		x = 11
+		y = 3
+		cost = 10
+		prerequisite = { focus = Eastern_Brigades }
+		mutually_exclusive = { focus = One_Year_Plan }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus War_Time_Industry"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = Miltary_Industry
+		icon = generic_political_pressure
+		x = 13
+		y = 4
+		cost = 10
+		prerequisite = { focus = Money_For_Guns }
+		prerequisite = { focus = Purge_for_Marxsism }
+		prerequisite = { focus = War_Time_Industry }
+		mutually_exclusive = { focus = Civilian_Industry }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus Miltary_Industry"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = Civilian_Industry
+		icon = generic_political_pressure
+		x = 17
+		y = 4
+		cost = 10
+		prerequisite = { focus = Money_For_Guns }
+		prerequisite = { focus = One_Year_Plan }
+		prerequisite = { focus = Soviet_Investment }
+		mutually_exclusive = { focus = Miltary_Industry }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus Civilian_Industry"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = Soviet_Investment
+		icon = generic_political_pressure
+		x = 17
+		y = 3
+		cost = 10
+		prerequisite = { focus = Eastern_Brigades }
+		mutually_exclusive = { focus = Purge_for_Marxsism }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus Soviet_Investment"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = One_Year_Plan
+		icon = generic_political_pressure
+		x = 19
+		y = 3
+		cost = 10
+		prerequisite = { focus = Eastern_Brigades }
+		mutually_exclusive = { focus = War_Time_Industry }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus One_Year_Plan"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = Paris_Commune
+		icon = generic_political_pressure
+		x = -1
+		y = 1
+		cost = 70
+		prerequisite = { focus = A_Sovereign_Revolution }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			country_event = { id = pariscommune.1 }
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = Dismantle_the_State_Apparatus
+		icon = generic_political_pressure
+		x = -1
+		y = 2
+		cost = 10
+		prerequisite = { focus = Paris_Commune }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus Dismantle_the_State_Apparatus"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_34
+		icon = generic_political_pressure
+		x = 1
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_34"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = The_Armed_People
+		icon = generic_political_pressure
+		x = -1
+		y = 3
+		cost = 10
+		prerequisite = { focus = Dismantle_the_State_Apparatus }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus The_Armed_People"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_36
+		icon = generic_political_pressure
+		x = 1
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_36"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_37
+		icon = generic_political_pressure
+		x = 6
+		y = 2
+		cost = 10
+		prerequisite = { focus = focus_38 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_37"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_38
+		icon = generic_political_pressure
+		x = 6
+		y = 1
+		cost = 10
+		prerequisite = { focus = A_Sovereign_Revolution }
+		prerequisite = { focus = Loyalty_to_Moscow }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_38"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_39
+		icon = generic_political_pressure
+		x = 8
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_39"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_40
+		icon = generic_political_pressure
+		x = 4
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_40"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_41
+		icon = generic_political_pressure
+		x = -3
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_41"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_42
+		icon = generic_political_pressure
+		x = -1
+		y = 4
+		cost = 10
+		prerequisite = { focus = The_Armed_People }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_42"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_43
+		icon = generic_political_pressure
+		x = 3
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_43"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_44
+		icon = generic_political_pressure
+		x = 1
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_44"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_45
+		icon = generic_political_pressure
+		x = -3
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_45"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_46
+		icon = generic_political_pressure
+		x = -5
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_46"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = focus_47
+		icon = generic_political_pressure
+		x = -3
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus focus_47"
+			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+}
