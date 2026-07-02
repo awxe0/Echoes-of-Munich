@@ -51,7 +51,7 @@ focus_tree = {
 		scroll_wheel_factor = 1.0
 	}
 
-	continuous_focus_position = { x = 500 y = 1300 }
+	continuous_focus_position = { x = 50 y = 1300 }
 	
 	default = no
 
@@ -1330,8 +1330,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = GER_kdf_wagen_factories
-		icon = GFX_focus_GER_kdf_wagen
+		id = GER_factories
+		icon = GFX_goal_unknown
 		prerequisite = { focus = GER_construct_the_reichsautobahn }
 
 		x = 0
@@ -1434,11 +1434,11 @@ focus_tree = {
 	focus = {
 		id = GER_expand_the_reichsautobahn_south
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = GER_kdf_wagen_factories }
+		prerequisite = { focus = GER_factories }
 
 		x = -1
 		y = 1
-		relative_position_id = GER_kdf_wagen_factories
+		relative_position_id = GER_factories
 		cost = 5
 		available = {
 			OR = {
@@ -1548,11 +1548,11 @@ focus_tree = {
 	focus = {
 		id = GER_expand_the_reichsautobahn_east
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = GER_kdf_wagen_factories }
+		prerequisite = { focus = GER_factories }
 
 		x = 1
 		y = 1
-		relative_position_id = GER_kdf_wagen_factories
+		relative_position_id = GER_factories
 		cost = 5
 		available = {
 			OR = {
@@ -1662,11 +1662,11 @@ focus_tree = {
 	focus = {
 		id = GER_develop_heraeus_facilities
 		icon = GFX_focus_research
-		prerequisite = { focus = GER_kdf_wagen_factories }
+		prerequisite = { focus = GER_factories }
 
 		x = 0
 		y = 2
-		relative_position_id = GER_kdf_wagen_factories
+		relative_position_id = GER_factories
 		cost = 10
 		available = {
 			industrial_complex > 49
